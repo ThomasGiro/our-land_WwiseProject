@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{377CE897-B362-459A-906B-2D7D88AC5C01}" SchemaVersion="89">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{377CE897-B362-459A-906B-2D7D88AC5C01}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{377CE897-B362-459A-906B-2D7D88AC5C01}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_placeholder_integration" ID="{D6E764DB-EE52-4BEF-A566-FA1994BED1FF}">
+					<ChildrenList>
+						<Action Name="" ID="{6E0F2689-4579-4E4E-A0F3-6FBEC16E1766}" ShortID="465301222">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="placeholder-integration" ID="{6F3FDDBF-67C5-4FF6-8BD7-3AF80D7400E7}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

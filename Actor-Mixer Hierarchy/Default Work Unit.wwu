@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}" SchemaVersion="89">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="placeholder-integration" ID="{6F3FDDBF-67C5-4FF6-8BD7-3AF80D7400E7}" ShortID="238417195">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="gun_shot_01" ID="{8A2EB368-1ACD-4867-873E-C3EA9A143AE3}" ShortID="256957239">
+							<Language>SFX</Language>
+							<AudioFile>gun_shot_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="gun_shot_01" ID="{8A2EB368-1ACD-4867-873E-C3EA9A143AE3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

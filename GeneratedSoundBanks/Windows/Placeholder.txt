@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3823867762	Play_placeholder_integration			\Default Work Unit\Play_placeholder_integration	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	256957239	placeholder-integration	C:\Users\thomas.giro\Documents\UnityProjects\our-land\our-land_WwiseProject\.cache\Windows\SFX\gun_shot_01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder-integration		91436
+
