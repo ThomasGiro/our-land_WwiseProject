@@ -9,6 +9,140 @@
 							<ObjectRef Name="System" ID="{18830B0B-D9C3-4E93-A18E-BD7EE018D23A}" WorkUnitID="{9A1C880C-CE23-4D04-8847-1BF89A67BA01}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="AMBIANCES" ID="{E2CD23FE-B2C4-4AD1-9E01-D90510A7D951}">
+							<ChildrenList>
+								<Bus Name="Water" ID="{49762C98-F507-4DF9-8375-FADA090100A9}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{91F72F66-D0DF-476A-8B99-5997C15EA54C}" ShortID="676265364">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ambiance_Volume_Water" ID="{140F3BD8-47A6-46AC-A7B8-E1F653F5E8F8}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{435B267D-DF73-4848-992C-F40A115A3E59}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Wetlands" ID="{16A1BA81-F62D-4AFC-B07A-4D00507DF2D1}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{9B4CFBAF-58B9-4654-95ED-4E921DEB9378}" ShortID="934257132">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ambiance_Volume_Wetlands" ID="{D65EFD8F-2D4E-49A8-A188-B4DE05047046}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{33B00F09-687E-42CC-9C57-56D6D2F57503}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Prairie" ID="{80042453-B6EA-4892-ABBD-93C4615CE7EE}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{CA8264A2-D4D4-495A-997B-D4055B3E5960}" ShortID="827352256">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ambiance_Volume_Prairie" ID="{662B5546-6958-4502-BA41-67BD6C77F620}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{4F890F52-1148-4157-8460-8E3FF5467A42}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="Desert" ID="{6DD17CC2-F72D-4425-B1A9-D56A0373376A}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{2174D1F5-E3B9-481B-A6F9-F1AE11DC7264}" ShortID="25140762">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ambiance_Volume_Desert" ID="{1E2C8E74-4697-40D3-BCC1-CA46C7C6F393}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{DBAC5221-FC48-45CD-9ADA-855FD3CEA9AB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

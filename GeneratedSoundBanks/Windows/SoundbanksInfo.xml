@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\thomas.giro\Documents\UnityProjects\our-land\our-land_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\thomas.giro\Documents\UnityProjects\our-land\our-land_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\thomas.giro\Documents\UnityProjects\our-land\our-land_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\thomas.giro\Documents\UnityProjects\our-land\our-land_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,12 +21,32 @@
 			<ShortName>Placeholder</ShortName>
 			<Path>Placeholder.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3823867762" Name="Play_placeholder_integration" ObjectPath="\Events\Default Work Unit\Play_placeholder_integration"/>
+				<Event Id="4137235956" Name="Play_DESERT_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_DESERT_Pl"/>
+				<Event Id="3823867762" Name="Play_placeholder_integration" ObjectPath="\Events\Default Work Unit\Placeholders\Play_placeholder_integration"/>
+				<Event Id="566356829" Name="Play_PRAIRIE_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_PRAIRIE_Pl"/>
+				<Event Id="1488595426" Name="Play_WATER_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_WATER_Pl"/>
+				<Event Id="263265384" Name="Play_WETLAND_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_WETLAND_Pl"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="13508074" Language="SFX">
+					<ShortName>WETLAND_Pl.wav</ShortName>
+					<Path>SFX\WETLAND_Pl_43EFD737.wem</Path>
+				</File>
 				<File Id="256957239" Language="SFX">
 					<ShortName>gun_shot_01.wav</ShortName>
 					<Path>SFX\gun_shot_01_56D34C19.wem</Path>
+				</File>
+				<File Id="662579089" Language="SFX">
+					<ShortName>DESERT_Pl.wav</ShortName>
+					<Path>SFX\DESERT_Pl_56D34C19.wem</Path>
+				</File>
+				<File Id="779664597" Language="SFX">
+					<ShortName>PRAIRIE_Pl.wav</ShortName>
+					<Path>SFX\PRAIRIE_Pl_3B4EBCCA.wem</Path>
+				</File>
+				<File Id="1066401080" Language="SFX">
+					<ShortName>WATER.wav</ShortName>
+					<Path>SFX\WATER_FC58F56D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

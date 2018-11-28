@@ -1,4 +1,15 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	157466434	Ambiance_Volume_Desert			\Default Work Unit\Ambiance_Volume_Desert	
+	722193395	Ambiance_Volume_Wetlands			\Default Work Unit\Ambiance_Volume_Wetlands	
+	1443029666	Ambiance_Volume_Water			\Default Work Unit\Ambiance_Volume_Water	
+	1637951615	Ambiance_Volume_Prairie			\Default Work Unit\Ambiance_Volume_Prairie	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	237089847	Prairie			\Default Work Unit\Master Audio Bus\AMBIANCES\Prairie	
+	496769563	Wetlands			\Default Work Unit\Master Audio Bus\AMBIANCES\Wetlands	
+	1404066300	AMBIANCES			\Default Work Unit\Master Audio Bus\AMBIANCES	
+	1850388778	Desert			\Default Work Unit\Master Audio Bus\AMBIANCES\Desert	
+	2654748154	Water			\Default Work Unit\Master Audio Bus\AMBIANCES\Water	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes

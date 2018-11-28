@@ -3,20 +3,88 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{377CE897-B362-459A-906B-2D7D88AC5C01}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_placeholder_integration" ID="{D6E764DB-EE52-4BEF-A566-FA1994BED1FF}">
+				<Folder Name="Placeholders" ID="{7AE089EF-D5AD-4441-8546-B6EF6157AAEC}" ShortID="806503397">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{6E0F2689-4579-4E4E-A0F3-6FBEC16E1766}" ShortID="465301222">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="placeholder-integration" ID="{6F3FDDBF-67C5-4FF6-8BD7-3AF80D7400E7}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_placeholder_integration" ID="{D6E764DB-EE52-4BEF-A566-FA1994BED1FF}">
+							<ChildrenList>
+								<Action Name="" ID="{6E0F2689-4579-4E4E-A0F3-6FBEC16E1766}" ShortID="465301222">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="placeholder-integration" ID="{6F3FDDBF-67C5-4FF6-8BD7-3AF80D7400E7}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WATER_Pl" ID="{713D95F8-F298-4D89-BEF8-46904E83A035}">
+							<ChildrenList>
+								<Action Name="" ID="{36C42889-9357-461E-96B8-4E8AF3313D57}" ShortID="29916824">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WATER_Pl" ID="{D34F2B5D-A343-4760-96FF-40C8D56FC8F0}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_WETLAND_Pl" ID="{EBE5AA4D-C974-46B4-9FD2-F28AA871A4A0}">
+							<ChildrenList>
+								<Action Name="" ID="{7606C4B6-6F85-4064-A38B-DBC101B20972}" ShortID="142809152">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WETLAND_Pl" ID="{9A35A64A-0A9F-478F-8004-F783A9525FCC}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PRAIRIE_Pl" ID="{F60C6071-D464-422C-BCBD-2EEE1AB68F97}">
+							<ChildrenList>
+								<Action Name="" ID="{4300B7CB-6307-4C8F-89CB-F57C735E72DD}" ShortID="799308400">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PRAIRIE_Pl" ID="{B3C60C83-E397-4134-994A-FBAADB4B503D}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_DESERT_Pl" ID="{086A90F5-6A8A-4DFD-9141-08A167FE659B}">
+							<ChildrenList>
+								<Action Name="" ID="{BDB01A6D-3E69-4E79-9E7F-6AE152E14351}" ShortID="300520674">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="DESERT_Pl" ID="{7F7FD8C6-4D17-44F5-B98B-77C65A5487C4}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
