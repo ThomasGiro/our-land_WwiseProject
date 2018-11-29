@@ -23,25 +23,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="SFX_Kill_Rhtuk_Victory" ID="{A519DE6B-B080-4C18-B96F-966B67986FCF}" ShortID="378170532">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Kill_Rhtuk_Victory" ID="{CD6A989C-99BB-4467-90E5-46B14B47FE3F}" ShortID="105076285">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Kill_Rhtuk_Victory.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Kill_Rhtuk_Victory" ID="{CD6A989C-99BB-4467-90E5-46B14B47FE3F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="SFX_Kill_Sheep_Victory" ID="{76CA2E35-9A67-44FB-BD52-866334550868}" ShortID="893339730">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -59,6 +40,25 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_Kill_Sheep_Victory" ID="{9C95AAE3-9F17-42FC-B295-1BA85F71FA94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Kill_Rhtuk_Victory" ID="{A519DE6B-B080-4C18-B96F-966B67986FCF}" ShortID="378170532">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Kill_Rhtuk_Victory" ID="{CD6A989C-99BB-4467-90E5-46B14B47FE3F}" ShortID="105076285">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Kill_Rhtuk_Victory.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Kill_Rhtuk_Victory" ID="{CD6A989C-99BB-4467-90E5-46B14B47FE3F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -215,36 +215,6 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
-						<Sound Name="OurLand_MUSIC_Placeholder" ID="{712DD8AC-6030-4F5B-99F8-FBAD370E0DEF}" ShortID="580854975">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-7</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="OurLand_MUSIC_Placeholder" ID="{927B0B9A-8E95-4DD9-95E0-BA39D8A3E328}" ShortID="251401461">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="1.34054589809891E-02"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.750705702935385"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>OurLand_MUSIC_Placeholder.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="OurLand_MUSIC_Placeholder" ID="{927B0B9A-8E95-4DD9-95E0-BA39D8A3E328}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

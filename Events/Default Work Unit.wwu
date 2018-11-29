@@ -83,15 +83,15 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_OurLand_MUSIC_Placeholder" ID="{83689BA2-2C3C-4E17-8980-49DAF4E8F996}">
+						<Event Name="Play_MUSIC" ID="{A06DD915-FFBF-4A7C-A111-DF1E3DB77F63}">
 							<ChildrenList>
-								<Action Name="" ID="{B3545656-08C6-4474-9122-AD52D5DAB19A}" ShortID="1036345474">
+								<Action Name="" ID="{0843C497-7653-4619-8F0B-0C03F52CC181}" ShortID="545266751">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="OurLand_MUSIC_Placeholder" ID="{712DD8AC-6030-4F5B-99F8-FBAD370E0DEF}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+											<ObjectRef Name="MUSIC" ID="{C40F5B47-669A-4EE5-BE48-3C39B60C3CAA}" WorkUnitID="{BDEA3988-3BFE-4B00-B35C-F61BD79E993D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

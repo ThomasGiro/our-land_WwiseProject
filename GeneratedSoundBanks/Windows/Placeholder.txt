@@ -2,9 +2,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	263265384	Play_WETLAND_Pl			\Default Work Unit\Placeholders\Play_WETLAND_Pl	
 	326359121	Play_SFX_Kill_Sheep_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory	
 	566356829	Play_PRAIRIE_Pl			\Default Work Unit\Placeholders\Play_PRAIRIE_Pl	
-	1430859985	Play_OurLand_MUSIC_Placeholder			\Default Work Unit\Placeholders\Play_OurLand_MUSIC_Placeholder	
 	1488595426	Play_WATER_Pl			\Default Work Unit\Placeholders\Play_WATER_Pl	
 	2876783754	Play_SFX_Kill_Rhtuk_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory	
+	2932040671	Play_MUSIC			\Default Work Unit\Placeholders\Play_MUSIC	
 	3823867762	Play_placeholder_integration			\Default Work Unit\Placeholders\Play_placeholder_integration	
 	4137235956	Play_DESERT_Pl			\Default Work Unit\Placeholders\Play_DESERT_Pl	
 
@@ -25,8 +25,8 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	13508074	WETLAND_Pl	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\WETLAND_Pl_0F603339.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\Ambiances_Placeholders\WETLAND_Pl		2198699
+	93093852	OurLand_MUSIC_Placeholder	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\OurLand_MUSIC_Placeholder_E60452FC.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\OurLand_MUSIC_Placeholder\OurLand_MUSIC_Placeholder		7456796
 	105076285	SFX_Kill_Rhtuk_Victory	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Kill_Rhtuk_Victory_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Killing\SFX_Kill_Rhtuk_Victory		120159
-	251401461	OurLand_MUSIC_Placeholder	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\OurLand_MUSIC_Placeholder_7A0AA27B.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\OurLand_MUSIC_Placeholder		7449052
 	256957239	placeholder-integration	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\gun_shot_01_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\Ambiances_Placeholders\placeholder-integration		35104
 	561442355	SFX_Kill_Sheep_Victory	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Kill_Sheep_Victory_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Killing\SFX_Kill_Sheep_Victory		126192
 	662579089	DESERT_Pl	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\DESERT_Pl_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\Ambiances_Placeholders\DESERT_Pl		3833828

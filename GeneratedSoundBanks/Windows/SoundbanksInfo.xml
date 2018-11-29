@@ -22,7 +22,7 @@
 			<Path>Placeholder.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4137235956" Name="Play_DESERT_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_DESERT_Pl"/>
-				<Event Id="1430859985" Name="Play_OurLand_MUSIC_Placeholder" ObjectPath="\Events\Default Work Unit\Placeholders\Play_OurLand_MUSIC_Placeholder"/>
+				<Event Id="2932040671" Name="Play_MUSIC" ObjectPath="\Events\Default Work Unit\Placeholders\Play_MUSIC"/>
 				<Event Id="3823867762" Name="Play_placeholder_integration" ObjectPath="\Events\Default Work Unit\Placeholders\Play_placeholder_integration"/>
 				<Event Id="566356829" Name="Play_PRAIRIE_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_PRAIRIE_Pl"/>
 				<Event Id="2876783754" Name="Play_SFX_Kill_Rhtuk_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory"/>
@@ -35,13 +35,13 @@
 					<ShortName>WETLAND_Pl.wav</ShortName>
 					<Path>SFX\WETLAND_Pl_0F603339.wem</Path>
 				</File>
+				<File Id="93093852" Language="SFX">
+					<ShortName>OurLand_MUSIC_Placeholder.wav</ShortName>
+					<Path>SFX\OurLand_MUSIC_Placeholder_E60452FC.wem</Path>
+				</File>
 				<File Id="105076285" Language="SFX">
 					<ShortName>SFX_Kill_Rhtuk_Victory.wav</ShortName>
 					<Path>SFX\SFX_Kill_Rhtuk_Victory_474E68A2.wem</Path>
-				</File>
-				<File Id="251401461" Language="SFX">
-					<ShortName>OurLand_MUSIC_Placeholder.wav</ShortName>
-					<Path>SFX\OurLand_MUSIC_Placeholder_7A0AA27B.wem</Path>
 				</File>
 				<File Id="256957239" Language="SFX">
 					<ShortName>gun_shot_01.wav</ShortName>
