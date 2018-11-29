@@ -6,6 +6,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	237089847	Prairie			\Default Work Unit\Master Audio Bus\AMBIANCES\Prairie	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	496769563	Wetlands			\Default Work Unit\Master Audio Bus\AMBIANCES\Wetlands	
 	1404066300	AMBIANCES			\Default Work Unit\Master Audio Bus\AMBIANCES	
 	1850388778	Desert			\Default Work Unit\Master Audio Bus\AMBIANCES\Desert	

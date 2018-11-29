@@ -142,6 +142,7 @@
 								</Bus>
 							</ChildrenList>
 						</Bus>
+						<Bus Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

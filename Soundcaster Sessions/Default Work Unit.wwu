@@ -10,8 +10,20 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_OurLand_MUSIC_Placeholder" ID="{83689BA2-2C3C-4E17-8980-49DAF4E8F996}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Kill_Rhtuk_Victory" ID="{E3DF2B54-BABC-4330-8C5B-2A34DCEA6D19}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_PRAIRIE_Pl" ID="{F60C6071-D464-422C-BCBD-2EEE1AB68F97}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Kill_Sheep_Victory" ID="{181E4C03-640B-4736-8B19-B5817C2D2D2D}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_WATER_Pl" ID="{713D95F8-F298-4D89-BEF8-46904E83A035}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>

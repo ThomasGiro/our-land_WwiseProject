@@ -3,42 +3,17 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Ambiances_Placeholders" ID="{69E9E6F9-6529-4EF2-ACA3-998FB12C562D}" ShortID="562552756">
+				<ActorMixer Name="Animals" ID="{1A91CF7C-CFA0-4993-B20A-529F371BE99F}" ShortID="351871379">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+						</Reference>
+					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="WATER_Pl" ID="{D34F2B5D-A343-4760-96FF-40C8D56FC8F0}" ShortID="745934974">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-19</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Water" ID="{49762C98-F507-4DF9-8375-FADA090100A9}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="WATER" ID="{F1440C06-3858-4C19-87E9-A6C5B86DD7EB}" ShortID="1066401080">
-									<PropertyList>
-										<Property Name="CrossfadeDuration" Type="Real64" Value="1000"/>
-										<Property Name="LoopBegin" Type="Real64" Value="1.29989974937343"/>
-										<Property Name="LoopEnd" Type="Real64" Value="41.3182420336556"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>WATER.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="WATER" ID="{F1440C06-3858-4C19-87E9-A6C5B86DD7EB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="placeholder-integration" ID="{6F3FDDBF-67C5-4FF6-8BD7-3AF80D7400E7}" ShortID="238417195">
+						<ActorMixer Name="Killing" ID="{27D6A1D7-9E66-4CC3-B2BA-E93839AE0806}" ShortID="241863001">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
@@ -48,21 +23,203 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="gun_shot_01" ID="{8A2EB368-1ACD-4867-873E-C3EA9A143AE3}" ShortID="256957239">
-									<Language>SFX</Language>
-									<AudioFile>gun_shot_01.wav</AudioFile>
-								</AudioFileSource>
+								<Sound Name="SFX_Kill_Rhtuk_Victory" ID="{A519DE6B-B080-4C18-B96F-966B67986FCF}" ShortID="378170532">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Kill_Rhtuk_Victory" ID="{CD6A989C-99BB-4467-90E5-46B14B47FE3F}" ShortID="105076285">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Kill_Rhtuk_Victory.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Kill_Rhtuk_Victory" ID="{CD6A989C-99BB-4467-90E5-46B14B47FE3F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Kill_Sheep_Victory" ID="{76CA2E35-9A67-44FB-BD52-866334550868}" ShortID="893339730">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Kill_Sheep_Victory" ID="{9C95AAE3-9F17-42FC-B295-1BA85F71FA94}" ShortID="561442355">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Kill_Sheep_Victory.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Kill_Sheep_Victory" ID="{9C95AAE3-9F17-42FC-B295-1BA85F71FA94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="gun_shot_01" ID="{8A2EB368-1ACD-4867-873E-C3EA9A143AE3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="PRAIRIE_Pl" ID="{B3C60C83-E397-4134-994A-FBAADB4B503D}" ShortID="492150279">
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<Folder Name="PLACEHOLDERS" ID="{866F790E-A605-49C6-A1B5-6F7C60C6C7DF}" ShortID="282515597">
+					<ChildrenList>
+						<Folder Name="Ambiances_Placeholders" ID="{69E9E6F9-6529-4EF2-ACA3-998FB12C562D}" ShortID="562552756">
+							<ChildrenList>
+								<Sound Name="WATER_Pl" ID="{D34F2B5D-A343-4760-96FF-40C8D56FC8F0}" ShortID="745934974">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-19</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Water" ID="{49762C98-F507-4DF9-8375-FADA090100A9}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WATER" ID="{F1440C06-3858-4C19-87E9-A6C5B86DD7EB}" ShortID="1066401080">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1000"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.29989974937343"/>
+												<Property Name="LoopEnd" Type="Real64" Value="41.3182420336556"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WATER.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WATER" ID="{F1440C06-3858-4C19-87E9-A6C5B86DD7EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="placeholder-integration" ID="{6F3FDDBF-67C5-4FF6-8BD7-3AF80D7400E7}" ShortID="238417195">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gun_shot_01" ID="{8A2EB368-1ACD-4867-873E-C3EA9A143AE3}" ShortID="256957239">
+											<Language>SFX</Language>
+											<AudioFile>gun_shot_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gun_shot_01" ID="{8A2EB368-1ACD-4867-873E-C3EA9A143AE3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="PRAIRIE_Pl" ID="{B3C60C83-E397-4134-994A-FBAADB4B503D}" ShortID="492150279">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Prairie" ID="{80042453-B6EA-4892-ABBD-93C4615CE7EE}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="PRAIRIE_Pl" ID="{F822D1CD-BBCB-47C8-8C54-A26FDF1FDE88}" ShortID="779664597">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1000"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.20418046604607"/>
+												<Property Name="LoopEnd" Type="Real64" Value="71.3677622876636"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>PRAIRIE_Pl.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="PRAIRIE_Pl" ID="{F822D1CD-BBCB-47C8-8C54-A26FDF1FDE88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WETLAND_Pl" ID="{9A35A64A-0A9F-478F-8004-F783A9525FCC}" ShortID="377927901">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Wetlands" ID="{16A1BA81-F62D-4AFC-B07A-4D00507DF2D1}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WETLAND_Pl" ID="{8FFECB68-9F1D-4C63-BDFA-1E96F72E3BF6}" ShortID="13508074">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1000"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.63249865735768"/>
+												<Property Name="LoopEnd" Type="Real64" Value="31.4492387963958"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>WETLAND_Pl.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WETLAND_Pl" ID="{8FFECB68-9F1D-4C63-BDFA-1E96F72E3BF6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="DESERT_Pl" ID="{7F7FD8C6-4D17-44F5-B98B-77C65A5487C4}" ShortID="978209249">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Desert" ID="{6DD17CC2-F72D-4425-B1A9-D56A0373376A}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DESERT_Pl" ID="{7756FFBF-D2C8-4BD5-9B49-F7CAFA7F07F8}" ShortID="662579089">
+											<Language>SFX</Language>
+											<AudioFile>DESERT_Pl.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DESERT_Pl" ID="{7756FFBF-D2C8-4BD5-9B49-F7CAFA7F07F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="OurLand_MUSIC_Placeholder" ID="{712DD8AC-6030-4F5B-99F8-FBAD370E0DEF}" ShortID="580854975">
 							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -71,82 +228,21 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Prairie" ID="{80042453-B6EA-4892-ABBD-93C4615CE7EE}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="PRAIRIE_Pl" ID="{F822D1CD-BBCB-47C8-8C54-A26FDF1FDE88}" ShortID="779664597">
+								<AudioFileSource Name="OurLand_MUSIC_Placeholder" ID="{927B0B9A-8E95-4DD9-95E0-BA39D8A3E328}" ShortID="251401461">
 									<PropertyList>
-										<Property Name="CrossfadeDuration" Type="Real64" Value="1000"/>
-										<Property Name="LoopBegin" Type="Real64" Value="1.20418046604607"/>
-										<Property Name="LoopEnd" Type="Real64" Value="71.3677622876636"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.34054589809891E-02"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.750705702935385"/>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>PRAIRIE_Pl.wav</AudioFile>
+									<AudioFile>OurLand_MUSIC_Placeholder.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="PRAIRIE_Pl" ID="{F822D1CD-BBCB-47C8-8C54-A26FDF1FDE88}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="WETLAND_Pl" ID="{9A35A64A-0A9F-478F-8004-F783A9525FCC}" ShortID="377927901">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-11</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Wetlands" ID="{16A1BA81-F62D-4AFC-B07A-4D00507DF2D1}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="WETLAND_Pl" ID="{8FFECB68-9F1D-4C63-BDFA-1E96F72E3BF6}" ShortID="13508074">
-									<PropertyList>
-										<Property Name="CrossfadeDuration" Type="Real64" Value="1000"/>
-										<Property Name="LoopBegin" Type="Real64" Value="0.63249865735768"/>
-										<Property Name="LoopEnd" Type="Real64" Value="31.4492387963958"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>WETLAND_Pl.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="WETLAND_Pl" ID="{8FFECB68-9F1D-4C63-BDFA-1E96F72E3BF6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="DESERT_Pl" ID="{7F7FD8C6-4D17-44F5-B98B-77C65A5487C4}" ShortID="978209249">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Desert" ID="{6DD17CC2-F72D-4425-B1A9-D56A0373376A}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="DESERT_Pl" ID="{7756FFBF-D2C8-4BD5-9B49-F7CAFA7F07F8}" ShortID="662579089">
-									<Language>SFX</Language>
-									<AudioFile>DESERT_Pl.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="DESERT_Pl" ID="{7756FFBF-D2C8-4BD5-9B49-F7CAFA7F07F8}" Platform="Linked"/>
+								<ActiveSource Name="OurLand_MUSIC_Placeholder" ID="{927B0B9A-8E95-4DD9-95E0-BA39D8A3E328}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

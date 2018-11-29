@@ -83,6 +83,56 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_OurLand_MUSIC_Placeholder" ID="{83689BA2-2C3C-4E17-8980-49DAF4E8F996}">
+							<ChildrenList>
+								<Action Name="" ID="{B3545656-08C6-4474-9122-AD52D5DAB19A}" ShortID="1036345474">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="OurLand_MUSIC_Placeholder" ID="{712DD8AC-6030-4F5B-99F8-FBAD370E0DEF}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Animals" ID="{E4E0C2AF-23BC-40E9-8BF0-984F515F0F28}" ShortID="879563790">
+					<ChildrenList>
+						<Folder Name="Killing" ID="{447452DC-709B-4DF7-AED9-9FF425F65A90}" ShortID="567980121">
+							<ChildrenList>
+								<Event Name="Play_SFX_Kill_Sheep_Victory" ID="{181E4C03-640B-4736-8B19-B5817C2D2D2D}">
+									<ChildrenList>
+										<Action Name="" ID="{42D21643-AA7D-44A9-BB0D-2BC49BB7CA3A}" ShortID="690575276">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Kill_Sheep_Victory" ID="{76CA2E35-9A67-44FB-BD52-866334550868}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_Kill_Rhtuk_Victory" ID="{E3DF2B54-BABC-4330-8C5B-2A34DCEA6D19}">
+									<ChildrenList>
+										<Action Name="" ID="{9642D0C9-899D-46E6-BB06-B13A7F75C963}" ShortID="880267848">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Kill_Rhtuk_Victory" ID="{A519DE6B-B080-4C18-B96F-966B67986FCF}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
