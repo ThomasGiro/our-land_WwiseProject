@@ -47,6 +47,10 @@
 					<ShortName>gun_shot_01.wav</ShortName>
 					<Path>SFX\gun_shot_01_474E68A2.wem</Path>
 				</File>
+				<File Id="474895706" Language="SFX">
+					<ShortName>End_Turn_Pl.wav</ShortName>
+					<Path>SFX\End_Turn_Pl_474E68A2.wem</Path>
+				</File>
 				<File Id="561442355" Language="SFX">
 					<ShortName>SFX_Kill_Sheep_Victory.wav</ShortName>
 					<Path>SFX\SFX_Kill_Sheep_Victory_474E68A2.wem</Path>

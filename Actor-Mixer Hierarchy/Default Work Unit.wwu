@@ -215,6 +215,32 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="End_Turn_Pl" ID="{A30B88BF-5C29-488A-8A0E-A1F72DE08D3C}" ShortID="471070679">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="End_Turn_Pl" ID="{CDF82551-AE97-44EC-818F-6316B04EC096}" ShortID="474895706">
+									<Language>SFX</Language>
+									<AudioFile>End_Turn_Pl.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="End_Turn_Pl" ID="{CDF82551-AE97-44EC-818F-6316B04EC096}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
