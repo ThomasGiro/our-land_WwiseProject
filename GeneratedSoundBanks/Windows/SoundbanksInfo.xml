@@ -22,6 +22,7 @@
 			<Path>Placeholder.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4137235956" Name="Play_DESERT_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_DESERT_Pl"/>
+				<Event Id="1313846872" Name="Play_End_Turn_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_End_Turn_Pl"/>
 				<Event Id="2932040671" Name="Play_MUSIC" ObjectPath="\Events\Default Work Unit\Placeholders\Play_MUSIC"/>
 				<Event Id="3823867762" Name="Play_placeholder_integration" ObjectPath="\Events\Default Work Unit\Placeholders\Play_placeholder_integration"/>
 				<Event Id="566356829" Name="Play_PRAIRIE_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_PRAIRIE_Pl"/>

@@ -97,6 +97,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_End_Turn_Pl" ID="{D71D83DB-31A4-4F5D-A3F6-A9AF5F4E347C}">
+							<ChildrenList>
+								<Action Name="" ID="{228D5721-9C9B-4395-BF18-62AE544BA56D}" ShortID="861086273">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="End_Turn_Pl" ID="{A30B88BF-5C29-488A-8A0E-A1F72DE08D3C}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Animals" ID="{E4E0C2AF-23BC-40E9-8BF0-984F515F0F28}" ShortID="879563790">

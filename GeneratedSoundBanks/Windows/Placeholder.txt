@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	263265384	Play_WETLAND_Pl			\Default Work Unit\Placeholders\Play_WETLAND_Pl	
 	326359121	Play_SFX_Kill_Sheep_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory	
 	566356829	Play_PRAIRIE_Pl			\Default Work Unit\Placeholders\Play_PRAIRIE_Pl	
+	1313846872	Play_End_Turn_Pl			\Default Work Unit\Placeholders\Play_End_Turn_Pl	
 	1488595426	Play_WATER_Pl			\Default Work Unit\Placeholders\Play_WATER_Pl	
 	2876783754	Play_SFX_Kill_Rhtuk_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory	
 	2932040671	Play_MUSIC			\Default Work Unit\Placeholders\Play_MUSIC	
