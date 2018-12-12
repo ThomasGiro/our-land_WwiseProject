@@ -703,18 +703,18 @@
 									</ReferenceList>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
-											<ItemRef Name="SFX_Wind_Zoomed_Lvl0" ID="{614C493B-CA4B-4DA3-8117-A0B76204332F}"/>
+											<ItemRef Name="SFX_Wind_Zoomed_Lvl2" ID="{DB01014D-D258-4AB1-A59A-BC5B5A34F930}"/>
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>48.8376963350785</RightEdgePos>
+												<RightEdgePos>93.3191217277487</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
-											<ItemRef Name="SFX_Wind_Zoomed_Lvl2" ID="{DB01014D-D258-4AB1-A59A-BC5B5A34F930}"/>
+											<ItemRef Name="SFX_Wind_Zoomed_Lvl0" ID="{614C493B-CA4B-4DA3-8117-A0B76204332F}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>0.0005</LeftEdgePos>
+												<LeftEdgePos>43.9055091623037</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>100</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
