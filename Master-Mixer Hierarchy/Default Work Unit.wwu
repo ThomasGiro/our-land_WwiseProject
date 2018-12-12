@@ -140,6 +140,7 @@
 										</Property>
 									</PropertyList>
 								</Bus>
+								<Bus Name="Wind" ID="{063F130C-9743-4F7E-BBA3-453C0701E2D9}"/>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}"/>

@@ -10,6 +10,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_WIND" ID="{09BE89AD-26E2-40D2-9366-1EADB4669AD4}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_SFX_Kill_Rhtuk_Victory" ID="{E3DF2B54-BABC-4330-8C5B-2A34DCEA6D19}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
 							<Position X="0" Y="2"/>
 						</Module>
@@ -33,7 +37,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_Desert" ID="{1E2C8E74-4697-40D3-BCC1-CA46C7C6F393}"/>
-							<Value>30</Value>
+							<Value>49.738219895288</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_Prairie" ID="{662B5546-6958-4502-BA41-67BD6C77F620}"/>
@@ -46,6 +50,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_Wetlands" ID="{D65EFD8F-2D4E-49A8-A188-B4DE05047046}"/>
 							<Value>29</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ambiance_Wind_Mod" ID="{85D71E34-5D8C-4F6A-AB2A-02E90FC78F60}"/>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	263265384	Play_WETLAND_Pl			\Default Work Unit\Placeholders\Play_WETLAND_Pl	
 	326359121	Play_SFX_Kill_Sheep_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory	
 	566356829	Play_PRAIRIE_Pl			\Default Work Unit\Placeholders\Play_PRAIRIE_Pl	
+	1020223172	Play_WIND			\Default Work Unit\Play_WIND	
 	1313846872	Play_End_Turn_Pl			\Default Work Unit\Placeholders\Play_End_Turn_Pl	
 	1488595426	Play_WATER_Pl			\Default Work Unit\Placeholders\Play_WATER_Pl	
 	2876783754	Play_SFX_Kill_Rhtuk_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory	
@@ -12,6 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	157466434	Ambiance_Volume_Desert			\Default Work Unit\Ambiance_Volume_Desert	
 	722193395	Ambiance_Volume_Wetlands			\Default Work Unit\Ambiance_Volume_Wetlands	
+	1119075515	Ambiance_Wind_Mod			\Default Work Unit\Ambiance_Wind_Mod	
 	1443029666	Ambiance_Volume_Water			\Default Work Unit\Ambiance_Volume_Water	
 	1637951615	Ambiance_Volume_Prairie			\Default Work Unit\Ambiance_Volume_Prairie	
 
@@ -20,18 +22,39 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	496769563	Wetlands			\Default Work Unit\Master Audio Bus\AMBIANCES\Wetlands	
 	1404066300	AMBIANCES			\Default Work Unit\Master Audio Bus\AMBIANCES	
+	1537061107	Wind			\Default Work Unit\Master Audio Bus\AMBIANCES\Wind	
 	1850388778	Desert			\Default Work Unit\Master Audio Bus\AMBIANCES\Desert	
 	2654748154	Water			\Default Work Unit\Master Audio Bus\AMBIANCES\Water	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	13508074	WETLAND_Pl	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\WETLAND_Pl_0F603339.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\Ambiances_Placeholders\WETLAND_Pl		2198699
+	56958565	SFX_Wind_Zoomed_Lvl0-004	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-004_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-004		405977
+	76071141	SFX_Wind_Zoomed_Lvl2-008	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-008_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl2\SFX_Wind_Zoomed_Lvl2-008		1085311
+	87767153	SFX_Wind_Zoomed_Lvl0-002	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-002_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-002		407025
 	93093852	OurLand_MUSIC_Placeholder	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\OurLand_MUSIC_Placeholder_E60452FC.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\OurLand_MUSIC_Placeholder\OurLand_MUSIC_Placeholder		7456796
 	105076285	SFX_Kill_Rhtuk_Victory	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Kill_Rhtuk_Victory_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Killing\SFX_Kill_Rhtuk_Victory		120159
+	242273055	SFX_Wind_Zoomed_Lvl2-009	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-009_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl2\SFX_Wind_Zoomed_Lvl2-009		794122
 	256957239	placeholder-integration	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\gun_shot_01_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\Ambiances_Placeholders\placeholder-integration		35104
+	330548806	SFX_Wind_Zoomed_Lvl2-010	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-010_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl2\SFX_Wind_Zoomed_Lvl2-010		671954
+	356673203	SFX_Wind_Zoomed_Lvl0-009	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-009_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-009		227512
+	365684265	SFX_Wind_Zoomed_Lvl0-008	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-008_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-008		723504
+	431062187	SFX_Wind_Zoomed_Lvl0-001	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-001_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-001		408135
 	474895706	End_Turn_Pl	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\End_Turn_Pl_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\End_Turn_Pl		31100
+	542583068	SFX_Wind_Zoomed_Lvl0-006	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-006_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-006		138365
 	561442355	SFX_Kill_Sheep_Victory	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Kill_Sheep_Victory_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Killing\SFX_Kill_Sheep_Victory		126192
+	567378333	SFX_Wind_Zoomed_Lvl2-005	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-005_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl2\SFX_Wind_Zoomed_Lvl2-005		2208146
+	621104761	SFX_Wind_Zoomed_Lvl0-010	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-010_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-010		302468
+	650734880	SFX_Wind_Zoomed_Lvl0-005	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-005_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-005		359777
 	662579089	DESERT_Pl	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\DESERT_Pl_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\Ambiances_Placeholders\DESERT_Pl		3833828
+	665224743	SFX_Wind_Zoomed_Lvl2-002	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-002_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl2\SFX_Wind_Zoomed_Lvl2-002		1641408
+	670161748	SFX_Wind_Zoomed_Lvl0-003	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-003_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-003		405064
+	689162581	SFX_Wind_Zoomed_Lvl2-006	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-006_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl2\SFX_Wind_Zoomed_Lvl2-006		1848970
+	714917615	SFX_Wind_Zoomed_Lvl2-004	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-004_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl2\SFX_Wind_Zoomed_Lvl2-004		1605261
+	754079153	SFX_Wind_Zoomed_Lvl0-007	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-007_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-007		495582
 	779664597	PRAIRIE_Pl	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\PRAIRIE_Pl_C9DD171F.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\Ambiances_Placeholders\PRAIRIE_Pl		4529238
+	790530437	SFX_Wind_Zoomed_Lvl2-001	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-001_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl2\SFX_Wind_Zoomed_Lvl2-001		1670504
+	866588307	SFX_Wind_Zoomed_Lvl2-003	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-003_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl2\SFX_Wind_Zoomed_Lvl2-003		1037367
+	1004973654	SFX_Wind_Zoomed_Lvl2-007	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-007_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\WIND\SFX_Wind_Zoomed_Lvl2\SFX_Wind_Zoomed_Lvl2-007		1401093
 	1066401080	WATER_Pl	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\WATER_3519813F.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\Ambiances_Placeholders\WATER_Pl		2953230
 

@@ -9,6 +9,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	496769563	Wetlands			\Default Work Unit\Master Audio Bus\AMBIANCES\Wetlands	
 	1404066300	AMBIANCES			\Default Work Unit\Master Audio Bus\AMBIANCES	
+	1537061107	Wind			\Default Work Unit\Master Audio Bus\AMBIANCES\Wind	
 	1850388778	Desert			\Default Work Unit\Master Audio Bus\AMBIANCES\Desert	
 	2654748154	Water			\Default Work Unit\Master Audio Bus\AMBIANCES\Water	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
