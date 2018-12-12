@@ -244,6 +244,13 @@
 					</ChildrenList>
 				</Folder>
 				<ActorMixer Name="Ambiance" ID="{AAAC4F5E-BE5E-473C-848A-2E1183FFFF46}" ShortID="718557420">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
@@ -263,219 +270,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="SFX_Wind_Zoomed_Lvl2" ID="{DB01014D-D258-4AB1-A59A-BC5B5A34F930}" ShortID="906750969">
-									<PropertyList>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SFX_Wind_Zoomed_Lvl2-001" ID="{F6C3227F-A2C3-4038-ACD0-5227E30D584E}" ShortID="782611128">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-001" ID="{C536DF1E-3A5F-4FAD-8BDA-E9D71618BE0B}" ShortID="790530437">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Wind_Zoomed_Lvl2-001.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-001" ID="{C536DF1E-3A5F-4FAD-8BDA-E9D71618BE0B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Wind_Zoomed_Lvl2-002" ID="{393846BD-376F-4867-8313-FBDBC831134B}" ShortID="162861667">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-002" ID="{2F6D2340-2393-40C4-846D-11351853FAB1}" ShortID="665224743">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Wind_Zoomed_Lvl2-002.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-002" ID="{2F6D2340-2393-40C4-846D-11351853FAB1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Wind_Zoomed_Lvl2-003" ID="{C27310EA-5352-4ECC-B741-4FD85F4E409E}" ShortID="359984724">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-003" ID="{E076A61F-FC87-47C0-B59A-E754FBDD4D9C}" ShortID="866588307">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Wind_Zoomed_Lvl2-003.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-003" ID="{E076A61F-FC87-47C0-B59A-E754FBDD4D9C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Wind_Zoomed_Lvl2-004" ID="{0730D83F-8631-4F42-9B00-485C62F8D74D}" ShortID="81064335">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-004" ID="{3C6E8E98-9373-49F6-8ECD-368B3A3FA4A6}" ShortID="714917615">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Wind_Zoomed_Lvl2-004.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-004" ID="{3C6E8E98-9373-49F6-8ECD-368B3A3FA4A6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Wind_Zoomed_Lvl2-005" ID="{8440D65E-9DCF-497F-ABB8-90F4B8470D3A}" ShortID="451843824">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-005" ID="{35F7990C-5662-47E4-9305-3DD8E9474D12}" ShortID="567378333">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Wind_Zoomed_Lvl2-005.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-005" ID="{35F7990C-5662-47E4-9305-3DD8E9474D12}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Wind_Zoomed_Lvl2-006" ID="{23799674-FFF5-43B3-A6C4-91F867075A09}" ShortID="470889693">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-006" ID="{E59CFC3E-84D2-4711-8089-1C4ECF177848}" ShortID="689162581">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Wind_Zoomed_Lvl2-006.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-006" ID="{E59CFC3E-84D2-4711-8089-1C4ECF177848}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Wind_Zoomed_Lvl2-007" ID="{E60CDA3B-1755-4357-AB07-AC48FD381AF1}" ShortID="1005650987">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-007" ID="{B2A21176-785B-4947-B6CE-CFEF10807D12}" ShortID="1004973654">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Wind_Zoomed_Lvl2-007.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-007" ID="{B2A21176-785B-4947-B6CE-CFEF10807D12}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Wind_Zoomed_Lvl2-008" ID="{2428E1F8-8F80-4A0E-A2C0-BDD76E8C3669}" ShortID="223213368">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-008" ID="{6B397469-EEBA-4CC1-8EEB-ADE9324BAAF1}" ShortID="76071141">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Wind_Zoomed_Lvl2-008.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-008" ID="{6B397469-EEBA-4CC1-8EEB-ADE9324BAAF1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Wind_Zoomed_Lvl2-009" ID="{7E3480AA-7C82-4AE0-89C3-1F17F65D401D}" ShortID="1066645241">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-009" ID="{22777426-ECC4-42BA-B5BC-9ED9F5CC87EB}" ShortID="242273055">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Wind_Zoomed_Lvl2-009.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-009" ID="{22777426-ECC4-42BA-B5BC-9ED9F5CC87EB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SFX_Wind_Zoomed_Lvl2-010" ID="{39F5392D-163E-4FE8-A6E4-ACEE88186DA9}" ShortID="818256499">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-010" ID="{0024C6E5-89F3-4B21-9457-47BE86B09360}" ShortID="330548806">
-													<Language>SFX</Language>
-													<AudioFile>SFX_Wind_Zoomed_Lvl2-010.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-010" ID="{0024C6E5-89F3-4B21-9457-47BE86B09360}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SFX_Wind_Zoomed_Lvl0" ID="{614C493B-CA4B-4DA3-8117-A0B76204332F}" ShortID="219584259">
 									<PropertyList>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -485,7 +279,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -690,6 +484,219 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_Wind_Zoomed_Lvl2" ID="{DB01014D-D258-4AB1-A59A-BC5B5A34F930}" ShortID="906750969">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Wind_Zoomed_Lvl2-001" ID="{F6C3227F-A2C3-4038-ACD0-5227E30D584E}" ShortID="782611128">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-001" ID="{C536DF1E-3A5F-4FAD-8BDA-E9D71618BE0B}" ShortID="790530437">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Wind_Zoomed_Lvl2-001.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-001" ID="{C536DF1E-3A5F-4FAD-8BDA-E9D71618BE0B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Wind_Zoomed_Lvl2-002" ID="{393846BD-376F-4867-8313-FBDBC831134B}" ShortID="162861667">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-002" ID="{2F6D2340-2393-40C4-846D-11351853FAB1}" ShortID="665224743">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Wind_Zoomed_Lvl2-002.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-002" ID="{2F6D2340-2393-40C4-846D-11351853FAB1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Wind_Zoomed_Lvl2-003" ID="{C27310EA-5352-4ECC-B741-4FD85F4E409E}" ShortID="359984724">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-003" ID="{E076A61F-FC87-47C0-B59A-E754FBDD4D9C}" ShortID="866588307">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Wind_Zoomed_Lvl2-003.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-003" ID="{E076A61F-FC87-47C0-B59A-E754FBDD4D9C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Wind_Zoomed_Lvl2-004" ID="{0730D83F-8631-4F42-9B00-485C62F8D74D}" ShortID="81064335">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-004" ID="{3C6E8E98-9373-49F6-8ECD-368B3A3FA4A6}" ShortID="714917615">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Wind_Zoomed_Lvl2-004.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-004" ID="{3C6E8E98-9373-49F6-8ECD-368B3A3FA4A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Wind_Zoomed_Lvl2-005" ID="{8440D65E-9DCF-497F-ABB8-90F4B8470D3A}" ShortID="451843824">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-005" ID="{35F7990C-5662-47E4-9305-3DD8E9474D12}" ShortID="567378333">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Wind_Zoomed_Lvl2-005.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-005" ID="{35F7990C-5662-47E4-9305-3DD8E9474D12}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Wind_Zoomed_Lvl2-006" ID="{23799674-FFF5-43B3-A6C4-91F867075A09}" ShortID="470889693">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-006" ID="{E59CFC3E-84D2-4711-8089-1C4ECF177848}" ShortID="689162581">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Wind_Zoomed_Lvl2-006.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-006" ID="{E59CFC3E-84D2-4711-8089-1C4ECF177848}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Wind_Zoomed_Lvl2-007" ID="{E60CDA3B-1755-4357-AB07-AC48FD381AF1}" ShortID="1005650987">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-007" ID="{B2A21176-785B-4947-B6CE-CFEF10807D12}" ShortID="1004973654">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Wind_Zoomed_Lvl2-007.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-007" ID="{B2A21176-785B-4947-B6CE-CFEF10807D12}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Wind_Zoomed_Lvl2-008" ID="{2428E1F8-8F80-4A0E-A2C0-BDD76E8C3669}" ShortID="223213368">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-008" ID="{6B397469-EEBA-4CC1-8EEB-ADE9324BAAF1}" ShortID="76071141">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Wind_Zoomed_Lvl2-008.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-008" ID="{6B397469-EEBA-4CC1-8EEB-ADE9324BAAF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Wind_Zoomed_Lvl2-009" ID="{7E3480AA-7C82-4AE0-89C3-1F17F65D401D}" ShortID="1066645241">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-009" ID="{22777426-ECC4-42BA-B5BC-9ED9F5CC87EB}" ShortID="242273055">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Wind_Zoomed_Lvl2-009.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-009" ID="{22777426-ECC4-42BA-B5BC-9ED9F5CC87EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Wind_Zoomed_Lvl2-010" ID="{39F5392D-163E-4FE8-A6E4-ACEE88186DA9}" ShortID="818256499">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Wind_Zoomed_Lvl2-010" ID="{0024C6E5-89F3-4B21-9457-47BE86B09360}" ShortID="330548806">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Wind_Zoomed_Lvl2-010.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Wind_Zoomed_Lvl2-010" ID="{0024C6E5-89F3-4B21-9457-47BE86B09360}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<BlendTrackList>
 								<BlendTrack Name="Wind_Zoom_Level" ID="{8E01477D-C607-4456-91C3-C127A84194E5}" ShortID="824254261">
@@ -707,14 +714,14 @@
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>93.3191217277487</RightEdgePos>
+												<RightEdgePos>99.9995</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="SFX_Wind_Zoomed_Lvl0" ID="{614C493B-CA4B-4DA3-8117-A0B76204332F}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>43.9055091623037</LeftEdgePos>
+												<LeftEdgePos>0.0005</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>100</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
@@ -724,6 +731,284 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
+						<RandomSequenceContainer Name="OneShots" ID="{1BF4FD56-32B5-4768-BA78-E76329A3C0CE}" ShortID="718858652">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{80DB3FE0-9CC4-4C02-898D-D9E2C88A82C6}" ShortID="527836178">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Ambiance_Wind_Mod" ID="{85D71E34-5D8C-4F6A-AB2A-02E90FC78F60}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{528745DE-E3A0-402D-A8DA-36453C2240DF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>14.00209</XPos>
+														<YPos>-12.45368</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>40.0209</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Bird_MeadowLark" ID="{2029E252-B7A8-4AF8-9426-D0C61EC9A600}" ShortID="731192431">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-28</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_Oneshot" ID="{D46B9850-C7A4-4BE0-AA17-B9C7816D5D7A}" ShortID="32166428">
+											<Language>SFX</Language>
+											<AudioFile>Bird_Oneshot.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_Oneshot" ID="{D46B9850-C7A4-4BE0-AA17-B9C7816D5D7A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Bird - Marsh Wren" ID="{223AA95C-A4C1-41C8-B926-D5533950ACB3}" ShortID="524076976">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bird_Oneshot-MarshWren-001" ID="{86DAF200-8B65-4461-A485-73B90E8E1652}" ShortID="686535126">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bird_Oneshot-MarshWren" ID="{84C7CA92-6178-42D6-A3F4-41D8FB44D4B2}" ShortID="197293107">
+													<Language>SFX</Language>
+													<AudioFile>Bird_Oneshot-002.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{9B5635ED-7B38-4409-90DC-90D0293E8D88}"/>
+												<Position Name="" ID="{F028F02A-637F-447A-95E4-B1C1C84FD1F8}">
+													<ChildrenList>
+														<Path2D Name="OneShots_Path" ID="{6F512C20-354F-4877-88D1-DF06BE7E055B}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="56"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0.63291</XPos>
+																	<YPos>69.10828</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Bird_Oneshot-MarshWren" ID="{84C7CA92-6178-42D6-A3F4-41D8FB44D4B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bird_Oneshot-MarshWren-002" ID="{49034FF3-9EE1-4C43-94E9-0763B4872662}" ShortID="695449291">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bird_Oneshot-MarshWren-002" ID="{A0428142-07BA-48C9-928F-C822C739E659}" ShortID="458867877">
+													<Language>SFX</Language>
+													<AudioFile>Bird_Oneshot-MarshWren-002.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bird_Oneshot-MarshWren-002" ID="{A0428142-07BA-48C9-928F-C822C739E659}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bird_Oneshot-MarshWren-003" ID="{2EF04406-58D6-477A-AC5F-96DF387E0620}" ShortID="100122813">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bird_Oneshot-MarshWren-003" ID="{5E74E575-8682-4FBD-9E0A-406082068734}" ShortID="1033801600">
+													<Language>SFX</Language>
+													<AudioFile>Bird_Oneshot-MarshWren-003.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bird_Oneshot-MarshWren-003" ID="{5E74E575-8682-4FBD-9E0A-406082068734}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Bird - Sparrow" ID="{47680F27-5E5A-4CC3-83E4-89E0AF50FB09}" ShortID="235159317">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bird_Oneshot-Sparrow-001" ID="{DA2ACF61-AB5D-49B0-A593-F2B17E029FC4}" ShortID="587113876">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bird_Oneshot-Sparrow-001" ID="{57377E60-9BDA-4DBB-90B2-44F522F5D3B2}" ShortID="730001564">
+													<Language>SFX</Language>
+													<AudioFile>Bird_Oneshot-Sparrow-001.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bird_Oneshot-Sparrow-001" ID="{57377E60-9BDA-4DBB-90B2-44F522F5D3B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bird_Oneshot-Sparrow-002" ID="{B5EB3E8C-9BF8-4285-BBF3-EC685D824F36}" ShortID="468257268">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bird_Oneshot-Sparrow-002" ID="{ABF5BA76-4351-44D6-81C2-6BC97E543BA5}" ShortID="870334593">
+													<Language>SFX</Language>
+													<AudioFile>Bird_Oneshot-Sparrow-002.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bird_Oneshot-Sparrow-002" ID="{ABF5BA76-4351-44D6-81C2-6BC97E543BA5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bird_Oneshot-Sparrow-003" ID="{3E1E4812-E2B0-499F-9DAB-41480913F6A0}" ShortID="488793642">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bird_Oneshot-Sparrow-003" ID="{10A69AEC-31F2-4BAB-9B8E-46EC275F7F56}" ShortID="758115609">
+													<Language>SFX</Language>
+													<AudioFile>Bird_Oneshot-Sparrow-003.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Bird_Oneshot-Sparrow-003" ID="{10A69AEC-31F2-4BAB-9B8E-46EC275F7F56}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{866AB1FD-876B-4DD2-9DBB-9DC3D52F4E13}"/>
+								<Position Name="" ID="{54B05BC3-AA76-4C48-B2CF-5B952FE225EC}">
+									<ChildrenList>
+										<Path2D Name="OneShots_Path" ID="{AE51EB8B-E8EE-4D2D-90E3-0139213CD67A}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="56"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0.63291</XPos>
+													<YPos>69.10828</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
