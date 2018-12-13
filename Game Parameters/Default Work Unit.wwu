@@ -8,8 +8,8 @@
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
-						<Property Name="SlewRateDown" Type="Real64" Value="25"/>
-						<Property Name="SlewRateUp" Type="Real64" Value="29"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="38"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="41"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Volume_Prairie" ID="{662B5546-6958-4502-BA41-67BD6C77F620}">
