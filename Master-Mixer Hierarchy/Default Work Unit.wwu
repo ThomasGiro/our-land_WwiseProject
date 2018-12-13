@@ -141,9 +141,48 @@
 									</PropertyList>
 								</Bus>
 								<Bus Name="Wind" ID="{063F130C-9743-4F7E-BBA3-453C0701E2D9}"/>
+								<Bus Name="River" ID="{7A800788-B595-47F1-8B20-D510FF2A0998}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{E1D66B5A-F7DC-4F03-97DD-E963008A02B1}" ShortID="1022721573">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Ambiance_Volume_River" ID="{239E5F80-B138-4C99-AA2C-78E69872DBD9}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{57C1C523-6760-40FD-B3C5-F12E09CFFFC6}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-0.17727</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}"/>
+						<AuxBus Name="Outdoor_RVB" ID="{BBA70DC3-BCA7-467D-81BB-710A545ECD14}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

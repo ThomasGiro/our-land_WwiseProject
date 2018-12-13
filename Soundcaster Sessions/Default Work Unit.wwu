@@ -37,7 +37,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_Desert" ID="{1E2C8E74-4697-40D3-BCC1-CA46C7C6F393}"/>
-							<Value>49.738219895288</Value>
+							<Value>9.56392392855876E-312</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_Prairie" ID="{662B5546-6958-4502-BA41-67BD6C77F620}"/>
@@ -48,12 +48,20 @@
 							<Value>44</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Zoom_Level" ID="{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}"/>
+							<Value>9.56417982768614E-312</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_Wetlands" ID="{D65EFD8F-2D4E-49A8-A188-B4DE05047046}"/>
 							<Value>29</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Ambiance_Volume_River" ID="{239E5F80-B138-4C99-AA2C-78E69872DBD9}"/>
+							<Value>65.7784743991641</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Wind_Mod" ID="{85D71E34-5D8C-4F6A-AB2A-02E90FC78F60}"/>
-							<Value>19.0177638453501</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

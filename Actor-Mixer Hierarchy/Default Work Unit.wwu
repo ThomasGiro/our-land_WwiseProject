@@ -74,7 +74,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-19</Value>
+												<Value>-96</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -126,7 +126,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-11</Value>
+												<Value>-18</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -159,7 +159,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-11</Value>
+												<Value>-96</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -191,8 +191,40 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-4</Value>
 											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{C0E2C8F0-E9DF-4923-8F1E-ACABBC5DC678}" ShortID="1047619538">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Zoom_Level" ID="{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{1ACAF2C8-ADFF-4250-BA61-56376860F5CA}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0.08818</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>41.06583</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -213,6 +245,371 @@
 										<ActiveSource Name="DESERT_Pl" ID="{7756FFBF-D2C8-4BD5-9B49-F7CAFA7F07F8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<BlendContainer Name="River" ID="{400067C4-DB5E-4223-AF89-4660339C64CD}" ShortID="355786071">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="River" ID="{7A800788-B595-47F1-8B20-D510FF2A0998}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="River" ID="{F7604766-6677-4BF9-A96D-6F2B5A5D953E}" ShortID="754181097">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{AF3D19B3-BD16-4053-9892-1206059F8D10}" ShortID="381316292">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Zoom_Level" ID="{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{CB403794-BA02-4AEB-ABA5-EB956A03A1B2}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.08818</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>45.97701</XPos>
+																		<YPos>-2.09135</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>77.11599</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>92.16301</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="River" ID="{7A800788-B595-47F1-8B20-D510FF2A0998}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Dynamic_Ambiance_River-001" ID="{D02A4DE6-35AC-4A4B-881D-A14FE8208CED}" ShortID="79351736">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River-001" ID="{A95F2FD1-DC12-449B-9487-48931329D1EB}" ShortID="880937884">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River-001" ID="{A95F2FD1-DC12-449B-9487-48931329D1EB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dynamic_Ambiance_River-002" ID="{647E7E91-DEA1-4935-BF19-D1E92D786CB4}" ShortID="309382897">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River-002" ID="{D0E4F932-0B56-44AD-AC5A-0C7153E18584}" ShortID="341377109">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River-002" ID="{D0E4F932-0B56-44AD-AC5A-0C7153E18584}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dynamic_Ambiance_River-003" ID="{7888899C-9819-4A79-A358-DECBADFC64D8}" ShortID="1025239200">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River-003" ID="{8CDE2F26-B350-4933-B7AE-A852C4794163}" ShortID="156490562">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River-003" ID="{8CDE2F26-B350-4933-B7AE-A852C4794163}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dynamic_Ambiance_River-004" ID="{7884EC00-0B35-41CE-BFBF-785AD435241C}" ShortID="710132055">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River-004" ID="{D2E4386A-6A64-4C78-8C82-D629537E7520}" ShortID="1053048763">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River-004.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River-004" ID="{D2E4386A-6A64-4C78-8C82-D629537E7520}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dynamic_Ambiance_River-005" ID="{BBF0FA05-BA72-4F5F-8819-5118163C06EA}" ShortID="360158421">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River-005" ID="{38375866-E711-41DD-ADEE-F6253B495CB2}" ShortID="76267168">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River-005.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River-005" ID="{38375866-E711-41DD-ADEE-F6253B495CB2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dynamic_Ambiance_River-006" ID="{1796F29F-6EC5-415B-9702-52F8B4074D4B}" ShortID="957070695">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River-006" ID="{81F77FAE-56D3-465C-8E50-D7C94325CF34}" ShortID="719773620">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River-006.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River-006" ID="{81F77FAE-56D3-465C-8E50-D7C94325CF34}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="River_Intricate" ID="{67108175-32D5-43FF-BBB8-F1081A9509EC}" ShortID="124361269">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{F55C7657-9D8F-43F9-ABC5-A5B90681EBBE}" ShortID="489229035">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Ambiance_Wind_Mod" ID="{85D71E34-5D8C-4F6A-AB2A-02E90FC78F60}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{91360D06-C7FC-4DB3-B0E5-E88C6A5AFC00}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-8.81799999999942E-02</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>14.00209</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="River" ID="{7A800788-B595-47F1-8B20-D510FF2A0998}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Dynamic_Ambiance_River_Intricate-001" ID="{D883B1EA-2D75-402D-A6A2-948856026AC6}" ShortID="557392860">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River_Intricate-001" ID="{35642729-E4AD-4A98-B40F-5FC24E37E71E}" ShortID="1032583295">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River_Intricate-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River_Intricate-001" ID="{35642729-E4AD-4A98-B40F-5FC24E37E71E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dynamic_Ambiance_River_Intricate-002" ID="{2005BFC7-BA6C-44A6-A4AD-DE5BF8F06CD1}" ShortID="272626640">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River_Intricate-002" ID="{7603C964-FA93-42B2-AA93-6E76D7BE5D32}" ShortID="923689386">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River_Intricate-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River_Intricate-002" ID="{7603C964-FA93-42B2-AA93-6E76D7BE5D32}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dynamic_Ambiance_River_Intricate-003" ID="{5655D4F7-219C-469F-A5F1-4D8F76DC8770}" ShortID="197094514">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River_Intricate-003" ID="{09FB7115-CCD1-4FC6-B337-A600C9AC81B2}" ShortID="1028953236">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River_Intricate-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River_Intricate-003" ID="{09FB7115-CCD1-4FC6-B337-A600C9AC81B2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dynamic_Ambiance_River_Intricate-004" ID="{54028393-AFF2-40AD-8EFE-BA2439B8B875}" ShortID="369389599">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River_Intricate-004" ID="{A129B947-3D0F-4B6E-A0D7-5925E1860807}" ShortID="491468568">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River_Intricate-004.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River_Intricate-004" ID="{A129B947-3D0F-4B6E-A0D7-5925E1860807}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dynamic_Ambiance_River_Intricate-005" ID="{D5BBD8D0-B060-474C-B4DB-D543A58A8227}" ShortID="662360358">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River_Intricate-005" ID="{ADB3027E-F25B-4A0C-8AF3-2F62354E1663}" ShortID="622111729">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River_Intricate-005.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River_Intricate-005" ID="{ADB3027E-F25B-4A0C-8AF3-2F62354E1663}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dynamic_Ambiance_River_Intricate-006" ID="{331775A7-74FD-40DC-BED5-0CD39E2A0871}" ShortID="546898582">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dynamic_Ambiance_River_Intricate-006" ID="{75FEB04B-8A01-400D-B6AE-40F79BAA004A}" ShortID="488413955">
+															<Language>SFX</Language>
+															<AudioFile>Dynamic_Ambiance_River_Intricate-006.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dynamic_Ambiance_River_Intricate-006" ID="{75FEB04B-8A01-400D-B6AE-40F79BAA004A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</Folder>
 						<Sound Name="End_Turn_Pl" ID="{A30B88BF-5C29-488A-8A0E-A1F72DE08D3C}" ShortID="471070679">
@@ -261,18 +658,20 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="WIND" ID="{0F4B7B7E-B7BB-4FB7-BAEE-56DED2CE6D0F}" ShortID="1027135871">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+									<ObjectRef Name="Wind" ID="{063F130C-9743-4F7E-BBA3-453C0701E2D9}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="SFX_Wind_Zoomed_Lvl0" ID="{614C493B-CA4B-4DA3-8117-A0B76204332F}" ShortID="219584259">
 									<PropertyList>
-										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
@@ -735,11 +1134,25 @@
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="1"/>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="60">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7272F873-2152-4983-B9B9-4BF27E10DED6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="15"/>
+													<Property Name="Min" Type="Real64" Value="-15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<RTPCList>
@@ -788,7 +1201,10 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+									<ObjectRef Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Outdoor_RVB" ID="{BBA70DC3-BCA7-467D-81BB-710A545ECD14}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -987,6 +1403,32 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="Bird_Oneshot-Owl" ID="{A2D763A5-B5DC-49B3-8B53-CDC30D98AF97}" ShortID="113309190">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_Oneshot-Owl" ID="{991279E4-0C14-4819-92EE-7FD50023E6B4}" ShortID="908822503">
+											<Language>SFX</Language>
+											<AudioFile>Bird_Oneshot-Owl.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_Oneshot-Owl" ID="{991279E4-0C14-4819-92EE-7FD50023E6B4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<PositioningInfo>
 								<Panner Name="" ID="{866AB1FD-876B-4DD2-9DBB-9DC3D52F4E13}"/>

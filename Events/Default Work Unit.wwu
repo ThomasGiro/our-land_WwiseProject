@@ -111,6 +111,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_River" ID="{C4772A3A-9402-4B07-9F54-3B9F5A11164F}">
+							<ChildrenList>
+								<Action Name="" ID="{770AAC2F-8FF6-4279-9BEA-5ACB8948744D}" ShortID="1023162040">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="River" ID="{400067C4-DB5E-4223-AF89-4660339C64CD}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Animals" ID="{E4E0C2AF-23BC-40E9-8BF0-984F515F0F28}" ShortID="879563790">

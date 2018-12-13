@@ -6,6 +6,11 @@
 				<MusicPlaylistContainer Name="MUSIC" ID="{C40F5B47-669A-4EE5-BE48-3C39B60C3CAA}" ShortID="726860722">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="80"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -46,7 +51,6 @@
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
-											<ReferenceList/>
 											<TransitionInfo/>
 										</MusicTransition>
 									</TransitionList>
@@ -143,10 +147,8 @@
 							<PropertyList>
 								<Property Name="IsFolder" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList/>
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{C9B06FCE-658A-44A0-B78B-307CAF727967}">
-									<ReferenceList/>
 									<TransitionInfo/>
 								</MusicTransition>
 							</ChildrenList>

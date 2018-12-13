@@ -4,32 +4,58 @@
 		<WorkUnit Name="Default Work Unit" ID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Ambiance_Volume_Desert" ID="{1E2C8E74-4697-40D3-BCC1-CA46C7C6F393}">
+					<Comment>RTPC qui gère le %age de Désert à l'écran</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="25"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="29"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Volume_Prairie" ID="{662B5546-6958-4502-BA41-67BD6C77F620}">
+					<Comment>RTPC qui gère le %age de Prairie  à l'écran</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Volume_Water" ID="{140F3BD8-47A6-46AC-A7B8-E1F653F5E8F8}">
+					<Comment>RTPC qui gère le %age de Lac à l'écran</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Volume_Wetlands" ID="{D65EFD8F-2D4E-49A8-A188-B4DE05047046}">
+					<Comment>RTPC qui gère le %age de Marais à l'écran</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Wind_Mod" ID="{85D71E34-5D8C-4F6A-AB2A-02E90FC78F60}">
+					<Comment>RTPC qui gère le zoom de la caméra
+0 = dézoomé
+100 = full zoomé
+</Comment>
 					<PropertyList>
 						<Property Name="FilterTimeDown" Type="Real64" Value="100"/>
 						<Property Name="FilterTimeUp" Type="Real64" Value="32"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 						<Property Name="SlewRateDown" Type="Real64" Value="21"/>
 						<Property Name="SlewRateUp" Type="Real64" Value="16"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Ambiance_Volume_River" ID="{239E5F80-B138-4C99-AA2C-78E69872DBD9}">
+					<Comment>RTPC qui gère le %age de Rivière à l'écran</Comment>
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="17"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Zoom_Level" ID="{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="22"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>
