@@ -1,5 +1,26 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	157466434	Ambiance_Volume_Desert			\Default Work Unit\Ambiance_Volume_Desert	RTPC qui gère le %age de Désert à l'écran
+	722193395	Ambiance_Volume_Wetlands			\Default Work Unit\Ambiance_Volume_Wetlands	RTPC qui gère le %age de Marais à l'écran
+	1443029666	Ambiance_Volume_Water			\Default Work Unit\Ambiance_Volume_Water	RTPC qui gère le %age de Lac à l'écran
+	1637951615	Ambiance_Volume_Prairie			\Default Work Unit\Ambiance_Volume_Prairie	RTPC qui gère le %age de Prairie  à l'écran
+	3778366489	Ambiance_Volume_River			\Default Work Unit\Ambiance_Volume_River	RTPC qui gère le %age de Rivière à l'écran
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	237089847	Prairie			\Default Work Unit\Master Audio Bus\AMBIANCES\Prairie	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	496769563	Wetlands			\Default Work Unit\Master Audio Bus\AMBIANCES\Wetlands	
+	1404066300	AMBIANCES			\Default Work Unit\Master Audio Bus\AMBIANCES	
+	1537061107	Wind			\Default Work Unit\Master Audio Bus\AMBIANCES\Wind	
+	1850388778	Desert			\Default Work Unit\Master Audio Bus\AMBIANCES\Desert	
+	2654748154	Water			\Default Work Unit\Master Audio Bus\AMBIANCES\Water	
+	3605787649	River			\Default Work Unit\Master Audio Bus\AMBIANCES\River	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4158266076	Outdoor_RVB			\Default Work Unit\Master Audio Bus\Outdoor_RVB	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
