@@ -66,6 +66,10 @@
 					<ShortName>SFX_Kill_Rhtuk_Victory.wav</ShortName>
 					<Path>SFX\SFX_Kill_Rhtuk_Victory_474E68A2.wem</Path>
 				</File>
+				<File Id="156288907" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-002.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-002_7571CC93.wem</Path>
+				</File>
 				<File Id="156490562" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River-003.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River-003_474E68A2.wem</Path>
@@ -93,6 +97,10 @@
 				<File Id="356673203" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-009.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-009_474E68A2.wem</Path>
+				</File>
+				<File Id="362806383" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-001.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-001_B47CBF78.wem</Path>
 				</File>
 				<File Id="365684265" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-008.wav</ShortName>
@@ -138,13 +146,17 @@
 					<ShortName>Dynamic_Ambiance_River_Intricate-005.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River_Intricate-005_474E68A2.wem</Path>
 				</File>
+				<File Id="641959817" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-003.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-003_F29682A4.wem</Path>
+				</File>
 				<File Id="650734880" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-005.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-005_474E68A2.wem</Path>
 				</File>
 				<File Id="662579089" Language="SFX">
 					<ShortName>DESERT_Pl.wav</ShortName>
-					<Path>SFX\DESERT_Pl_474E68A2.wem</Path>
+					<Path>SFX\DESERT_Pl_E60452FC.wem</Path>
 				</File>
 				<File Id="665224743" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-002.wav</ShortName>
