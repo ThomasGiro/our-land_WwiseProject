@@ -249,10 +249,17 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Wind_Zoomed_Lvl0" ID="{614C493B-CA4B-4DA3-8117-A0B76204332F}" ShortID="219584259">
 									<PropertyList>
+										<Property Name="Color" Type="int16" Value="26"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -456,6 +463,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<BlendContainer Name="Biomes_Ambiances" ID="{4C2B93EF-0F60-4584-9050-2E2374C0AAEE}" ShortID="577970278">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="10"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
@@ -467,6 +478,8 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Prairie" ID="{DB01014D-D258-4AB1-A59A-BC5B5A34F930}" ShortID="906750969">
 											<PropertyList>
+												<Property Name="Color" Type="int16" Value="17"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -713,6 +726,8 @@
 										</RandomSequenceContainer>
 										<BlendContainer Name="River" ID="{400067C4-DB5E-4223-AF89-4660339C64CD}" ShortID="355786071">
 											<PropertyList>
+												<Property Name="Color" Type="int16" Value="2"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -1074,6 +1089,8 @@
 										</BlendContainer>
 										<BlendContainer Name="Desert" ID="{DCFC2601-CDE4-4661-87A3-DD3930B4FF42}" ShortID="758205496">
 											<PropertyList>
+												<Property Name="Color" Type="int16" Value="6"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
@@ -1156,6 +1173,11 @@
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>-19</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-29</Value>
@@ -1168,9 +1190,6 @@
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="Outdoor_RVB" ID="{BBA70DC3-BCA7-467D-81BB-710A545ECD14}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>

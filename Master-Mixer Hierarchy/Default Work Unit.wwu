@@ -11,6 +11,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="AMBIANCES" ID="{E2CD23FE-B2C4-4AD1-9E01-D90510A7D951}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Bus Name="Water" ID="{49762C98-F507-4DF9-8375-FADA090100A9}">
 									<PropertyList>
@@ -42,6 +46,8 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="Color" Type="int16" Value="15"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
 								<Bus Name="Wetlands" ID="{16A1BA81-F62D-4AFC-B07A-4D00507DF2D1}">
@@ -74,6 +80,8 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="Color" Type="int16" Value="8"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
 								<Bus Name="Prairie" ID="{80042453-B6EA-4892-ABBD-93C4615CE7EE}">
@@ -106,6 +114,8 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
 								<Bus Name="Desert" ID="{6DD17CC2-F72D-4425-B1A9-D56A0373376A}">
@@ -138,9 +148,16 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
-								<Bus Name="Wind" ID="{063F130C-9743-4F7E-BBA3-453C0701E2D9}"/>
+								<Bus Name="Wind" ID="{063F130C-9743-4F7E-BBA3-453C0701E2D9}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="26"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
 								<Bus Name="River" ID="{7A800788-B595-47F1-8B20-D510FF2A0998}">
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
@@ -171,6 +188,8 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
 							</ChildrenList>
