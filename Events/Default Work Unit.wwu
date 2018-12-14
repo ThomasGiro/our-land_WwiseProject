@@ -77,7 +77,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="DESERT_Pl" ID="{7F7FD8C6-4D17-44F5-B98B-77C65A5487C4}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+											<ObjectRef Name="Desert" ID="{DCFC2601-CDE4-4661-87A3-DD3930B4FF42}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -171,7 +171,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="WIND" ID="{0F4B7B7E-B7BB-4FB7-BAEE-56DED2CE6D0F}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+									<ObjectRef Name="Dynamic_Ambiances" ID="{0F4B7B7E-B7BB-4FB7-BAEE-56DED2CE6D0F}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

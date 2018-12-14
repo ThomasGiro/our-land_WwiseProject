@@ -46,6 +46,10 @@
 					<ShortName>SFX_Wind_Zoomed_Lvl0-004.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-004_474E68A2.wem</Path>
 				</File>
+				<File Id="74368858" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-002.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-002_0A847800.wem</Path>
+				</File>
 				<File Id="76071141" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-008.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-008_474E68A2.wem</Path>
@@ -106,6 +110,10 @@
 					<ShortName>Bird_Oneshot-MarshWren-002.wav</ShortName>
 					<Path>SFX\Bird_Oneshot-MarshWren-002_474E68A2.wem</Path>
 				</File>
+				<File Id="469794974" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-001.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-001_54F7642B.wem</Path>
+				</File>
 				<File Id="474895706" Language="SFX">
 					<ShortName>End_Turn_Pl.wav</ShortName>
 					<Path>SFX\End_Turn_Pl_474E68A2.wem</Path>
@@ -129,6 +137,10 @@
 				<File Id="567378333" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-005.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-005_474E68A2.wem</Path>
+				</File>
+				<File Id="579225375" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-003.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-003_9A9F7469.wem</Path>
 				</File>
 				<File Id="621104761" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-010.wav</ShortName>

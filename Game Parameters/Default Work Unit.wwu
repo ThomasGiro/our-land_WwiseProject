@@ -8,14 +8,17 @@
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
-						<Property Name="SlewRateDown" Type="Real64" Value="38"/>
-						<Property Name="SlewRateUp" Type="Real64" Value="41"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="11"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="11"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Volume_Prairie" ID="{662B5546-6958-4502-BA41-67BD6C77F620}">
 					<Comment>RTPC qui gère le %age de Prairie  à l'écran</Comment>
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="26"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="23"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Volume_Water" ID="{140F3BD8-47A6-46AC-A7B8-E1F653F5E8F8}">
@@ -55,7 +58,7 @@
 					<PropertyList>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 						<Property Name="SlewRateDown" Type="Real64" Value="22"/>
-						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="21"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>
