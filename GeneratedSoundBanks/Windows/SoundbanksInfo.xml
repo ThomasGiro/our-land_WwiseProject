@@ -138,6 +138,10 @@
 					<ShortName>SFX_Wind_Zoomed_Lvl2-005.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-005_474E68A2.wem</Path>
 				</File>
+				<File Id="594098757" Language="SFX">
+					<ShortName>Ourland recherches 3_1.wav</ShortName>
+					<Path>SFX\Ourland recherches 3_1_E60452FC.wem</Path>
+				</File>
 				<File Id="621104761" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-010.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-010_474E68A2.wem</Path>

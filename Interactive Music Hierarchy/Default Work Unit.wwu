@@ -141,6 +141,67 @@
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
+						<MusicSegment Name="Ourland_MUSIC_Placeholder_02" ID="{4D5997A6-1232-49BB-993E-4D544DCC22E1}" ShortID="323236224">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="141600"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="75"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Ourland recherches 3_1" ID="{DDF3D8DD-04DF-41DB-A91D-67D51656D56F}" ShortID="133873044">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ourland recherches 3_1" ID="{B73C8926-9270-416F-8C29-4BEBC66043C9}" ShortID="594098757">
+											<Language>SFX</Language>
+											<AudioFile>Ourland recherches 3_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A6C0B958-A52D-4B38-ADC2-C4B7BA6FE6E3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{08313A3B-FF30-4590-A577-9DE4F299BFC8}">
+											<ClipList>
+												<MusicClip Name="Ourland recherches 3_1" ID="{468BFA68-08F3-4EEE-8B59-83B784BE259E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="141600"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Ourland recherches 3_1" ID="{B73C8926-9270-416F-8C29-4BEBC66043C9}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{DF39E70E-2E12-401D-A0B6-395408535361}"/>
+								<MusicCue Name="Exit Cue" ID="{63949BAE-DF19-4A79-8FAD-87EEA2CEAD80}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="141600"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{ADC090AF-0CFF-4109-A78C-B3F909AD6C0A}">
@@ -157,12 +218,21 @@
 					</TransitionList>
 					<Playlist>
 						<MusicPlaylistItem Name="" ID="{7A634646-1328-43F8-807F-D64E47F3B605}" ShortID="944656533">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
 							<ChildrenList>
 								<MusicPlaylistItem Name="" ID="{0CFB43F6-D8D5-4904-A196-D5388F42583A}" ShortID="125767784">
 									<PropertyList>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
 									<SegmentRef Name="OurLand_MUSIC_Placeholder" ID="{6C76B4CD-BA5C-410C-B4D9-01993C8B656B}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{6AA3B366-8136-4845-96DC-45DD64408E90}" ShortID="118859871">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Ourland_MUSIC_Placeholder_02" ID="{4D5997A6-1232-49BB-993E-4D544DCC22E1}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>
