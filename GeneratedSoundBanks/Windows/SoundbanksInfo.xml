@@ -21,6 +21,7 @@
 			<ShortName>Placeholder</ShortName>
 			<Path>Placeholder.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2320060182" Name="Play_Choice_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_Choice_Pl"/>
 				<Event Id="4137235956" Name="Play_DESERT_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_DESERT_Pl"/>
 				<Event Id="1313846872" Name="Play_End_Turn_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_End_Turn_Pl"/>
 				<Event Id="2932040671" Name="Play_MUSIC" ObjectPath="\Events\Default Work Unit\Placeholders\Play_MUSIC"/>
@@ -73,6 +74,10 @@
 				<File Id="197293107" Language="SFX">
 					<ShortName>Bird_Oneshot-002.wav</ShortName>
 					<Path>SFX\Bird_Oneshot-002_474E68A2.wem</Path>
+				</File>
+				<File Id="223704721" Language="SFX">
+					<ShortName>Choice_Pl.wav</ShortName>
+					<Path>SFX\Choice_Pl_474E68A2.wem</Path>
 				</File>
 				<File Id="242273055" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-009.wav</ShortName>

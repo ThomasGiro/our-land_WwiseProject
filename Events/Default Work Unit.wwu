@@ -125,6 +125,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Choice_Pl" ID="{C7563233-CD37-4078-B844-2ACD108971EA}">
+							<ChildrenList>
+								<Action Name="" ID="{858094D3-17FC-4944-9820-31F848E963AD}" ShortID="196670767">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Choice_Pl" ID="{1CDA7AF6-DD38-48D4-8BDA-C86B9002739F}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Animals" ID="{E4E0C2AF-23BC-40E9-8BF0-984F515F0F28}" ShortID="879563790">

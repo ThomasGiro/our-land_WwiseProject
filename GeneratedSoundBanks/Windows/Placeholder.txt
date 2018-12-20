@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1313846872	Play_End_Turn_Pl			\Default Work Unit\Placeholders\Play_End_Turn_Pl	
 	1488595426	Play_WATER_Pl			\Default Work Unit\Placeholders\Play_WATER_Pl	
 	1498169336	Play_River			\Default Work Unit\Placeholders\Play_River	
+	2320060182	Play_Choice_Pl			\Default Work Unit\Placeholders\Play_Choice_Pl	
 	2876783754	Play_SFX_Kill_Rhtuk_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory	
 	2932040671	Play_MUSIC			\Default Work Unit\Placeholders\Play_MUSIC	
 	3823867762	Play_placeholder_integration			\Default Work Unit\Placeholders\Play_placeholder_integration	
@@ -49,6 +50,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	156288907	Dynamic_Ambiance_Desert_Sand_Long-002	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Dynamic_Ambiance_Desert_Sand_Long-002_2A35319F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\Desert\Dynamic_Desert_Sand_Long\Dynamic_Ambiance_Desert_Sand_Long-002		4877627
 	156490562	Dynamic_Ambiance_River-003	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Dynamic_Ambiance_River-003_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\River\River\Dynamic_Ambiance_River-003		386105
 	197293107	Bird_Oneshot-MarshWren-001	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Bird_Oneshot-002_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\OneShots\Bird - Marsh Wren\Bird_Oneshot-MarshWren-001		89271
+	223704721	Choice_Pl	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Choice_Pl_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\Choice_Pl		16424
 	242273055	SFX_Wind_Zoomed_Lvl2-009	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-009_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\Prairie\SFX_Wind_Zoomed_Lvl2-009		794122
 	256957239	placeholder-integration	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\gun_shot_01_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\PLACEHOLDERS\Ambiances_Placeholders\placeholder-integration		35104
 	330548806	SFX_Wind_Zoomed_Lvl2-010	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-010_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\Prairie\SFX_Wind_Zoomed_Lvl2-010		671954
