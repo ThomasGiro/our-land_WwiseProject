@@ -24,6 +24,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="SFX_Kill_RTHUK_V2" ID="{18FD344A-4088-4F67-A36B-C2B4846BAB4E}" ShortID="675519611">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
@@ -1294,6 +1301,39 @@
 								<BlendTrack Name="Wind_Zoom_Level" ID="{8E01477D-C607-4456-91C3-C127A84194E5}" ShortID="824254261">
 									<PropertyList>
 										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{48F8E026-C07A-497C-A88D-656EE5C80939}" ShortID="233190394">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Zoom_Level" ID="{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{D0C594B0-0F85-4665-9F3E-7C858A6FE57F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>50.15385</XPos>
+																<YPos>2.92256</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="LayerCrossFadeControlInput">
