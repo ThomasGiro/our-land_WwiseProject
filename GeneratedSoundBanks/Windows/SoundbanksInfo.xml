@@ -62,13 +62,9 @@
 					<ShortName>OurLand_MUSIC_Placeholder.wav</ShortName>
 					<Path>SFX\OurLand_MUSIC_Placeholder_E60452FC.wem</Path>
 				</File>
-				<File Id="105076285" Language="SFX">
-					<ShortName>SFX_Kill_Rhtuk_Victory.wav</ShortName>
-					<Path>SFX\SFX_Kill_Rhtuk_Victory_474E68A2.wem</Path>
-				</File>
 				<File Id="156288907" Language="SFX">
 					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-002.wav</ShortName>
-					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-002_7571CC93.wem</Path>
+					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-002_2A35319F.wem</Path>
 				</File>
 				<File Id="156490562" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River-003.wav</ShortName>
@@ -100,7 +96,7 @@
 				</File>
 				<File Id="362806383" Language="SFX">
 					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-001.wav</ShortName>
-					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-001_B47CBF78.wem</Path>
+					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-001_6494D09A.wem</Path>
 				</File>
 				<File Id="365684265" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-008.wav</ShortName>
@@ -130,10 +126,6 @@
 					<ShortName>SFX_Wind_Zoomed_Lvl0-006.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-006_474E68A2.wem</Path>
 				</File>
-				<File Id="561442355" Language="SFX">
-					<ShortName>SFX_Kill_Sheep_Victory.wav</ShortName>
-					<Path>SFX\SFX_Kill_Sheep_Victory_474E68A2.wem</Path>
-				</File>
 				<File Id="567378333" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-005.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-005_474E68A2.wem</Path>
@@ -152,7 +144,7 @@
 				</File>
 				<File Id="641959817" Language="SFX">
 					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-003.wav</ShortName>
-					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-003_F29682A4.wem</Path>
+					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-003_BD3A870E.wem</Path>
 				</File>
 				<File Id="650734880" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-005.wav</ShortName>
@@ -186,6 +178,10 @@
 					<ShortName>Bird_Oneshot-Sparrow-001.wav</ShortName>
 					<Path>SFX\Bird_Oneshot-Sparrow-001_474E68A2.wem</Path>
 				</File>
+				<File Id="745972231" Language="SFX">
+					<ShortName>SFX_Kill_Sheep_V2.wav</ShortName>
+					<Path>SFX\SFX_Kill_Sheep_V2_474E68A2.wem</Path>
+				</File>
 				<File Id="754079153" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-007.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-007_474E68A2.wem</Path>
@@ -213,6 +209,10 @@
 				<File Id="880937884" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River-001.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River-001_474E68A2.wem</Path>
+				</File>
+				<File Id="887926483" Language="SFX">
+					<ShortName>SFX_Kill_RTHUK_V2.wav</ShortName>
+					<Path>SFX\SFX_Kill_RTHUK_V2_474E68A2.wem</Path>
 				</File>
 				<File Id="908822503" Language="SFX">
 					<ShortName>Bird_Oneshot-Owl.wav</ShortName>

@@ -23,7 +23,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="SFX_Kill_Sheep_Victory" ID="{76CA2E35-9A67-44FB-BD52-866334550868}" ShortID="893339730">
+								<Sound Name="SFX_Kill_RTHUK_V2" ID="{18FD344A-4088-4F67-A36B-C2B4846BAB4E}" ShortID="675519611">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
@@ -33,32 +33,39 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Kill_Sheep_Victory" ID="{9C95AAE3-9F17-42FC-B295-1BA85F71FA94}" ShortID="561442355">
+										<AudioFileSource Name="SFX_Kill_RTHUK_V2" ID="{B3CF58E9-8A28-4C6B-9C87-F740CA9101F1}" ShortID="887926483">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Kill_Sheep_Victory.wav</AudioFile>
+											<AudioFile>SFX_Kill_RTHUK_V2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="SFX_Kill_Sheep_Victory" ID="{9C95AAE3-9F17-42FC-B295-1BA85F71FA94}" Platform="Linked"/>
+										<ActiveSource Name="SFX_Kill_RTHUK_V2" ID="{B3CF58E9-8A28-4C6B-9C87-F740CA9101F1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Kill_Rhtuk_Victory" ID="{A519DE6B-B080-4C18-B96F-966B67986FCF}" ShortID="378170532">
+								<Sound Name="SFX_Kill_Sheep_V2" ID="{B071796B-9FA5-43E1-9CD6-587E4085B021}" ShortID="70360402">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Kill_Rhtuk_Victory" ID="{CD6A989C-99BB-4467-90E5-46B14B47FE3F}" ShortID="105076285">
+										<AudioFileSource Name="SFX_Kill_Sheep_V2" ID="{185076A3-4B08-4B59-B664-492F6D80130B}" ShortID="745972231">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Kill_Rhtuk_Victory.wav</AudioFile>
+											<AudioFile>SFX_Kill_Sheep_V2.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="SFX_Kill_Rhtuk_Victory" ID="{CD6A989C-99BB-4467-90E5-46B14B47FE3F}" Platform="Linked"/>
+										<ActiveSource Name="SFX_Kill_Sheep_V2" ID="{185076A3-4B08-4B59-B664-492F6D80130B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
