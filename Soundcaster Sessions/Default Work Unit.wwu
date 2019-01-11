@@ -80,6 +80,10 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Ambiance_Spat" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_Prairie" ID="{662B5546-6958-4502-BA41-67BD6C77F620}"/>
 							<Value>0</Value>
 						</RTPCValue>

@@ -18,6 +18,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1119075515	Ambiance_Wind_Mod			\Default Work Unit\Ambiance_Wind_Mod	RTPC qui gère le zoom de la caméra 0 = dézoomé 100 = full zoomé 
 	1443029666	Ambiance_Volume_Water			\Default Work Unit\Ambiance_Volume_Water	RTPC qui gère le %age de Lac à l'écran
 	1637951615	Ambiance_Volume_Prairie			\Default Work Unit\Ambiance_Volume_Prairie	RTPC qui gère le %age de Prairie  à l'écran
+	2608651722	Ambiance_Spat			\Default Work Unit\Ambiance_Spat	
 	3389067991	Zoom_Level			\Default Work Unit\Zoom_Level	
 	3778366489	Ambiance_Volume_River			\Default Work Unit\Ambiance_Volume_River	RTPC qui gère le %age de Rivière à l'écran
 

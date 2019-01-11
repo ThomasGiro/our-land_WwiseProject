@@ -539,13 +539,16 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Prairie" ID="{DB01014D-D258-4AB1-A59A-BC5B5A34F930}" ShortID="906750969">
 											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
 												<Property Name="Color" Type="int16" Value="17"/>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-2</Value>
@@ -784,12 +787,49 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{4BF81F39-C4A2-42E4-8262-26BA42C37FDB}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{999D6397-5525-4A4D-85AC-074FD8971FA3}" ShortID="97022640">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Ambiance_Spat" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{A29E30D3-02B9-4155-993B-E36741ABD90D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-90</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>90</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+												</Panner>
+												<Position Name="" ID="{9771C17E-A563-41D6-9892-A81F8A7829C7}"/>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 										<BlendContainer Name="River" ID="{400067C4-DB5E-4223-AF89-4660339C64CD}" ShortID="355786071">
 											<PropertyList>
 												<Property Name="Color" Type="int16" Value="2"/>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-6</Value>
@@ -1147,12 +1187,48 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{E42C4AD8-0287-4B9E-9D8E-CE834A18753D}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{B2A2257A-79D8-4003-9AF7-859D3DA97F6F}" ShortID="390933380">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Ambiance_Spat" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{753781F4-47C8-4E6A-9F2F-B8C4DC4B2121}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-90</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>90</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</BlendContainer>
 										<BlendContainer Name="Desert" ID="{DCFC2601-CDE4-4661-87A3-DD3930B4FF42}" ShortID="758205496">
 											<PropertyList>
 												<Property Name="Color" Type="int16" Value="6"/>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{7E01594D-AA4B-4998-8EDD-BF6DFA006A65}" ShortID="900853049">
@@ -1327,6 +1403,41 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{98D366AF-8684-4D78-B0BF-B88005590C42}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{0828088B-CD32-41EC-8BCC-F041C9C98E94}" ShortID="699505848">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Ambiance_Spat" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{21438172-B9CA-4B8B-9DA0-4E70D4F0A5F8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-90</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>90</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+												</Panner>
+												<Position Name="" ID="{50403130-B5ED-475B-A10C-D11C5071E08A}"/>
+											</PositioningInfo>
 										</BlendContainer>
 									</ChildrenList>
 								</BlendContainer>

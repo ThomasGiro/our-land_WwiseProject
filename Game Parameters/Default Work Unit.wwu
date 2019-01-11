@@ -61,6 +61,12 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="21"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Ambiance_Spat" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
