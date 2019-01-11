@@ -80,12 +80,16 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="Ambiance_Spat" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}"/>
+							<GameParameterRef Name="Ambiance_Spat_River" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}"/>
 							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_Prairie" ID="{662B5546-6958-4502-BA41-67BD6C77F620}"/>
 							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ambiance_Spat_Desert" ID="{00523015-977D-4611-AAA4-06EA3E948BCD}"/>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_Water" ID="{140F3BD8-47A6-46AC-A7B8-E1F653F5E8F8}"/>
@@ -98,6 +102,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_Wetlands" ID="{D65EFD8F-2D4E-49A8-A188-B4DE05047046}"/>
 							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ambiance_Spat_Prairie" ID="{BECA64C1-8D80-4A22-9662-95C42A6C15DA}"/>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Volume_River" ID="{239E5F80-B138-4C99-AA2C-78E69872DBD9}"/>

@@ -14,11 +14,13 @@ Event	ID	Name			Wwise Object Path	Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	157466434	Ambiance_Volume_Desert			\Default Work Unit\Ambiance_Volume_Desert	RTPC qui gère le %age de Désert à l'écran
+	552053955	Ambiance_Spat_Prairie			\Default Work Unit\Ambiance_Spat_Prairie	
 	722193395	Ambiance_Volume_Wetlands			\Default Work Unit\Ambiance_Volume_Wetlands	RTPC qui gère le %age de Marais à l'écran
 	1119075515	Ambiance_Wind_Mod			\Default Work Unit\Ambiance_Wind_Mod	RTPC qui gère le zoom de la caméra 0 = dézoomé 100 = full zoomé 
 	1443029666	Ambiance_Volume_Water			\Default Work Unit\Ambiance_Volume_Water	RTPC qui gère le %age de Lac à l'écran
 	1637951615	Ambiance_Volume_Prairie			\Default Work Unit\Ambiance_Volume_Prairie	RTPC qui gère le %age de Prairie  à l'écran
-	2608651722	Ambiance_Spat			\Default Work Unit\Ambiance_Spat	
+	2229451525	Ambiance_Spat_River			\Default Work Unit\Ambiance_Spat_River	
+	2694967590	Ambiance_Spat_Desert			\Default Work Unit\Ambiance_Spat_Desert	
 	3389067991	Zoom_Level			\Default Work Unit\Zoom_Level	
 	3778366489	Ambiance_Volume_River			\Default Work Unit\Ambiance_Volume_River	RTPC qui gère le %age de Rivière à l'écran
 

@@ -795,7 +795,7 @@
 																<RTPC Name="" ID="{999D6397-5525-4A4D-85AC-074FD8971FA3}" ShortID="97022640">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
-																			<ObjectRef Name="Ambiance_Spat" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																			<ObjectRef Name="Ambiance_Spat_Prairie" ID="{BECA64C1-8D80-4A22-9662-95C42A6C15DA}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<Curve Name="" ID="{A29E30D3-02B9-4155-993B-E36741ABD90D}">
@@ -1195,7 +1195,7 @@
 																<RTPC Name="" ID="{B2A2257A-79D8-4003-9AF7-859D3DA97F6F}" ShortID="390933380">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
-																			<ObjectRef Name="Ambiance_Spat" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																			<ObjectRef Name="Ambiance_Spat_River" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<Curve Name="" ID="{753781F4-47C8-4E6A-9F2F-B8C4DC4B2121}">
@@ -1411,7 +1411,7 @@
 																<RTPC Name="" ID="{0828088B-CD32-41EC-8BCC-F041C9C98E94}" ShortID="699505848">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
-																			<ObjectRef Name="Ambiance_Spat" ID="{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																			<ObjectRef Name="Ambiance_Spat_Desert" ID="{00523015-977D-4611-AAA4-06EA3E948BCD}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<Curve Name="" ID="{21438172-B9CA-4B8B-9DA0-4E70D4F0A5F8}">
