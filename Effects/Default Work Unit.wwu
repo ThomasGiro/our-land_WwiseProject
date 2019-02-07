@@ -9,6 +9,7 @@
 						<Property Name="FrequencyBand1" Type="Real32" Value="95"/>
 						<Property Name="FrequencyBand2" Type="Real32" Value="533"/>
 						<Property Name="FrequencyBand3" Type="Real32" Value="6813"/>
+						<Property Name="GainBand2" Type="Real32" Value="14"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

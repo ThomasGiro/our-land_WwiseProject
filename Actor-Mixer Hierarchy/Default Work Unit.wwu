@@ -312,19 +312,31 @@
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="26"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-17</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Compressor (Custom)" ID="{5BC027B9-6D3F-4383-ACFF-5711B3DE6581}" ShortID="227394811" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+													<PropertyList>
+														<Property Name="OutputGain" Type="Real32" Value="8.2"/>
+														<Property Name="Ratio" Type="Real32" Value="9.8"/>
+														<Property Name="Threshold" Type="Real32" Value="-48.2"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Wind" ID="{063F130C-9743-4F7E-BBA3-453C0701E2D9}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
@@ -1279,7 +1291,7 @@
 														<Property Name="OverrideEffect" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-12</Value>
+																<Value>-20</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -1437,6 +1449,426 @@
 													</PropertyList>
 												</Panner>
 												<Position Name="" ID="{50403130-B5ED-475B-A10C-D11C5071E08A}"/>
+											</PositioningInfo>
+										</BlendContainer>
+										<BlendContainer Name="Wetlands" ID="{E1DF7FA3-A5EF-4F95-A188-4436381AF6DD}" ShortID="529776808">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{32D8B72C-7AFC-4F5E-83C1-6DDB9CA599AD}" ShortID="812426796">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Zoom_Level" ID="{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{A1A37474-23F5-4C66-B88D-2C5F5663063D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>60.50157</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Wetlands" ID="{16A1BA81-F62D-4AFC-B07A-4D00507DF2D1}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Wetlands" ID="{48DB8FB1-CB93-408E-88A1-E0AE170F5A63}" ShortID="793427974">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="1"/>
+														<Property Name="Color" Type="int16" Value="9"/>
+														<Property Name="OverrideColor" Type="bool" Value="True"/>
+														<Property Name="OverrideOutput" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Wetlands" ID="{16A1BA81-F62D-4AFC-B07A-4D00507DF2D1}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Dynamic_Ambiance_Wetlands-001" ID="{69154E61-C062-4884-807B-DCE7B5EA1124}" ShortID="619063205">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_Wetlands-001" ID="{F1085FC2-78BA-44A2-9EB1-3495222AB24A}" ShortID="38588243">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_Wetlands-001.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_Wetlands-001" ID="{F1085FC2-78BA-44A2-9EB1-3495222AB24A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_Wetlands-002" ID="{C44C0A4B-980C-427E-904C-E7A6AAFE8FC0}" ShortID="972953697">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_Wetlands-002" ID="{BEF61F01-7F74-49B5-8D51-6DE7D69715EE}" ShortID="62256529">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_Wetlands-002.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_Wetlands-002" ID="{BEF61F01-7F74-49B5-8D51-6DE7D69715EE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_Wetlands-003" ID="{464BEB95-BA6C-4976-98C9-0A804076ECC0}" ShortID="4403970">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_Wetlands-003" ID="{5C017524-2E71-4B2F-8E88-97FAB0B29471}" ShortID="664439473">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_Wetlands-003.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_Wetlands-003" ID="{5C017524-2E71-4B2F-8E88-97FAB0B29471}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_Wetlands-004" ID="{5B75F3DD-38CD-406A-91E8-F297D0F7EBB1}" ShortID="351112818">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_Wetlands-004" ID="{BDB9B461-B5D8-41EA-94CB-B3506AB41E56}" ShortID="53098427">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_Wetlands-004.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_Wetlands-004" ID="{BDB9B461-B5D8-41EA-94CB-B3506AB41E56}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_Wetlands-005" ID="{A173B06D-531F-4919-B57F-12E3C48D32CF}" ShortID="1000942321">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_Wetlands-005" ID="{7D192998-4F91-4939-BD7E-2C668FA8718A}" ShortID="625263314">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_Wetlands-005.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_Wetlands-005" ID="{7D192998-4F91-4939-BD7E-2C668FA8718A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_Wetlands-006" ID="{94D5D3A3-9FC7-41DF-96E4-829F26BCB2F8}" ShortID="632248483">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_Wetlands-006" ID="{CBE7A128-7CA1-4B74-BA45-D7DD354C4FED}" ShortID="86242999">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_Wetlands-006.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_Wetlands-006" ID="{CBE7A128-7CA1-4B74-BA45-D7DD354C4FED}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_Wetlands-007" ID="{109FDF96-E970-4E85-B4D4-F5B3DBCD0AFE}" ShortID="972696154">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_Wetlands-007" ID="{7ED12119-647F-4614-BD57-9694C9084F04}" ShortID="78773237">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_Wetlands-007.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_Wetlands-007" ID="{7ED12119-647F-4614-BD57-9694C9084F04}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_Wetlands-008" ID="{6B479C29-3C9E-4ACE-8BB4-3EE200FD609A}" ShortID="1039553864">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_Wetlands-008" ID="{AFBF6376-2703-4AA3-B88F-422DD77FA4DF}" ShortID="255710552">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_Wetlands-008.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_Wetlands-008" ID="{AFBF6376-2703-4AA3-B88F-422DD77FA4DF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_Wetlands-009" ID="{84B39CEC-BA1A-40EF-AB83-09A3A3F57CFE}" ShortID="825491707">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_Wetlands-009" ID="{6E955FB1-9722-4F1E-8DD6-39718607152D}" ShortID="587538048">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_Wetlands-009.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_Wetlands-009" ID="{6E955FB1-9722-4F1E-8DD6-39718607152D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_Wetlands-010" ID="{7E91D57C-4604-4CBB-BE6C-03C6806B6EAE}" ShortID="521627701">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_Wetlands-010" ID="{4696CE57-9E99-4528-85CD-01A79483498D}" ShortID="549834454">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_Wetlands-010.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_Wetlands-010" ID="{4696CE57-9E99-4528-85CD-01A79483498D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{B9112E89-73BB-424E-A72E-DEB5E60F6C36}"/>
+														<Position Name="" ID="{23C15DEF-8279-468E-828F-F1924B228578}"/>
+													</PositioningInfo>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="FROGS" ID="{24858632-979C-4B4D-BF4C-B3910CDA4679}" ShortID="328864962">
+													<PropertyList>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{E79C6DBE-244C-4800-8333-2048878046A2}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="57"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-18</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Dynamic_Ambiance_FROGS-001" ID="{8194B441-CBE5-4CB6-BDF1-9563951FABBD}" ShortID="180287362">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_FROGS-001" ID="{6A61B6EA-823A-41CB-871F-A0130F6C9A74}" ShortID="986752283">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_FROGS-001.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_FROGS-001" ID="{6A61B6EA-823A-41CB-871F-A0130F6C9A74}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_FROGS-002" ID="{0BFE3767-22A9-47E8-9EF8-26D21E505C5E}" ShortID="184733625">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_FROGS-002" ID="{1E6E7429-8986-4B1B-81D4-52DFC0B56E3E}" ShortID="38216021">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_FROGS-002.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_FROGS-002" ID="{1E6E7429-8986-4B1B-81D4-52DFC0B56E3E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_FROGS-003" ID="{67276F8E-2DCC-4003-9837-A5D28386F298}" ShortID="646411624">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_FROGS-003" ID="{C2AC2B5D-E746-4B18-BD41-92B5B00077D4}" ShortID="57680916">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_FROGS-003.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_FROGS-003" ID="{C2AC2B5D-E746-4B18-BD41-92B5B00077D4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Dynamic_Ambiance_FROGS-004" ID="{75B26E39-6F34-43F1-A632-E8BB9B3D8EEC}" ShortID="939191165">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Dynamic_Ambiance_FROGS-004" ID="{ECCD1640-DED6-4886-9AB8-9C7EA1A49AF9}" ShortID="89261594">
+																	<Language>SFX</Language>
+																	<AudioFile>Dynamic_Ambiance_FROGS-004.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Dynamic_Ambiance_FROGS-004" ID="{ECCD1640-DED6-4886-9AB8-9C7EA1A49AF9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{F9FF6727-CF2D-4C14-B421-6B428516B131}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{6D566C8D-7440-4DF9-8893-3D0BD793E860}" ShortID="762911145">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Ambiance_Spat_Wetlands" ID="{A51CD4B1-5CA1-4518-B215-AE97ECF732A3}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{FCBFC15D-FCC9-4E6F-8DA5-8F0D737BBABA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-90</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>90</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+												</Panner>
+												<Position Name="" ID="{E08C5B72-A350-4D15-AF6C-5E88C2288683}"/>
 											</PositioningInfo>
 										</BlendContainer>
 									</ChildrenList>

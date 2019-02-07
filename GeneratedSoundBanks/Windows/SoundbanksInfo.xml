@@ -43,9 +43,29 @@
 					<ShortName>Bird_Oneshot.wav</ShortName>
 					<Path>SFX\Bird_Oneshot_474E68A2.wem</Path>
 				</File>
+				<File Id="38216021" Language="SFX">
+					<ShortName>Dynamic_Ambiance_FROGS-002.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_FROGS-002_474E68A2.wem</Path>
+				</File>
+				<File Id="38588243" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Wetlands-001.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Wetlands-001_474E68A2.wem</Path>
+				</File>
+				<File Id="53098427" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Wetlands-004.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Wetlands-004_474E68A2.wem</Path>
+				</File>
 				<File Id="56958565" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-004.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-004_474E68A2.wem</Path>
+				</File>
+				<File Id="57680916" Language="SFX">
+					<ShortName>Dynamic_Ambiance_FROGS-003.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_FROGS-003_474E68A2.wem</Path>
+				</File>
+				<File Id="62256529" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Wetlands-002.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Wetlands-002_474E68A2.wem</Path>
 				</File>
 				<File Id="76071141" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-008.wav</ShortName>
@@ -55,9 +75,21 @@
 					<ShortName>Dynamic_Ambiance_River-005.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River-005_474E68A2.wem</Path>
 				</File>
+				<File Id="78773237" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Wetlands-007.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Wetlands-007_474E68A2.wem</Path>
+				</File>
+				<File Id="86242999" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Wetlands-006.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Wetlands-006_474E68A2.wem</Path>
+				</File>
 				<File Id="87767153" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-002.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-002_474E68A2.wem</Path>
+				</File>
+				<File Id="89261594" Language="SFX">
+					<ShortName>Dynamic_Ambiance_FROGS-004.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_FROGS-004_474E68A2.wem</Path>
 				</File>
 				<File Id="93093852" Language="SFX">
 					<ShortName>OurLand_MUSIC_Placeholder.wav</ShortName>
@@ -82,6 +114,10 @@
 				<File Id="242273055" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-009.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-009_474E68A2.wem</Path>
+				</File>
+				<File Id="255710552" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Wetlands-008.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Wetlands-008_474E68A2.wem</Path>
 				</File>
 				<File Id="256957239" Language="SFX">
 					<ShortName>gun_shot_01.wav</ShortName>
@@ -131,9 +167,17 @@
 					<ShortName>SFX_Wind_Zoomed_Lvl0-006.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-006_474E68A2.wem</Path>
 				</File>
+				<File Id="549834454" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Wetlands-010.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Wetlands-010_474E68A2.wem</Path>
+				</File>
 				<File Id="567378333" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-005.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-005_474E68A2.wem</Path>
+				</File>
+				<File Id="587538048" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Wetlands-009.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Wetlands-009_474E68A2.wem</Path>
 				</File>
 				<File Id="594098757" Language="SFX">
 					<ShortName>Ourland recherches 3_1.wav</ShortName>
@@ -147,6 +191,10 @@
 					<ShortName>Dynamic_Ambiance_River_Intricate-005.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River_Intricate-005_474E68A2.wem</Path>
 				</File>
+				<File Id="625263314" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Wetlands-005.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Wetlands-005_474E68A2.wem</Path>
+				</File>
 				<File Id="641959817" Language="SFX">
 					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-003.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-003_BD3A870E.wem</Path>
@@ -158,6 +206,10 @@
 				<File Id="662579089" Language="SFX">
 					<ShortName>DESERT_Pl.wav</ShortName>
 					<Path>SFX\DESERT_Pl_E60452FC.wem</Path>
+				</File>
+				<File Id="664439473" Language="SFX">
+					<ShortName>Dynamic_Ambiance_Wetlands-003.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_Wetlands-003_474E68A2.wem</Path>
 				</File>
 				<File Id="665224743" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-002.wav</ShortName>
@@ -226,6 +278,10 @@
 				<File Id="923689386" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River_Intricate-002.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River_Intricate-002_474E68A2.wem</Path>
+				</File>
+				<File Id="986752283" Language="SFX">
+					<ShortName>Dynamic_Ambiance_FROGS-001.wav</ShortName>
+					<Path>SFX\Dynamic_Ambiance_FROGS-001_474E68A2.wem</Path>
 				</File>
 				<File Id="1004973654" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-007.wav</ShortName>

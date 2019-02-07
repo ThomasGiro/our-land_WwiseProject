@@ -47,7 +47,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="WETLAND_Pl" ID="{9A35A64A-0A9F-478F-8004-F783A9525FCC}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+											<ObjectRef Name="Wetlands" ID="{E1DF7FA3-A5EF-4F95-A188-4436381AF6DD}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
