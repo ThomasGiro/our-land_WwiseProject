@@ -31,6 +31,8 @@
 				<Event Id="1498169336" Name="Play_River" ObjectPath="\Events\Default Work Unit\Placeholders\Play_River"/>
 				<Event Id="459120378" Name="Play_SFX_Button_Landing" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Landing"/>
 				<Event Id="4237694027" Name="Play_SFX_Button_Takeoff" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Takeoff"/>
+				<Event Id="3585368619" Name="Play_SFX_Button_YourShip_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_YourShip_Close"/>
+				<Event Id="2679153517" Name="Play_SFX_Button_YourShip_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_YourShip_Open"/>
 				<Event Id="2876783754" Name="Play_SFX_Kill_Rhtuk_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory"/>
 				<Event Id="326359121" Name="Play_SFX_Kill_Sheep_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory"/>
 				<Event Id="955079766" Name="Play_TakeOff" ObjectPath="\Events\Default Work Unit\Play_TakeOff"/>
@@ -127,6 +129,10 @@
 					<ShortName>gun_shot_01.wav</ShortName>
 					<Path>SFX\gun_shot_01_474E68A2.wem</Path>
 				</File>
+				<File Id="294011673" Language="SFX">
+					<ShortName>SFX_Button_YourShip_Open.wav</ShortName>
+					<Path>SFX\SFX_Button_YourShip_Open_008AE5CF.wem</Path>
+				</File>
 				<File Id="330548806" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-010.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-010_474E68A2.wem</Path>
@@ -203,6 +209,10 @@
 					<ShortName>Dynamic_Ambiance_Wetlands-005.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_Wetlands-005_474E68A2.wem</Path>
 				</File>
+				<File Id="640375839" Language="SFX">
+					<ShortName>SFX_Button_YourShip_Close.wav</ShortName>
+					<Path>SFX\SFX_Button_YourShip_Close_415806F8.wem</Path>
+				</File>
 				<File Id="641959817" Language="SFX">
 					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-003.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_Desert_Sand_Long-003_BD3A870E.wem</Path>
@@ -249,7 +259,7 @@
 				</File>
 				<File Id="734362256" Language="SFX">
 					<ShortName>SHIP-LANDING.wav</ShortName>
-					<Path>SFX\SHIP-LANDING_03A1144F.wem</Path>
+					<Path>SFX\SHIP-LANDING_787A8414.wem</Path>
 				</File>
 				<File Id="745972231" Language="SFX">
 					<ShortName>SFX_Kill_Sheep_V2.wav</ShortName>

@@ -2400,6 +2400,66 @@
 								<ActiveSource Name="End_Turn_Pl" ID="{CDF82551-AE97-44EC-818F-6316B04EC096}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="SFX_Button_IGMenu_Open" ID="{070ED147-3ED2-47EB-AD5E-60A838E782AA}" ShortID="30642944">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Button_YourShip_Open" ID="{64EABD09-9180-4C5E-9C81-81E81CDF2A9B}" ShortID="294011673">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="4.52309344790548E-02"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.226992282293034"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_Button_YourShip_Open.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Button_YourShip_Open" ID="{64EABD09-9180-4C5E-9C81-81E81CDF2A9B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Button_IGMenu_Close" ID="{0A2742B6-64FD-44ED-BD0C-D5970A5C5704}" ShortID="146553749">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Button_YourShip_Close" ID="{5E6FF3FE-081B-4463-8BB2-0F774559A252}" ShortID="640375839">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="3.69967577674345E-02"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.042688566654732"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_Button_YourShip_Close.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Button_YourShip_Close" ID="{5E6FF3FE-081B-4463-8BB2-0F774559A252}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

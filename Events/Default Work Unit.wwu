@@ -257,6 +257,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Button_IGMenu_Open" ID="{C2520042-6A98-4961-8890-9B1297034B4C}">
+					<ChildrenList>
+						<Action Name="" ID="{5FBAD0AD-C10F-44A7-88DF-1460D2726148}" ShortID="334291495">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Button_IGMenu_Open" ID="{070ED147-3ED2-47EB-AD5E-60A838E782AA}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Button_IGMenu_Close" ID="{5644D8AE-B6B5-4261-92F3-73A66F2135EC}">
+					<ChildrenList>
+						<Action Name="" ID="{6A2EF5DD-2362-48A2-833E-50C63AF9536D}" ShortID="826561402">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Button_IGMenu_Close" ID="{0A2742B6-64FD-44ED-BD0C-D5970A5C5704}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
