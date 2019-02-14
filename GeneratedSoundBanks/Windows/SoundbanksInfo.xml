@@ -24,10 +24,13 @@
 				<Event Id="2320060182" Name="Play_Choice_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_Choice_Pl"/>
 				<Event Id="4137235956" Name="Play_DESERT_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_DESERT_Pl"/>
 				<Event Id="1313846872" Name="Play_End_Turn_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_End_Turn_Pl"/>
+				<Event Id="2323405115" Name="Play_Landing" ObjectPath="\Events\Default Work Unit\Play_Landing"/>
 				<Event Id="2932040671" Name="Play_MUSIC" ObjectPath="\Events\Default Work Unit\Placeholders\Play_MUSIC"/>
 				<Event Id="3823867762" Name="Play_placeholder_integration" ObjectPath="\Events\Default Work Unit\Placeholders\Play_placeholder_integration"/>
 				<Event Id="566356829" Name="Play_PRAIRIE_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_PRAIRIE_Pl"/>
 				<Event Id="1498169336" Name="Play_River" ObjectPath="\Events\Default Work Unit\Placeholders\Play_River"/>
+				<Event Id="459120378" Name="Play_SFX_Button_Landing" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Landing"/>
+				<Event Id="4237694027" Name="Play_SFX_Button_Takeoff" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Takeoff"/>
 				<Event Id="2876783754" Name="Play_SFX_Kill_Rhtuk_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory"/>
 				<Event Id="326359121" Name="Play_SFX_Kill_Sheep_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory"/>
 				<Event Id="955079766" Name="Play_TakeOff" ObjectPath="\Events\Default Work Unit\Play_TakeOff"/>
@@ -127,6 +130,10 @@
 				<File Id="330548806" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-010.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-010_474E68A2.wem</Path>
+				</File>
+				<File Id="340178806" Language="SFX">
+					<ShortName>SFX_Button_TakeOff.wav</ShortName>
+					<Path>SFX\SFX_Button_TakeOff_474E68A2.wem</Path>
 				</File>
 				<File Id="341377109" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River-002.wav</ShortName>
@@ -240,6 +247,10 @@
 					<ShortName>Bird_Oneshot-Sparrow-001.wav</ShortName>
 					<Path>SFX\Bird_Oneshot-Sparrow-001_474E68A2.wem</Path>
 				</File>
+				<File Id="734362256" Language="SFX">
+					<ShortName>SHIP-LANDING.wav</ShortName>
+					<Path>SFX\SHIP-LANDING_03A1144F.wem</Path>
+				</File>
 				<File Id="745972231" Language="SFX">
 					<ShortName>SFX_Kill_Sheep_V2.wav</ShortName>
 					<Path>SFX\SFX_Kill_Sheep_V2_474E68A2.wem</Path>
@@ -307,6 +318,10 @@
 				<File Id="1053048763" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River-004.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River-004_474E68A2.wem</Path>
+				</File>
+				<File Id="1062908090" Language="SFX">
+					<ShortName>SFX_Button_Landing.wav</ShortName>
+					<Path>SFX\SFX_Button_Landing_474E68A2.wem</Path>
 				</File>
 				<File Id="1066401080" Language="SFX">
 					<ShortName>WATER.wav</ShortName>

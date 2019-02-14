@@ -215,6 +215,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Landing" ID="{2AA65D6E-27F5-4E7F-AA53-3D3FB1EB7952}">
+					<ChildrenList>
+						<Action Name="" ID="{D0265388-6322-4DFF-BCBE-FF33F27464CD}" ShortID="677719445">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SHIP-LANDING" ID="{BC1BCF9E-EE48-476A-A047-7A7EA48E3334}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Button_Landing" ID="{A77BEF2E-44AD-4B85-B3FC-D89D24BE4B28}">
+					<ChildrenList>
+						<Action Name="" ID="{87C6696D-F5F9-4DDC-AC6A-5E04F1618544}" ShortID="455760412">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Button_Landing" ID="{A5FB5FAA-050B-4ADF-9CB1-C21B7A82A670}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Button_Takeoff" ID="{2FDF2A31-944E-4B26-9E0B-4627FB45D3A5}">
+					<ChildrenList>
+						<Action Name="" ID="{4A20A7A1-8561-4ECA-A97F-F9EBF51594DA}" ShortID="601153833">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Button_Takeoff" ID="{F2EA1D02-A63E-46F3-830B-25D91F6F064D}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

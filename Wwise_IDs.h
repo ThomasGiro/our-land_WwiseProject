@@ -16,10 +16,13 @@ namespace AK
         static const AkUniqueID PLAY_CHOICE_PL = 2320060182U;
         static const AkUniqueID PLAY_DESERT_PL = 4137235956U;
         static const AkUniqueID PLAY_END_TURN_PL = 1313846872U;
+        static const AkUniqueID PLAY_LANDING = 2323405115U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PLACEHOLDER_INTEGRATION = 3823867762U;
         static const AkUniqueID PLAY_PRAIRIE_PL = 566356829U;
         static const AkUniqueID PLAY_RIVER = 1498169336U;
+        static const AkUniqueID PLAY_SFX_BUTTON_LANDING = 459120378U;
+        static const AkUniqueID PLAY_SFX_BUTTON_TAKEOFF = 4237694027U;
         static const AkUniqueID PLAY_SFX_KILL_RHTUK_VICTORY = 2876783754U;
         static const AkUniqueID PLAY_SFX_KILL_SHEEP_VICTORY = 326359121U;
         static const AkUniqueID PLAY_TAKEOFF = 955079766U;
@@ -65,6 +68,7 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID OUTDOOR_RVB = 4158266076U;
+        static const AkUniqueID REVERB = 348963605U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
