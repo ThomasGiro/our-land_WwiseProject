@@ -201,6 +201,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_TakeOff" ID="{2245F1B4-0A04-4B3E-A86B-E639F88C59E4}">
+					<ChildrenList>
+						<Action Name="" ID="{B060355A-B87F-4F48-8EAD-2872C24C20A3}" ShortID="220768140">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SHIP-TAKEOFF" ID="{546BE566-4FE6-4651-9036-06271146D4B8}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

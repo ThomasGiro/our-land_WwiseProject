@@ -30,6 +30,7 @@
 				<Event Id="1498169336" Name="Play_River" ObjectPath="\Events\Default Work Unit\Placeholders\Play_River"/>
 				<Event Id="2876783754" Name="Play_SFX_Kill_Rhtuk_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory"/>
 				<Event Id="326359121" Name="Play_SFX_Kill_Sheep_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory"/>
+				<Event Id="955079766" Name="Play_TakeOff" ObjectPath="\Events\Default Work Unit\Play_TakeOff"/>
 				<Event Id="1488595426" Name="Play_WATER_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_WATER_Pl"/>
 				<Event Id="263265384" Name="Play_WETLAND_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_WETLAND_Pl"/>
 				<Event Id="1020223172" Name="Play_WIND" ObjectPath="\Events\Default Work Unit\Play_WIND"/>
@@ -226,6 +227,10 @@
 				<File Id="714917615" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-004.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-004_474E68A2.wem</Path>
+				</File>
+				<File Id="715603608" Language="SFX">
+					<ShortName>SHIP-TAKEOFF.wav</ShortName>
+					<Path>SFX\SHIP-TAKEOFF_474E68A2.wem</Path>
 				</File>
 				<File Id="719773620" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River-006.wav</ShortName>

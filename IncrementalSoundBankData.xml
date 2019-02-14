@@ -19,12 +19,12 @@
 			<Language ID="393239870">
 				<File Name="Init" Hash="3048533251" Timestamp="1549547653"/>
 				<File Name="Main" Hash="1964707345" Timestamp="1541520812"/>
-				<File Name="Placeholder" Hash="547754162" Timestamp="1549547653"/>
+				<File Name="Placeholder" Hash="4252520749" Timestamp="1549634754"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3130354398" Timestamp="1549547653"/>
+				<File Name="" Hash="1685660814" Timestamp="1549634754"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

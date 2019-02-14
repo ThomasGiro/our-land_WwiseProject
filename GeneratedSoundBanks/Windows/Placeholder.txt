@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	263265384	Play_WETLAND_Pl			\Default Work Unit\Placeholders\Play_WETLAND_Pl	
 	326359121	Play_SFX_Kill_Sheep_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory	
 	566356829	Play_PRAIRIE_Pl			\Default Work Unit\Placeholders\Play_PRAIRIE_Pl	
+	955079766	Play_TakeOff			\Default Work Unit\Play_TakeOff	
 	1020223172	Play_WIND			\Default Work Unit\Play_WIND	
 	1313846872	Play_End_Turn_Pl			\Default Work Unit\Placeholders\Play_End_Turn_Pl	
 	1488595426	Play_WATER_Pl			\Default Work Unit\Placeholders\Play_WATER_Pl	
@@ -93,6 +94,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	670161748	SFX_Wind_Zoomed_Lvl0-003	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-003_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-003		405064
 	689162581	SFX_Wind_Zoomed_Lvl2-006	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-006_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\Prairie\SFX_Wind_Zoomed_Lvl2-006		1848970
 	714917615	SFX_Wind_Zoomed_Lvl2-004	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-004_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\Prairie\SFX_Wind_Zoomed_Lvl2-004		1605261
+	715603608	SHIP-TAKEOFF	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SHIP-TAKEOFF_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SHIP-TAKEOFF		245217
 	719773620	Dynamic_Ambiance_River-006	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Dynamic_Ambiance_River-006_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\River\River\Dynamic_Ambiance_River-006		250463
 	730001564	Bird_Oneshot-Sparrow-001	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Bird_Oneshot-Sparrow-001_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\OneShots\Bird - Sparrow\Bird_Oneshot-Sparrow-001		76444
 	745972231	SFX_Kill_Sheep_V2	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Kill_Sheep_V2_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Animals\Killing\SFX_Kill_Sheep_V2		88139
