@@ -29,10 +29,13 @@
 				<Event Id="3823867762" Name="Play_placeholder_integration" ObjectPath="\Events\Default Work Unit\Placeholders\Play_placeholder_integration"/>
 				<Event Id="566356829" Name="Play_PRAIRIE_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_PRAIRIE_Pl"/>
 				<Event Id="1498169336" Name="Play_River" ObjectPath="\Events\Default Work Unit\Placeholders\Play_River"/>
+				<Event Id="4194349577" Name="Play_SFX_Button_IGMenu_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_IGMenu_Close"/>
+				<Event Id="2719138011" Name="Play_SFX_Button_IGMenu_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_IGMenu_Open"/>
 				<Event Id="459120378" Name="Play_SFX_Button_Landing" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Landing"/>
+				<Event Id="248651782" Name="Play_SFX_Button_PPOn" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_PPOn"/>
 				<Event Id="4237694027" Name="Play_SFX_Button_Takeoff" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Takeoff"/>
-				<Event Id="3585368619" Name="Play_SFX_Button_YourShip_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_YourShip_Close"/>
-				<Event Id="2679153517" Name="Play_SFX_Button_YourShip_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_YourShip_Open"/>
+				<Event Id="1924972948" Name="Play_SFX_Button_YourQuests_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_YourQuests_Close"/>
+				<Event Id="81558832" Name="Play_SFX_Button_YourQuests_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_YourQuests_Open"/>
 				<Event Id="2876783754" Name="Play_SFX_Kill_Rhtuk_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory"/>
 				<Event Id="326359121" Name="Play_SFX_Kill_Sheep_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory"/>
 				<Event Id="955079766" Name="Play_TakeOff" ObjectPath="\Events\Default Work Unit\Play_TakeOff"/>
@@ -131,7 +134,7 @@
 				</File>
 				<File Id="294011673" Language="SFX">
 					<ShortName>SFX_Button_YourShip_Open.wav</ShortName>
-					<Path>SFX\SFX_Button_YourShip_Open_008AE5CF.wem</Path>
+					<Path>SFX\SFX_Button_YourShip_Open_4879F60A.wem</Path>
 				</File>
 				<File Id="330548806" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-010.wav</ShortName>
@@ -144,6 +147,10 @@
 				<File Id="341377109" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River-002.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River-002_474E68A2.wem</Path>
+				</File>
+				<File Id="350292567" Language="SFX">
+					<ShortName>SFX_Button_PPOn.wav</ShortName>
+					<Path>SFX\SFX_Button_PPOn_474E68A2.wem</Path>
 				</File>
 				<File Id="356673203" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-009.wav</ShortName>
@@ -211,7 +218,7 @@
 				</File>
 				<File Id="640375839" Language="SFX">
 					<ShortName>SFX_Button_YourShip_Close.wav</ShortName>
-					<Path>SFX\SFX_Button_YourShip_Close_415806F8.wem</Path>
+					<Path>SFX\SFX_Button_YourShip_Close_9503770A.wem</Path>
 				</File>
 				<File Id="641959817" Language="SFX">
 					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-003.wav</ShortName>
@@ -273,6 +280,10 @@
 					<ShortName>Bird_Oneshot-Sparrow-003.wav</ShortName>
 					<Path>SFX\Bird_Oneshot-Sparrow-003_474E68A2.wem</Path>
 				</File>
+				<File Id="760424363" Language="SFX">
+					<ShortName>SFX_Button_YourQuests_Close.wav</ShortName>
+					<Path>SFX\SFX_Button_YourQuests_Close_474E68A2.wem</Path>
+				</File>
 				<File Id="779664597" Language="SFX">
 					<ShortName>PRAIRIE_Pl.wav</ShortName>
 					<Path>SFX\PRAIRIE_Pl_C9DD171F.wem</Path>
@@ -304,6 +315,10 @@
 				<File Id="923689386" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River_Intricate-002.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River_Intricate-002_474E68A2.wem</Path>
+				</File>
+				<File Id="929598021" Language="SFX">
+					<ShortName>SFX_Button_YourQuests_Open.wav</ShortName>
+					<Path>SFX\SFX_Button_YourQuests_Open_474E68A2.wem</Path>
 				</File>
 				<File Id="986752283" Language="SFX">
 					<ShortName>Dynamic_Ambiance_FROGS-001.wav</ShortName>

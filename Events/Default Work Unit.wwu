@@ -285,6 +285,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Button_YourQuests_Open" ID="{5531A660-0045-4378-882A-E18A2BBF5A76}">
+					<ChildrenList>
+						<Action Name="" ID="{0DFC74E7-5DAD-4C3F-8543-3B701E42A8E0}" ShortID="754789453">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Button_YourQuests_Open" ID="{AC616291-BEA1-45F9-97C6-1CCFE5786931}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Button_YourQuests_Close" ID="{58812838-359F-4D5E-BBAB-D371E10021AA}">
+					<ChildrenList>
+						<Action Name="" ID="{81EE45AD-A9A3-408C-BF14-F03375017865}" ShortID="993061173">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Button_YourQuests_Close" ID="{709D2121-9ED6-4618-B3C4-91FBDF95F94D}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Button_PPOn" ID="{E302B3F7-EFC3-488E-93A8-5FF8A026270F}">
+					<ChildrenList>
+						<Action Name="" ID="{7F51A7C4-0714-4995-B4D7-B898B526CD84}" ShortID="894527560">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Button_PPOn" ID="{503A938D-0DCA-4AB4-B2BF-56CFAB6A2BFE}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

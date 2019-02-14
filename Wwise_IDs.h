@@ -21,10 +21,13 @@ namespace AK
         static const AkUniqueID PLAY_PLACEHOLDER_INTEGRATION = 3823867762U;
         static const AkUniqueID PLAY_PRAIRIE_PL = 566356829U;
         static const AkUniqueID PLAY_RIVER = 1498169336U;
+        static const AkUniqueID PLAY_SFX_BUTTON_IGMENU_CLOSE = 4194349577U;
+        static const AkUniqueID PLAY_SFX_BUTTON_IGMENU_OPEN = 2719138011U;
         static const AkUniqueID PLAY_SFX_BUTTON_LANDING = 459120378U;
+        static const AkUniqueID PLAY_SFX_BUTTON_PPON = 248651782U;
         static const AkUniqueID PLAY_SFX_BUTTON_TAKEOFF = 4237694027U;
-        static const AkUniqueID PLAY_SFX_BUTTON_YOURSHIP_CLOSE = 3585368619U;
-        static const AkUniqueID PLAY_SFX_BUTTON_YOURSHIP_OPEN = 2679153517U;
+        static const AkUniqueID PLAY_SFX_BUTTON_YOURQUESTS_CLOSE = 1924972948U;
+        static const AkUniqueID PLAY_SFX_BUTTON_YOURQUESTS_OPEN = 81558832U;
         static const AkUniqueID PLAY_SFX_KILL_RHTUK_VICTORY = 2876783754U;
         static const AkUniqueID PLAY_SFX_KILL_SHEEP_VICTORY = 326359121U;
         static const AkUniqueID PLAY_TAKEOFF = 955079766U;
