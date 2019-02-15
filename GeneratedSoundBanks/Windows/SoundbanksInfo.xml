@@ -200,10 +200,6 @@
 					<ShortName>Dynamic_Ambiance_Wetlands-009.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_Wetlands-009_474E68A2.wem</Path>
 				</File>
-				<File Id="594098757" Language="SFX">
-					<ShortName>Ourland recherches 3_1.wav</ShortName>
-					<Path>SFX\Ourland recherches 3_1_E60452FC.wem</Path>
-				</File>
 				<File Id="621104761" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-010.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-010_474E68A2.wem</Path>
@@ -319,6 +315,10 @@
 				<File Id="929598021" Language="SFX">
 					<ShortName>SFX_Button_YourQuests_Open.wav</ShortName>
 					<Path>SFX\SFX_Button_YourQuests_Open_474E68A2.wem</Path>
+				</File>
+				<File Id="967022587" Language="SFX">
+					<ShortName>Ourland Musique 2 IG.wav</ShortName>
+					<Path>SFX\Ourland Musique 2 IG_E60452FC.wem</Path>
 				</File>
 				<File Id="986752283" Language="SFX">
 					<ShortName>Dynamic_Ambiance_FROGS-001.wav</ShortName>
