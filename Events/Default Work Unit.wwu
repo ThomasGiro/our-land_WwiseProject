@@ -327,6 +327,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Button_PPOff" ID="{4AD2D63E-8CF1-4CEE-A69B-18900D5B0C3F}">
+					<ChildrenList>
+						<Action Name="" ID="{88AED20C-6D01-4D6E-A4B6-DFD9E17B670A}" ShortID="624432755">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Button_PPOff" ID="{A8A12018-254F-4FB9-B82C-0F9524DA7F78}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

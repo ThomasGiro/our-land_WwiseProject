@@ -21,126 +21,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="OurLand_MUSIC_Placeholder" ID="{6C76B4CD-BA5C-410C-B4D9-01993C8B656B}" ShortID="137149037">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="213814.004376368"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="OurLand_MUSIC_Placeholder" ID="{F305802C-BEAA-4450-B3AF-2A28DABCBE5D}" ShortID="191877217">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="OurLand_MUSIC_Placeholder" ID="{401B09E3-D170-44D7-BA4E-958984309E0A}" ShortID="93093852">
-											<Language>SFX</Language>
-											<AudioFile>OurLand_MUSIC_Placeholder.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{78FCAA1F-4E12-4A12-B0A2-77B5D94F04A5}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{AB1B3D76-1247-4B0E-856D-6BE432ADBC5A}">
-											<ClipList>
-												<MusicClip Name="OurLand_MUSIC_Placeholder" ID="{5C370B55-8D31-461B-8E9E-09FD9C8CA777}">
-													<PropertyList>
-														<Property Name="BeginTrimOffset" Type="Real64" Value="760.292360691137"/>
-														<Property Name="EndTrimOffset" Type="Real64" Value="141000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-														<Property Name="PlayAt" Type="Real64" Value="-760.292360691137"/>
-													</PropertyList>
-													<AudioSourceRef Name="OurLand_MUSIC_Placeholder" ID="{401B09E3-D170-44D7-BA4E-958984309E0A}"/>
-													<PropertyCurveList>
-														<PropertyCurve PropertyName="Highpass">
-															<Curve Name="" ID="{09C4E970-7C6E-48DB-801D-8DDC6F34F8B3}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="1"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0.76029</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>141</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</PropertyCurve>
-														<PropertyCurve PropertyName="Lowpass">
-															<Curve Name="" ID="{17969DC6-B15D-4FE7-B278-09B8BECC0B7C}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="1"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0.76029</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>141</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</PropertyCurve>
-														<PropertyCurve PropertyName="Volume">
-															<Curve Name="" ID="{7ABC711F-AC4C-485F-940A-11296C0E1BE4}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0.76029</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>141</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</PropertyCurve>
-													</PropertyCurveList>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-							</ChildrenList>
-							<CueList>
-								<MusicCue Name="Entry Cue" ID="{80E35B62-78AB-443C-8D66-81E07AC735C8}"/>
-								<MusicCue Name="Exit Cue" ID="{B10EC3EE-DC1B-472C-BD77-C095B9392E84}">
-									<PropertyList>
-										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="138000"/>
-									</PropertyList>
-								</MusicCue>
-							</CueList>
-						</MusicSegment>
 						<MusicSegment Name="Ourland Musique 2 IG" ID="{4B1976EA-8AC4-4BF1-B70B-5C633201FCCF}" ShortID="749188025">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="150400"/>
@@ -205,6 +85,133 @@
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
+						<MusicSegment Name="Ourland Musique 3 IG" ID="{09586DBE-9DFD-42F9-8651-159B4006391C}" ShortID="1028937659">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="69250"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Ourland Musique 3 IG" ID="{A486DA67-76C8-40A6-BC11-41A7FF7D3546}" ShortID="871541122">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ourland Musique 3 IG" ID="{9C116F66-A4B6-4272-B77C-0222C22C6BB7}" ShortID="685885519">
+											<Language>SFX</Language>
+											<AudioFile>Ourland Musique 3 IG.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6D5390E7-4B82-4665-902D-B4069A648480}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8BFD304A-3541-4232-B4E3-DBC718A2E6AB}">
+											<ClipList>
+												<MusicClip Name="Ourland Musique 3 IG" ID="{D4FFAB3E-7D34-444C-B560-3AAE0F08AA1D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="69250"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Ourland Musique 3 IG" ID="{9C116F66-A4B6-4272-B77C-0222C22C6BB7}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{3B366DDC-F8FA-4475-ACF9-E05A0DC84565}"/>
+								<MusicCue Name="Exit Cue" ID="{E7EE80DD-C01E-49C1-BADD-A0013078CA93}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="67810.4485776805"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Musique ourland Flutée - TEST" ID="{E4069EAD-3AE7-4F53-9AC3-F27EAE3590E3}" ShortID="42705711">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="105952.375"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Musique ourland Flutée" ID="{53E0EF94-1646-40EE-91F5-6FF13E66BE5C}" ShortID="991306371">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Musique ourland Flutée" ID="{B61F2895-256B-4294-B7F8-B5D42F7042C8}" ShortID="279356175">
+											<Language>SFX</Language>
+											<AudioFile>Musique ourland Flutée .wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D43330AF-9AC7-4022-9B6E-44E4DFFFE435}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2EA87115-39D0-4C27-B854-8B86E5BD9289}">
+											<ClipList>
+												<MusicClip Name="Musique ourland Flutée " ID="{8C5CF05B-233E-47E6-B1F9-8987BF535F6B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="105952.375"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="2053.76689004376"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Musique ourland Flutée" ID="{B61F2895-256B-4294-B7F8-B5D42F7042C8}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{46E5D8D8-BDC2-4FDF-A09E-8865F9E4CA19}"/>
+								<MusicCue Name="Exit Cue" ID="{49DA370C-080B-40B8-9E68-514FB7EA677C}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="103677.195227024"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{ADC090AF-0CFF-4109-A78C-B3F909AD6C0A}">
@@ -231,16 +238,148 @@
 									</PropertyList>
 									<SegmentRef Name="Ourland Musique 2 IG" ID="{4B1976EA-8AC4-4BF1-B70B-5C633201FCCF}"/>
 								</MusicPlaylistItem>
-								<MusicPlaylistItem Name="" ID="{0CFB43F6-D8D5-4904-A196-D5388F42583A}" ShortID="125767784">
+								<MusicPlaylistItem Name="" ID="{01D5EA42-FB01-45DC-93A8-93AFCB62FE9A}" ShortID="137466584">
 									<PropertyList>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
-									<SegmentRef Name="OurLand_MUSIC_Placeholder" ID="{6C76B4CD-BA5C-410C-B4D9-01993C8B656B}"/>
+									<SegmentRef Name="Ourland Musique 3 IG" ID="{09586DBE-9DFD-42F9-8651-159B4006391C}"/>
+								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{040D467E-8E32-44B0-90EE-00B9CE4A0DBC}" ShortID="605506192">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Musique ourland Flutée - TEST" ID="{E4069EAD-3AE7-4F53-9AC3-F27EAE3590E3}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicSegment Name="OurLand_MUSIC_Placeholder" ID="{6C76B4CD-BA5C-410C-B4D9-01993C8B656B}" ShortID="137149037">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="213814.004376368"/>
+						<Property Name="Tempo" Type="Real64" Value="80"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="OurLand_MUSIC_Placeholder" ID="{F305802C-BEAA-4450-B3AF-2A28DABCBE5D}" ShortID="191877217">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OurLand_MUSIC_Placeholder" ID="{401B09E3-D170-44D7-BA4E-958984309E0A}" ShortID="93093852">
+									<Language>SFX</Language>
+									<AudioFile>OurLand_MUSIC_Placeholder.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{78FCAA1F-4E12-4A12-B0A2-77B5D94F04A5}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{AB1B3D76-1247-4B0E-856D-6BE432ADBC5A}">
+									<ClipList>
+										<MusicClip Name="OurLand_MUSIC_Placeholder" ID="{5C370B55-8D31-461B-8E9E-09FD9C8CA777}">
+											<PropertyList>
+												<Property Name="BeginTrimOffset" Type="Real64" Value="760.292360691137"/>
+												<Property Name="EndTrimOffset" Type="Real64" Value="141000"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+												<Property Name="PlayAt" Type="Real64" Value="-760.292360691137"/>
+											</PropertyList>
+											<AudioSourceRef Name="OurLand_MUSIC_Placeholder" ID="{401B09E3-D170-44D7-BA4E-958984309E0A}"/>
+											<PropertyCurveList>
+												<PropertyCurve PropertyName="Highpass">
+													<Curve Name="" ID="{09C4E970-7C6E-48DB-801D-8DDC6F34F8B3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0.76029</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>141</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</PropertyCurve>
+												<PropertyCurve PropertyName="Lowpass">
+													<Curve Name="" ID="{17969DC6-B15D-4FE7-B278-09B8BECC0B7C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0.76029</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>141</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</PropertyCurve>
+												<PropertyCurve PropertyName="Volume">
+													<Curve Name="" ID="{7ABC711F-AC4C-485F-940A-11296C0E1BE4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0.76029</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>141</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</PropertyCurve>
+											</PropertyCurveList>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{80E35B62-78AB-443C-8D66-81E07AC735C8}"/>
+						<MusicCue Name="Exit Cue" ID="{B10EC3EE-DC1B-472C-BD77-C095B9392E84}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="138000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_BUTTON_IGMENU_CLOSE = 4194349577U;
         static const AkUniqueID PLAY_SFX_BUTTON_IGMENU_OPEN = 2719138011U;
         static const AkUniqueID PLAY_SFX_BUTTON_LANDING = 459120378U;
+        static const AkUniqueID PLAY_SFX_BUTTON_PPOFF = 1657304684U;
         static const AkUniqueID PLAY_SFX_BUTTON_PPON = 248651782U;
         static const AkUniqueID PLAY_SFX_BUTTON_TAKEOFF = 4237694027U;
         static const AkUniqueID PLAY_SFX_BUTTON_YOURQUESTS_CLOSE = 1924972948U;

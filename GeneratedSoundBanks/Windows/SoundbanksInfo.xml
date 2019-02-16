@@ -32,6 +32,7 @@
 				<Event Id="4194349577" Name="Play_SFX_Button_IGMenu_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_IGMenu_Close"/>
 				<Event Id="2719138011" Name="Play_SFX_Button_IGMenu_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_IGMenu_Open"/>
 				<Event Id="459120378" Name="Play_SFX_Button_Landing" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Landing"/>
+				<Event Id="1657304684" Name="Play_SFX_Button_PPOff" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_PPOff"/>
 				<Event Id="248651782" Name="Play_SFX_Button_PPOn" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_PPOn"/>
 				<Event Id="4237694027" Name="Play_SFX_Button_Takeoff" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Takeoff"/>
 				<Event Id="1924972948" Name="Play_SFX_Button_YourQuests_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_YourQuests_Close"/>
@@ -131,6 +132,10 @@
 				<File Id="256957239" Language="SFX">
 					<ShortName>gun_shot_01.wav</ShortName>
 					<Path>SFX\gun_shot_01_474E68A2.wem</Path>
+				</File>
+				<File Id="279356175" Language="SFX">
+					<ShortName>Musique ourland Flutée .wav</ShortName>
+					<Path>SFX\Musique ourland Flutée _E60452FC.wem</Path>
 				</File>
 				<File Id="294011673" Language="SFX">
 					<ShortName>SFX_Button_YourShip_Open.wav</ShortName>
@@ -240,6 +245,10 @@
 					<ShortName>SFX_Wind_Zoomed_Lvl0-003.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-003_474E68A2.wem</Path>
 				</File>
+				<File Id="685885519" Language="SFX">
+					<ShortName>Ourland Musique 3 IG.wav</ShortName>
+					<Path>SFX\Ourland Musique 3 IG_E60452FC.wem</Path>
+				</File>
 				<File Id="689162581" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-006.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-006_474E68A2.wem</Path>
@@ -315,6 +324,10 @@
 				<File Id="929598021" Language="SFX">
 					<ShortName>SFX_Button_YourQuests_Open.wav</ShortName>
 					<Path>SFX\SFX_Button_YourQuests_Open_474E68A2.wem</Path>
+				</File>
+				<File Id="939844333" Language="SFX">
+					<ShortName>SFX_Button_PPOff.wav</ShortName>
+					<Path>SFX\SFX_Button_PPOff_474E68A2.wem</Path>
 				</File>
 				<File Id="967022587" Language="SFX">
 					<ShortName>Ourland Musique 2 IG.wav</ShortName>
