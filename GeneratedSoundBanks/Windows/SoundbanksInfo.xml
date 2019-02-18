@@ -73,6 +73,10 @@
 					<ShortName>Dynamic_Ambiance_FROGS-003.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_FROGS-003_474E68A2.wem</Path>
 				</File>
+				<File Id="61731601" Language="SFX">
+					<ShortName>SFX_Kill_Goat_V3-01.wav</ShortName>
+					<Path>SFX\SFX_Kill_Goat_V3-01_474E68A2.wem</Path>
+				</File>
 				<File Id="62256529" Language="SFX">
 					<ShortName>Dynamic_Ambiance_Wetlands-002.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_Wetlands-002_474E68A2.wem</Path>
@@ -104,6 +108,10 @@
 				<File Id="93093852" Language="SFX">
 					<ShortName>OurLand_MUSIC_Placeholder.wav</ShortName>
 					<Path>SFX\OurLand_MUSIC_Placeholder_E60452FC.wem</Path>
+				</File>
+				<File Id="148051110" Language="SFX">
+					<ShortName>SFX_Kill_Fish-003.wav</ShortName>
+					<Path>SFX\SFX_Kill_Fish-003_474E68A2.wem</Path>
 				</File>
 				<File Id="156288907" Language="SFX">
 					<ShortName>Dynamic_Ambiance_Desert_Sand_Long-002.wav</ShortName>
@@ -273,10 +281,6 @@
 					<ShortName>SHIP-LANDING.wav</ShortName>
 					<Path>SFX\SHIP-LANDING_787A8414.wem</Path>
 				</File>
-				<File Id="745972231" Language="SFX">
-					<ShortName>SFX_Kill_Sheep_V2.wav</ShortName>
-					<Path>SFX\SFX_Kill_Sheep_V2_474E68A2.wem</Path>
-				</File>
 				<File Id="754079153" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-007.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-007_474E68A2.wem</Path>
@@ -297,9 +301,21 @@
 					<ShortName>SFX_Wind_Zoomed_Lvl2-001.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-001_474E68A2.wem</Path>
 				</File>
+				<File Id="796008941" Language="SFX">
+					<ShortName>SFX_Kill_Fish-002.wav</ShortName>
+					<Path>SFX\SFX_Kill_Fish-002_474E68A2.wem</Path>
+				</File>
+				<File Id="819237018" Language="SFX">
+					<ShortName>SFX_Kill_Goat_V3-02.wav</ShortName>
+					<Path>SFX\SFX_Kill_Goat_V3-02_474E68A2.wem</Path>
+				</File>
 				<File Id="829382407" Language="SFX">
 					<ShortName>SFX_Kill_Wood.wav</ShortName>
 					<Path>SFX\SFX_Kill_Wood_CED8C005.wem</Path>
+				</File>
+				<File Id="853173930" Language="SFX">
+					<ShortName>SFX_Kill_Fish-001.wav</ShortName>
+					<Path>SFX\SFX_Kill_Fish-001_474E68A2.wem</Path>
 				</File>
 				<File Id="866588307" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-003.wav</ShortName>
@@ -368,6 +384,10 @@
 				<File Id="1066401080" Language="SFX">
 					<ShortName>WATER.wav</ShortName>
 					<Path>SFX\WATER_3519813F.wem</Path>
+				</File>
+				<File Id="1072382410" Language="SFX">
+					<ShortName>SFX_Kill_Goat_V3.wav</ShortName>
+					<Path>SFX\SFX_Kill_Goat_V3_474E68A2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

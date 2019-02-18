@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="Animals" ID="{1A91CF7C-CFA0-4993-B20A-529F371BE99F}" ShortID="351871379">
+				<ActorMixer Name="Harvest" ID="{1A91CF7C-CFA0-4993-B20A-529F371BE99F}" ShortID="351871379">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
@@ -49,12 +49,20 @@
 										<ActiveSource Name="SFX_Kill_RTHUK_V2" ID="{B3CF58E9-8A28-4C6B-9C87-F740CA9101F1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Kill_Sheep_V2" ID="{B071796B-9FA5-43E1-9CD6-587E4085B021}" ShortID="70360402">
+								<Sound Name="SFX_Kill_Wood" ID="{533F5B3A-02D0-4025-B201-07D86A321C97}" ShortID="847901771">
 									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CD382861-3880-4EFD-A77E-75828F0D00EE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="152"/>
+															<Property Name="Min" Type="Real64" Value="-152"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -66,15 +74,179 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Kill_Sheep_V2" ID="{185076A3-4B08-4B59-B664-492F6D80130B}" ShortID="745972231">
+										<AudioFileSource Name="SFX_Kill_Wood" ID="{698515CD-4EE8-426C-93D8-1ADA9398F1BA}" ShortID="829382407">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.04678362573099E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.76315789473684E-02"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>SFX_Kill_Sheep_V2.wav</AudioFile>
+											<AudioFile>SFX_Kill_Wood.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="SFX_Kill_Sheep_V2" ID="{185076A3-4B08-4B59-B664-492F6D80130B}" Platform="Linked"/>
+										<ActiveSource Name="SFX_Kill_Wood" ID="{698515CD-4EE8-426C-93D8-1ADA9398F1BA}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="SFX_Kill_Fish" ID="{888F6FD0-8BC8-4779-8F20-8C5522CC4A30}" ShortID="207071214">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ABAD6D6A-8E24-4205-B215-97FDA1814698}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="202"/>
+															<Property Name="Min" Type="Real64" Value="-202"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Kill_Fish-001" ID="{F4D2F2A3-14EC-4977-81BD-B6FE3212FC95}" ShortID="212436485">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Kill_Fish-001" ID="{F4DD639B-2E9E-4B7F-8629-94B40F8ABEE1}" ShortID="853173930">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Kill_Fish-001.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Kill_Fish-001" ID="{F4DD639B-2E9E-4B7F-8629-94B40F8ABEE1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Kill_Fish-002" ID="{772C390D-1114-47F6-A340-272C6D14A817}" ShortID="102270381">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Kill_Fish-002" ID="{4F722F4F-8673-4B73-B2DC-B3A00EDCDB2A}" ShortID="796008941">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Kill_Fish-002.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Kill_Fish-002" ID="{4F722F4F-8673-4B73-B2DC-B3A00EDCDB2A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Kill_Fish-003" ID="{C27BD7DF-8347-4121-A413-C4F2EA8564B1}" ShortID="930573664">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Kill_Fish-003" ID="{CE78A93A-6336-452C-958C-53FA826C5A06}" ShortID="148051110">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Kill_Fish-003.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Kill_Fish-003" ID="{CE78A93A-6336-452C-958C-53FA826C5A06}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SFX_Kill_Muing" ID="{38B41B19-9AFD-4265-A0EB-E58C15520D1C}" ShortID="76043895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Kill_Sheep_V2" ID="{B071796B-9FA5-43E1-9CD6-587E4085B021}" ShortID="70360402">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX" ID="{EB1EC2A2-106B-429E-BF76-8D5AD92B580E}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Kill_Goat_V3" ID="{5FF723DA-F9C1-4C19-AF2D-0508A991DF9E}" ShortID="1072382410">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Kill_Goat_V3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Kill_Goat_V3" ID="{5FF723DA-F9C1-4C19-AF2D-0508A991DF9E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Kill_Goat_V3-01" ID="{264A3122-DA07-460F-B365-9EDC09A3B514}" ShortID="303421281">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Kill_Goat_V3-01" ID="{D3EFB21A-E3BE-45AB-9165-B7B0980E53C1}" ShortID="61731601">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Kill_Goat_V3-01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Kill_Goat_V3-01" ID="{D3EFB21A-E3BE-45AB-9165-B7B0980E53C1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Kill_Goat_V3-02" ID="{93BFF134-7F47-4CBD-8CE7-BDDC958D7E89}" ShortID="245597446">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Kill_Goat_V3-02" ID="{CE93FC4F-1C57-4867-8F3F-3541E995D951}" ShortID="819237018">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Kill_Goat_V3-02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Kill_Goat_V3-02" ID="{CE93FC4F-1C57-4867-8F3F-3541E995D951}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
@@ -2593,44 +2765,6 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX_Button_PPOff" ID="{175C2B10-4743-4783-8B75-A3238CB42FA1}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX_Kill_Wood" ID="{533F5B3A-02D0-4025-B201-07D86A321C97}" ShortID="847901771">
-					<PropertyList>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{CD382861-3880-4EFD-A77E-75828F0D00EE}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="152"/>
-											<Property Name="Min" Type="Real64" Value="-152"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_Kill_Wood" ID="{698515CD-4EE8-426C-93D8-1ADA9398F1BA}" ShortID="829382407">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="2.04678362573099E-03"/>
-								<Property Name="TrimBegin" Type="Real64" Value="2.76315789473684E-02"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>SFX_Kill_Wood.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_Kill_Wood" ID="{698515CD-4EE8-426C-93D8-1ADA9398F1BA}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

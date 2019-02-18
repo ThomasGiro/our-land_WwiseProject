@@ -153,7 +153,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="SFX_Kill_Sheep_V2" ID="{B071796B-9FA5-43E1-9CD6-587E4085B021}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+													<ObjectRef Name="SFX_Kill_Muing" ID="{38B41B19-9AFD-4265-A0EB-E58C15520D1C}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
