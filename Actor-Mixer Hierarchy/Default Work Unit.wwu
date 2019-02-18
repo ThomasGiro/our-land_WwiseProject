@@ -2669,114 +2669,178 @@
 								<ActiveSource Name="SFX_Button_YourShip_Close" ID="{5E6FF3FE-081B-4463-8BB2-0F774559A252}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="SFX_Button_PPOff" ID="{A8A12018-254F-4FB9-B82C-0F9524DA7F78}" ShortID="676661431">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{37D3175B-F317-4FF6-8871-FDF0BEB97A0E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="303"/>
+													<Property Name="Min" Type="Real64" Value="-278"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Button_PPOff" ID="{175C2B10-4743-4783-8B75-A3238CB42FA1}" ShortID="939844333">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Button_PPOff.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Button_PPOff" ID="{175C2B10-4743-4783-8B75-A3238CB42FA1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Button_PPOn" ID="{503A938D-0DCA-4AB4-B2BF-56CFAB6A2BFE}" ShortID="427961798">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{210B5734-7CA0-4D71-B5BA-F79DC4A9089C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="152"/>
+													<Property Name="Min" Type="Real64" Value="-152"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Button_PPOn" ID="{1A8A47E4-41F4-4D0A-B662-CCBFA0C6EF64}" ShortID="350292567">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Button_PPOn.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Button_PPOn" ID="{1A8A47E4-41F4-4D0A-B662-CCBFA0C6EF64}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Button_YourQuests_Close" ID="{709D2121-9ED6-4618-B3C4-91FBDF95F94D}" ShortID="1061376111">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Button_YourQuests_Close" ID="{D613B77B-3644-479A-A4D3-B8A4B5ABE7A9}" ShortID="760424363">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Button_YourQuests_Close.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Button_YourQuests_Close" ID="{D613B77B-3644-479A-A4D3-B8A4B5ABE7A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Button_YourQuests_Open" ID="{AC616291-BEA1-45F9-97C6-1CCFE5786931}" ShortID="304652351">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Button_YourQuests_Open" ID="{965F981B-F554-4245-8F88-B7B435657D0D}" ShortID="929598021">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Button_YourQuests_Open.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Button_YourQuests_Open" ID="{965F981B-F554-4245-8F88-B7B435657D0D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Quest_New" ID="{2A08DB89-0569-485C-8630-02B181D54778}" ShortID="332140418">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Quest_New" ID="{E4FECFCE-FDDA-4632-953C-D399BFC666BE}" ShortID="334272243">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Quest_New.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Quest_New" ID="{E4FECFCE-FDDA-4632-953C-D399BFC666BE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_UI_Animation-001" ID="{018A80E7-583B-405D-B860-6CEC9D55A4C4}" ShortID="990415599">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_UI_Animation-001" ID="{4BA7AF10-3BB8-4929-AA12-C566049C7EB3}" ShortID="842439774">
+									<Language>SFX</Language>
+									<AudioFile>SFX_UI_Animation-001.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_UI_Animation-001" ID="{4BA7AF10-3BB8-4929-AA12-C566049C7EB3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_UI_Animation-002" ID="{3B019921-D0AD-4451-A295-28224F684594}" ShortID="26364541">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_UI_Animation-002" ID="{8C7A34C5-B62C-4AC7-A1B1-A217370CA18D}" ShortID="526441376">
+									<Language>SFX</Language>
+									<AudioFile>SFX_UI_Animation-002.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_UI_Animation-002" ID="{8C7A34C5-B62C-4AC7-A1B1-A217370CA18D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
-				<Sound Name="SFX_Button_YourQuests_Open" ID="{AC616291-BEA1-45F9-97C6-1CCFE5786931}" ShortID="304652351">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_Button_YourQuests_Open" ID="{965F981B-F554-4245-8F88-B7B435657D0D}" ShortID="929598021">
-							<Language>SFX</Language>
-							<AudioFile>SFX_Button_YourQuests_Open.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_Button_YourQuests_Open" ID="{965F981B-F554-4245-8F88-B7B435657D0D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX_Button_YourQuests_Close" ID="{709D2121-9ED6-4618-B3C4-91FBDF95F94D}" ShortID="1061376111">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_Button_YourQuests_Close" ID="{D613B77B-3644-479A-A4D3-B8A4B5ABE7A9}" ShortID="760424363">
-							<Language>SFX</Language>
-							<AudioFile>SFX_Button_YourQuests_Close.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_Button_YourQuests_Close" ID="{D613B77B-3644-479A-A4D3-B8A4B5ABE7A9}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX_Button_PPOn" ID="{503A938D-0DCA-4AB4-B2BF-56CFAB6A2BFE}" ShortID="427961798">
-					<PropertyList>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{210B5734-7CA0-4D71-B5BA-F79DC4A9089C}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="152"/>
-											<Property Name="Min" Type="Real64" Value="-152"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_Button_PPOn" ID="{1A8A47E4-41F4-4D0A-B662-CCBFA0C6EF64}" ShortID="350292567">
-							<Language>SFX</Language>
-							<AudioFile>SFX_Button_PPOn.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_Button_PPOn" ID="{1A8A47E4-41F4-4D0A-B662-CCBFA0C6EF64}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX_Button_PPOff" ID="{A8A12018-254F-4FB9-B82C-0F9524DA7F78}" ShortID="676661431">
-					<PropertyList>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{37D3175B-F317-4FF6-8871-FDF0BEB97A0E}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="303"/>
-											<Property Name="Min" Type="Real64" Value="-278"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_Button_PPOff" ID="{175C2B10-4743-4783-8B75-A3238CB42FA1}" ShortID="939844333">
-							<Language>SFX</Language>
-							<AudioFile>SFX_Button_PPOff.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_Button_PPOff" ID="{175C2B10-4743-4783-8B75-A3238CB42FA1}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="SHIP-MOVE TEST" ID="{6D0BA339-1939-4ACE-AE1D-41A11D3B1639}" ShortID="1014807375">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
@@ -2801,63 +2865,6 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="SHIP-MOVE TEST" ID="{04D1839A-A5C6-412D-BE1E-7E0FDFCD285A}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX_UI_Animation-001" ID="{018A80E7-583B-405D-B860-6CEC9D55A4C4}" ShortID="990415599">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_UI_Animation-001" ID="{4BA7AF10-3BB8-4929-AA12-C566049C7EB3}" ShortID="842439774">
-							<Language>SFX</Language>
-							<AudioFile>SFX_UI_Animation-001.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_UI_Animation-001" ID="{4BA7AF10-3BB8-4929-AA12-C566049C7EB3}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX_UI_Animation-002" ID="{3B019921-D0AD-4451-A295-28224F684594}" ShortID="26364541">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_UI_Animation-002" ID="{8C7A34C5-B62C-4AC7-A1B1-A217370CA18D}" ShortID="526441376">
-							<Language>SFX</Language>
-							<AudioFile>SFX_UI_Animation-002.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_UI_Animation-002" ID="{8C7A34C5-B62C-4AC7-A1B1-A217370CA18D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX_Quest_New" ID="{2A08DB89-0569-485C-8630-02B181D54778}" ShortID="332140418">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_Quest_New" ID="{E4FECFCE-FDDA-4632-953C-D399BFC666BE}" ShortID="334272243">
-							<Language>SFX</Language>
-							<AudioFile>SFX_Quest_New.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_Quest_New" ID="{E4FECFCE-FDDA-4632-953C-D399BFC666BE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
