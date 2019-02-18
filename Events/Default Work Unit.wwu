@@ -369,6 +369,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Ship_Move" ID="{88BAF762-723E-4211-B73A-3DAE982389EE}">
+					<ChildrenList>
+						<Action Name="" ID="{D5BE54F6-A0C6-40D8-B4FC-D48A74E46AA6}" ShortID="177033672">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SHIP-MOVE TEST" ID="{6D0BA339-1939-4ACE-AE1D-41A11D3B1639}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

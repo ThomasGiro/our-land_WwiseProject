@@ -15,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2180620318	Play_SFX_Kill_Wood			\Default Work Unit\Play_SFX_Kill_Wood	
 	2320060182	Play_Choice_Pl			\Default Work Unit\Placeholders\Play_Choice_Pl	
 	2323405115	Play_Landing			\Default Work Unit\Play_Landing	
+	2336975836	Play_SFX_Ship_Move			\Default Work Unit\Play_SFX_Ship_Move	
 	2719138011	Play_SFX_Button_IGMenu_Open			\Default Work Unit\Play_SFX_Button_IGMenu_Open	
 	2876783754	Play_SFX_Kill_Rhtuk_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory	
 	2932040671	Play_MUSIC			\Default Work Unit\Placeholders\Play_MUSIC	
