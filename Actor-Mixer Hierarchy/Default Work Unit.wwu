@@ -2595,6 +2595,44 @@
 						<ActiveSource Name="SFX_Button_PPOff" ID="{175C2B10-4743-4783-8B75-A3238CB42FA1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="SFX_Kill_Wood" ID="{533F5B3A-02D0-4025-B201-07D86A321C97}" ShortID="847901771">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{CD382861-3880-4EFD-A77E-75828F0D00EE}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="152"/>
+											<Property Name="Min" Type="Real64" Value="-152"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Kill_Wood" ID="{698515CD-4EE8-426C-93D8-1ADA9398F1BA}" ShortID="829382407">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="2.04678362573099E-03"/>
+								<Property Name="TrimBegin" Type="Real64" Value="2.76315789473684E-02"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_Kill_Wood.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Kill_Wood" ID="{698515CD-4EE8-426C-93D8-1ADA9398F1BA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
