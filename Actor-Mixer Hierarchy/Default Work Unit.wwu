@@ -64,6 +64,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2765,6 +2770,32 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="SFX_Button_PPOff" ID="{175C2B10-4743-4783-8B75-A3238CB42FA1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SHIP-MOVE TEST" ID="{6D0BA339-1939-4ACE-AE1D-41A11D3B1639}" ShortID="1014807375">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SHIP-MOVE TEST" ID="{04D1839A-A5C6-412D-BE1E-7E0FDFCD285A}" ShortID="395666914">
+							<Language>SFX</Language>
+							<AudioFile>SHIP-MOVE TEST.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SHIP-MOVE TEST" ID="{04D1839A-A5C6-412D-BE1E-7E0FDFCD285A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

@@ -341,6 +341,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Kill_Wood" ID="{74907B44-03E5-4DD1-BE1B-5C2E1E5B0AC2}">
+					<ChildrenList>
+						<Action Name="" ID="{DE654627-85B8-4343-AD50-5275D366298E}" ShortID="196560770">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Kill_Wood" ID="{533F5B3A-02D0-4025-B201-07D86A321C97}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Kill_Fish" ID="{9B9B1B3E-51E9-4370-A52B-7311F4961E50}">
+					<ChildrenList>
+						<Action Name="" ID="{50F94025-2490-49D6-9279-861F55CF1374}" ShortID="286192346">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Kill_Fish" ID="{888F6FD0-8BC8-4779-8F20-8C5522CC4A30}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -37,8 +37,10 @@
 				<Event Id="4237694027" Name="Play_SFX_Button_Takeoff" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_Takeoff"/>
 				<Event Id="1924972948" Name="Play_SFX_Button_YourQuests_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_YourQuests_Close"/>
 				<Event Id="81558832" Name="Play_SFX_Button_YourQuests_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Button_YourQuests_Open"/>
+				<Event Id="2995306611" Name="Play_SFX_Kill_Fish" ObjectPath="\Events\Default Work Unit\Play_SFX_Kill_Fish"/>
 				<Event Id="2876783754" Name="Play_SFX_Kill_Rhtuk_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory"/>
 				<Event Id="326359121" Name="Play_SFX_Kill_Sheep_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory"/>
+				<Event Id="2180620318" Name="Play_SFX_Kill_Wood" ObjectPath="\Events\Default Work Unit\Play_SFX_Kill_Wood"/>
 				<Event Id="955079766" Name="Play_TakeOff" ObjectPath="\Events\Default Work Unit\Play_TakeOff"/>
 				<Event Id="1488595426" Name="Play_WATER_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_WATER_Pl"/>
 				<Event Id="263265384" Name="Play_WETLAND_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_WETLAND_Pl"/>
@@ -176,6 +178,10 @@
 				<File Id="365684265" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-008.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-008_474E68A2.wem</Path>
+				</File>
+				<File Id="395666914" Language="SFX">
+					<ShortName>SHIP-MOVE TEST.wav</ShortName>
+					<Path>SFX\SHIP-MOVE TEST_474E68A2.wem</Path>
 				</File>
 				<File Id="431062187" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-001.wav</ShortName>

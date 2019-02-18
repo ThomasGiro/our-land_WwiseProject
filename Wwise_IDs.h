@@ -29,8 +29,10 @@ namespace AK
         static const AkUniqueID PLAY_SFX_BUTTON_TAKEOFF = 4237694027U;
         static const AkUniqueID PLAY_SFX_BUTTON_YOURQUESTS_CLOSE = 1924972948U;
         static const AkUniqueID PLAY_SFX_BUTTON_YOURQUESTS_OPEN = 81558832U;
+        static const AkUniqueID PLAY_SFX_KILL_FISH = 2995306611U;
         static const AkUniqueID PLAY_SFX_KILL_RHTUK_VICTORY = 2876783754U;
         static const AkUniqueID PLAY_SFX_KILL_SHEEP_VICTORY = 326359121U;
+        static const AkUniqueID PLAY_SFX_KILL_WOOD = 2180620318U;
         static const AkUniqueID PLAY_TAKEOFF = 955079766U;
         static const AkUniqueID PLAY_WATER_PL = 1488595426U;
         static const AkUniqueID PLAY_WETLAND_PL = 263265384U;
