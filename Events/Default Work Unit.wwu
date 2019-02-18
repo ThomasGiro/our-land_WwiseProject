@@ -241,6 +241,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{0E622815-3775-4BCC-A04C-2C9F08CFCB3D}" ShortID="787050025">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_UI_Animation-002" ID="{3B019921-D0AD-4451-A295-28224F684594}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_SFX_Button_Takeoff" ID="{2FDF2A31-944E-4B26-9E0B-4627FB45D3A5}">
@@ -252,6 +262,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Button_Takeoff" ID="{F2EA1D02-A63E-46F3-830B-25D91F6F064D}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D9E676AC-9034-4F70-99F5-6933D19F4462}" ShortID="644033638">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_UI_Animation-001" ID="{018A80E7-583B-405D-B860-6CEC9D55A4C4}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -378,6 +398,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SHIP-MOVE TEST" ID="{6D0BA339-1939-4ACE-AE1D-41A11D3B1639}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Quest_New" ID="{E67EC59C-155C-4307-97FF-6E7578B73472}">
+					<ChildrenList>
+						<Action Name="" ID="{F196345A-7FEA-46AA-BF34-D108B98E8E05}" ShortID="902098563">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Button_YourQuests_Open" ID="{AC616291-BEA1-45F9-97C6-1CCFE5786931}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

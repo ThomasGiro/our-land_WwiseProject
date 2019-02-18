@@ -41,6 +41,7 @@
 				<Event Id="2876783754" Name="Play_SFX_Kill_Rhtuk_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory"/>
 				<Event Id="326359121" Name="Play_SFX_Kill_Sheep_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory"/>
 				<Event Id="2180620318" Name="Play_SFX_Kill_Wood" ObjectPath="\Events\Default Work Unit\Play_SFX_Kill_Wood"/>
+				<Event Id="3712003399" Name="Play_SFX_Quest_New" ObjectPath="\Events\Default Work Unit\Play_SFX_Quest_New"/>
 				<Event Id="2336975836" Name="Play_SFX_Ship_Move" ObjectPath="\Events\Default Work Unit\Play_SFX_Ship_Move"/>
 				<Event Id="955079766" Name="Play_TakeOff" ObjectPath="\Events\Default Work Unit\Play_TakeOff"/>
 				<Event Id="1488595426" Name="Play_WATER_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_WATER_Pl"/>
@@ -156,6 +157,10 @@
 					<ShortName>SFX_Wind_Zoomed_Lvl2-010.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-010_474E68A2.wem</Path>
 				</File>
+				<File Id="334272243" Language="SFX">
+					<ShortName>SFX_Quest_New.wav</ShortName>
+					<Path>SFX\SFX_Quest_New_474E68A2.wem</Path>
+				</File>
 				<File Id="340178806" Language="SFX">
 					<ShortName>SFX_Button_TakeOff.wav</ShortName>
 					<Path>SFX\SFX_Button_TakeOff_474E68A2.wem</Path>
@@ -203,6 +208,10 @@
 				<File Id="491468568" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River_Intricate-004.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River_Intricate-004_474E68A2.wem</Path>
+				</File>
+				<File Id="526441376" Language="SFX">
+					<ShortName>SFX_UI_Animation-002.wav</ShortName>
+					<Path>SFX\SFX_UI_Animation-002_474E68A2.wem</Path>
 				</File>
 				<File Id="542583068" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-006.wav</ShortName>
@@ -319,6 +328,10 @@
 				<File Id="829382407" Language="SFX">
 					<ShortName>SFX_Kill_Wood.wav</ShortName>
 					<Path>SFX\SFX_Kill_Wood_953B6D8D.wem</Path>
+				</File>
+				<File Id="842439774" Language="SFX">
+					<ShortName>SFX_UI_Animation-001.wav</ShortName>
+					<Path>SFX\SFX_UI_Animation-001_474E68A2.wem</Path>
 				</File>
 				<File Id="853173930" Language="SFX">
 					<ShortName>SFX_Kill_Fish-001.wav</ShortName>
