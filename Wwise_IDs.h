@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_CHOICE_PL = 2320060182U;
         static const AkUniqueID PLAY_DESERT_PL = 4137235956U;
         static const AkUniqueID PLAY_END_TURN_PL = 1313846872U;
+        static const AkUniqueID PLAY_GAMEOVER = 3174629258U;
         static const AkUniqueID PLAY_LANDING = 2323405115U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PLACEHOLDER_INTEGRATION = 3823867762U;
@@ -33,6 +34,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_KILL_RHTUK_VICTORY = 2876783754U;
         static const AkUniqueID PLAY_SFX_KILL_SHEEP_VICTORY = 326359121U;
         static const AkUniqueID PLAY_SFX_KILL_WOOD = 2180620318U;
+        static const AkUniqueID PLAY_SFX_MUING_BITE = 4207432381U;
         static const AkUniqueID PLAY_SFX_QUEST_NEW = 3712003399U;
         static const AkUniqueID PLAY_SFX_SHIP_MOVE = 2336975836U;
         static const AkUniqueID PLAY_TAKEOFF = 955079766U;

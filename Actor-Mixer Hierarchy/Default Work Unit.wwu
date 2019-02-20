@@ -3669,6 +3669,7 @@
 				</Sound>
 				<Sound Name="SFX_Muing_Bite" ID="{E94C56BE-7DF0-4EF3-B21B-272DB6545C22}" ShortID="679325327">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
@@ -3702,6 +3703,9 @@
 							<AudioFile>MuingBite.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{FA311BC6-E892-4960-B747-15C645C23FED}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="MuingBite" ID="{293A963A-383F-4238-9D30-AB21B66A303D}" Platform="Linked"/>
 					</ActiveSourceList>

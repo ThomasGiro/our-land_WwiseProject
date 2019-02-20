@@ -24,6 +24,7 @@
 				<Event Id="2320060182" Name="Play_Choice_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_Choice_Pl"/>
 				<Event Id="4137235956" Name="Play_DESERT_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_DESERT_Pl"/>
 				<Event Id="1313846872" Name="Play_End_Turn_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_End_Turn_Pl"/>
+				<Event Id="3174629258" Name="Play_GameOver" ObjectPath="\Events\Default Work Unit\Play_GameOver"/>
 				<Event Id="2323405115" Name="Play_Landing" ObjectPath="\Events\Default Work Unit\Play_Landing"/>
 				<Event Id="2932040671" Name="Play_MUSIC" ObjectPath="\Events\Default Work Unit\Placeholders\Play_MUSIC"/>
 				<Event Id="3823867762" Name="Play_placeholder_integration" ObjectPath="\Events\Default Work Unit\Placeholders\Play_placeholder_integration"/>
@@ -41,6 +42,7 @@
 				<Event Id="2876783754" Name="Play_SFX_Kill_Rhtuk_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory"/>
 				<Event Id="326359121" Name="Play_SFX_Kill_Sheep_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory"/>
 				<Event Id="2180620318" Name="Play_SFX_Kill_Wood" ObjectPath="\Events\Default Work Unit\Play_SFX_Kill_Wood"/>
+				<Event Id="4207432381" Name="Play_SFX_Muing_Bite" ObjectPath="\Events\Default Work Unit\Play_SFX_Muing_Bite"/>
 				<Event Id="3712003399" Name="Play_SFX_Quest_New" ObjectPath="\Events\Default Work Unit\Play_SFX_Quest_New"/>
 				<Event Id="2336975836" Name="Play_SFX_Ship_Move" ObjectPath="\Events\Default Work Unit\Play_SFX_Ship_Move"/>
 				<Event Id="955079766" Name="Play_TakeOff" ObjectPath="\Events\Default Work Unit\Play_TakeOff"/>
@@ -250,6 +252,10 @@
 					<ShortName>Dynamic_Ambiance_Wetlands-010.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_Wetlands-010_474E68A2.wem</Path>
 				</File>
+				<File Id="553175166" Language="SFX">
+					<ShortName>GAMEOVEROURLAND.wav</ShortName>
+					<Path>SFX\GAMEOVEROURLAND_474E68A2.wem</Path>
+				</File>
 				<File Id="566503390" Language="SFX">
 					<ShortName>WinterWind-009.wav</ShortName>
 					<Path>SFX\WinterWind-009_474E68A2.wem</Path>
@@ -421,6 +427,10 @@
 				<File Id="967022587" Language="SFX">
 					<ShortName>Ourland Musique 2 IG.wav</ShortName>
 					<Path>SFX\Ourland Musique 2 IG_E60452FC.wem</Path>
+				</File>
+				<File Id="984221016" Language="SFX">
+					<ShortName>MuingBite.wav</ShortName>
+					<Path>SFX\MuingBite_474E68A2.wem</Path>
 				</File>
 				<File Id="986752283" Language="SFX">
 					<ShortName>Dynamic_Ambiance_FROGS-001.wav</ShortName>
