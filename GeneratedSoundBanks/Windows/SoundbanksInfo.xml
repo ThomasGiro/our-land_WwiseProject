@@ -47,8 +47,13 @@
 				<Event Id="1488595426" Name="Play_WATER_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_WATER_Pl"/>
 				<Event Id="263265384" Name="Play_WETLAND_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_WETLAND_Pl"/>
 				<Event Id="1020223172" Name="Play_WIND" ObjectPath="\Events\Default Work Unit\Play_WIND"/>
+				<Event Id="954902742" Name="Play_Winter_Wind" ObjectPath="\Events\Default Work Unit\Play_Winter_Wind"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="6237861" Language="SFX">
+					<ShortName>WinterWind-012.wav</ShortName>
+					<Path>SFX\WinterWind-012_474E68A2.wem</Path>
+				</File>
 				<File Id="13508074" Language="SFX">
 					<ShortName>WETLAND_Pl.wav</ShortName>
 					<Path>SFX\WETLAND_Pl_0F603339.wem</Path>
@@ -101,6 +106,10 @@
 					<ShortName>Dynamic_Ambiance_Wetlands-006.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_Wetlands-006_474E68A2.wem</Path>
 				</File>
+				<File Id="86759531" Language="SFX">
+					<ShortName>WinterWind-011.wav</ShortName>
+					<Path>SFX\WinterWind-011_474E68A2.wem</Path>
+				</File>
 				<File Id="87767153" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl0-002.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl0-002_474E68A2.wem</Path>
@@ -112,6 +121,14 @@
 				<File Id="93093852" Language="SFX">
 					<ShortName>OurLand_MUSIC_Placeholder.wav</ShortName>
 					<Path>SFX\OurLand_MUSIC_Placeholder_E60452FC.wem</Path>
+				</File>
+				<File Id="112410997" Language="SFX">
+					<ShortName>WinterWind-003.wav</ShortName>
+					<Path>SFX\WinterWind-003_474E68A2.wem</Path>
+				</File>
+				<File Id="134076538" Language="SFX">
+					<ShortName>WinterWind-007.wav</ShortName>
+					<Path>SFX\WinterWind-007_474E68A2.wem</Path>
 				</File>
 				<File Id="148051110" Language="SFX">
 					<ShortName>SFX_Kill_Fish-003.wav</ShortName>
@@ -129,6 +146,14 @@
 					<ShortName>Bird_Oneshot-002.wav</ShortName>
 					<Path>SFX\Bird_Oneshot-002_474E68A2.wem</Path>
 				</File>
+				<File Id="210062409" Language="SFX">
+					<ShortName>WinterWind-002.wav</ShortName>
+					<Path>SFX\WinterWind-002_474E68A2.wem</Path>
+				</File>
+				<File Id="218633167" Language="SFX">
+					<ShortName>WinterWind-010.wav</ShortName>
+					<Path>SFX\WinterWind-010_474E68A2.wem</Path>
+				</File>
 				<File Id="223704721" Language="SFX">
 					<ShortName>Choice_Pl.wav</ShortName>
 					<Path>SFX\Choice_Pl_474E68A2.wem</Path>
@@ -136,6 +161,10 @@
 				<File Id="242273055" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-009.wav</ShortName>
 					<Path>SFX\SFX_Wind_Zoomed_Lvl2-009_474E68A2.wem</Path>
+				</File>
+				<File Id="252530489" Language="SFX">
+					<ShortName>WinterWind-008.wav</ShortName>
+					<Path>SFX\WinterWind-008_474E68A2.wem</Path>
 				</File>
 				<File Id="255710552" Language="SFX">
 					<ShortName>Dynamic_Ambiance_Wetlands-008.wav</ShortName>
@@ -220,6 +249,14 @@
 				<File Id="549834454" Language="SFX">
 					<ShortName>Dynamic_Ambiance_Wetlands-010.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_Wetlands-010_474E68A2.wem</Path>
+				</File>
+				<File Id="566503390" Language="SFX">
+					<ShortName>WinterWind-009.wav</ShortName>
+					<Path>SFX\WinterWind-009_474E68A2.wem</Path>
+				</File>
+				<File Id="567131283" Language="SFX">
+					<ShortName>WinterWind-013.wav</ShortName>
+					<Path>SFX\WinterWind-013_474E68A2.wem</Path>
 				</File>
 				<File Id="567378333" Language="SFX">
 					<ShortName>SFX_Wind_Zoomed_Lvl2-005.wav</ShortName>
@@ -321,6 +358,10 @@
 					<ShortName>SFX_Kill_Fish-002.wav</ShortName>
 					<Path>SFX\SFX_Kill_Fish-002_474E68A2.wem</Path>
 				</File>
+				<File Id="806900732" Language="SFX">
+					<ShortName>WinterWind-001.wav</ShortName>
+					<Path>SFX\WinterWind-001_474E68A2.wem</Path>
+				</File>
 				<File Id="819237018" Language="SFX">
 					<ShortName>SFX_Kill_Goat_V3-02.wav</ShortName>
 					<Path>SFX\SFX_Kill_Goat_V3-02_474E68A2.wem</Path>
@@ -365,9 +406,17 @@
 					<ShortName>SFX_Button_YourQuests_Open.wav</ShortName>
 					<Path>SFX\SFX_Button_YourQuests_Open_474E68A2.wem</Path>
 				</File>
+				<File Id="937072316" Language="SFX">
+					<ShortName>WinterWind-005.wav</ShortName>
+					<Path>SFX\WinterWind-005_474E68A2.wem</Path>
+				</File>
 				<File Id="939844333" Language="SFX">
 					<ShortName>SFX_Button_PPOff.wav</ShortName>
 					<Path>SFX\SFX_Button_PPOff_474E68A2.wem</Path>
+				</File>
+				<File Id="959835382" Language="SFX">
+					<ShortName>WinterWind-004.wav</ShortName>
+					<Path>SFX\WinterWind-004_474E68A2.wem</Path>
 				</File>
 				<File Id="967022587" Language="SFX">
 					<ShortName>Ourland Musique 2 IG.wav</ShortName>
@@ -393,6 +442,10 @@
 					<ShortName>Bird_Oneshot-MarshWren-003.wav</ShortName>
 					<Path>SFX\Bird_Oneshot-MarshWren-003_474E68A2.wem</Path>
 				</File>
+				<File Id="1048435307" Language="SFX">
+					<ShortName>WinterWind-014.wav</ShortName>
+					<Path>SFX\WinterWind-014_474E68A2.wem</Path>
+				</File>
 				<File Id="1053048763" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River-004.wav</ShortName>
 					<Path>SFX\Dynamic_Ambiance_River-004_474E68A2.wem</Path>
@@ -404,6 +457,10 @@
 				<File Id="1066401080" Language="SFX">
 					<ShortName>WATER.wav</ShortName>
 					<Path>SFX\WATER_3519813F.wem</Path>
+				</File>
+				<File Id="1067306432" Language="SFX">
+					<ShortName>WinterWind-006.wav</ShortName>
+					<Path>SFX\WinterWind-006_474E68A2.wem</Path>
 				</File>
 				<File Id="1072382410" Language="SFX">
 					<ShortName>SFX_Kill_Goat_V3.wav</ShortName>

@@ -417,6 +417,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Winter_Wind" ID="{A71C7DFA-E600-4673-AA60-531BD6D1ADD0}">
+					<ChildrenList>
+						<Action Name="" ID="{EFA0E53C-BD54-4977-BEB3-5A9EA93DDD43}" ShortID="419612555">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Winter_Wind" ID="{351900AB-1361-4B7C-A6F6-80863038EB23}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{01C3C5D4-7E67-4BF5-A5E3-0D7C68A08A3E}" ShortID="434266028">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dynamic_Ambiances" ID="{0F4B7B7E-B7BB-4FB7-BAEE-56DED2CE6D0F}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

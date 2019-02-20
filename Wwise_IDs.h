@@ -39,6 +39,7 @@ namespace AK
         static const AkUniqueID PLAY_WATER_PL = 1488595426U;
         static const AkUniqueID PLAY_WETLAND_PL = 263265384U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
+        static const AkUniqueID PLAY_WINTER_WIND = 954902742U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

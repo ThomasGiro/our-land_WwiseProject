@@ -37,7 +37,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -210,9 +210,15 @@
 												<Value>1</Value>
 											</ValueList>
 										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2040,7 +2046,7 @@
 												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-6</Value>
+														<Value>-9</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2858,6 +2864,296 @@
 									</ChildrenList>
 								</Position>
 							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Winter_Wind" ID="{351900AB-1361-4B7C-A6F6-80863038EB23}" ShortID="20105451">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WinterWind-001" ID="{640A3618-3798-412B-BF95-6D8757B7E4E2}" ShortID="968580220">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-001" ID="{A29E6D01-0FE2-40A3-A651-19C358577C11}" ShortID="806900732">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-001" ID="{A29E6D01-0FE2-40A3-A651-19C358577C11}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-002" ID="{B14C38CF-090A-4429-BC39-4B912F5049EB}" ShortID="47878152">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-002" ID="{B20C3639-9381-47A5-A9D2-893F21F5E357}" ShortID="210062409">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-002" ID="{B20C3639-9381-47A5-A9D2-893F21F5E357}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-003" ID="{1508C07D-C320-4CEA-B1C0-B10FE7101F08}" ShortID="648094796">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-003" ID="{B520DAD7-0250-480A-A2B4-A6ED9EC2324A}" ShortID="112410997">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-003" ID="{B520DAD7-0250-480A-A2B4-A6ED9EC2324A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-004" ID="{746A5872-3569-4003-8DDD-A6810553B308}" ShortID="717992395">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-004" ID="{95F2510B-295A-4BE6-AE73-433F6C824B94}" ShortID="959835382">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-004" ID="{95F2510B-295A-4BE6-AE73-433F6C824B94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-005" ID="{5DADA67A-3229-49AC-99E8-249EBB578654}" ShortID="353937302">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-005" ID="{72C4C585-A3C0-4E4E-9028-E5AC0DD8ADF8}" ShortID="937072316">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-005" ID="{72C4C585-A3C0-4E4E-9028-E5AC0DD8ADF8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-006" ID="{59FE7829-67B4-4A8F-996C-AB03BE7D0FF1}" ShortID="476045522">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-006" ID="{AB9CC0B7-BD13-4E1B-B00E-BC526516165A}" ShortID="1067306432">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-006" ID="{AB9CC0B7-BD13-4E1B-B00E-BC526516165A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-007" ID="{106D8790-FEDE-4DEA-AAAB-CE0D0872465A}" ShortID="53277962">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-007" ID="{3F2B1939-7864-4A19-87A3-1FA3111D6B26}" ShortID="134076538">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-007" ID="{3F2B1939-7864-4A19-87A3-1FA3111D6B26}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-008" ID="{AAC3B572-345D-451A-B576-0912A0BC8C9F}" ShortID="816440040">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-008" ID="{1A5EB0A1-58AF-41B0-93EA-12CD92FA34B0}" ShortID="252530489">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-008.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-008" ID="{1A5EB0A1-58AF-41B0-93EA-12CD92FA34B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-009" ID="{C88E5845-8131-4366-838D-C904EACFF1CB}" ShortID="311407671">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-009" ID="{29366C87-7019-4ADE-917C-B84D17D3AC3F}" ShortID="566503390">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-009.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-009" ID="{29366C87-7019-4ADE-917C-B84D17D3AC3F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-010" ID="{77085C5A-7D89-4057-871A-E030931B5587}" ShortID="23576317">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-010" ID="{ED141ABA-C9BB-4F6A-A39D-0DCB59039293}" ShortID="218633167">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-010.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-010" ID="{ED141ABA-C9BB-4F6A-A39D-0DCB59039293}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-011" ID="{7F9A3D77-51CE-43CE-9570-48A23A1E5201}" ShortID="290486953">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-011" ID="{1B8F5E59-8E24-4E1F-80C3-CE4131B82D8C}" ShortID="86759531">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-011.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-011" ID="{1B8F5E59-8E24-4E1F-80C3-CE4131B82D8C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-012" ID="{F74D7517-F81E-4B1E-92AD-065661B05991}" ShortID="210704865">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-012" ID="{4AF6DA5C-C773-4F9D-9CFB-0592541D3CEF}" ShortID="6237861">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-012.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-012" ID="{4AF6DA5C-C773-4F9D-9CFB-0592541D3CEF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-013" ID="{807E89D8-6795-4A23-BBF7-A0B5E020C4F1}" ShortID="304746584">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-013" ID="{FAAF4200-C52E-4174-99B0-8F8F42C1D388}" ShortID="567131283">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-013.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-013" ID="{FAAF4200-C52E-4174-99B0-8F8F42C1D388}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="WinterWind-014" ID="{B8E83A51-52F2-4C48-8AED-AD64766B76B6}" ShortID="952083513">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WinterWind-014" ID="{9AFCEA41-C026-4E93-8734-46A6A15B3472}" ShortID="1048435307">
+											<Language>SFX</Language>
+											<AudioFile>WinterWind-014.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WinterWind-014" ID="{9AFCEA41-C026-4E93-8734-46A6A15B3472}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>

@@ -153,7 +153,7 @@
 								<Property Name="EndPosition" Type="Real64" Value="105952.375"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -192,7 +192,7 @@
 												<MusicClip Name="Musique ourland Flutée" ID="{8C5CF05B-233E-47E6-B1F9-8987BF535F6B}">
 													<PropertyList>
 														<Property Name="EndTrimOffset" Type="Real64" Value="105952.375"/>
-														<Property Name="FadeInDuration" Type="Real64" Value="2053.76689004376"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="684.588963347918"/>
 														<Property Name="FadeOutMode" Type="int16" Value="0"/>
 													</PropertyList>
 													<AudioSourceRef Name="Musique ourland Flutée" ID="{B61F2895-256B-4294-B7F8-B5D42F7042C8}"/>
@@ -260,7 +260,7 @@
 						<Property Name="Tempo" Type="Real64" Value="80"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>2</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
