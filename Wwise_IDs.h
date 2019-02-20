@@ -34,7 +34,6 @@ namespace AK
         static const AkUniqueID PLAY_SFX_KILL_RHTUK_VICTORY = 2876783754U;
         static const AkUniqueID PLAY_SFX_KILL_SHEEP_VICTORY = 326359121U;
         static const AkUniqueID PLAY_SFX_KILL_WOOD = 2180620318U;
-        static const AkUniqueID PLAY_SFX_MUING_BITE = 4207432381U;
         static const AkUniqueID PLAY_SFX_QUEST_NEW = 3712003399U;
         static const AkUniqueID PLAY_SFX_SHIP_MOVE = 2336975836U;
         static const AkUniqueID PLAY_TAKEOFF = 955079766U;

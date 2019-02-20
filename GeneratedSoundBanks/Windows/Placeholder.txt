@@ -26,7 +26,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3823867762	Play_placeholder_integration			\Default Work Unit\Placeholders\Play_placeholder_integration	
 	4137235956	Play_DESERT_Pl			\Default Work Unit\Placeholders\Play_DESERT_Pl	
 	4194349577	Play_SFX_Button_IGMenu_Close			\Default Work Unit\Play_SFX_Button_IGMenu_Close	
-	4207432381	Play_SFX_Muing_Bite			\Default Work Unit\Play_SFX_Muing_Bite	
 	4237694027	Play_SFX_Button_Takeoff			\Default Work Unit\Play_SFX_Button_Takeoff	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -160,7 +159,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	939844333	SFX_Button_PPOff	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Button_PPOff_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\SFX_Button_PPOff		6017
 	959835382	WinterWind-004	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\WinterWind-004_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Winter_Wind\WinterWind-004		131843
 	967022587	Ourland Musique 2 IG	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Ourland Musique 2 IG_E60452FC.wem		\Interactive Music Hierarchy\Default Work Unit\MUSIC\Ourland Musique 2 IG\Ourland Musique 2 IG		7397035
-	984221016	SFX_Muing_Bite	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\MuingBite_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Muing_Bite		46903
 	986752283	Dynamic_Ambiance_FROGS-001	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Dynamic_Ambiance_FROGS-001_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\Wetlands\FROGS\Dynamic_Ambiance_FROGS-001		13475
 	1004973654	SFX_Wind_Zoomed_Lvl2-007	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-007_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\Prairie\SFX_Wind_Zoomed_Lvl2-007		1401093
 	1028953236	Dynamic_Ambiance_River_Intricate-003	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Dynamic_Ambiance_River_Intricate-003_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\River\River_Intricate\Dynamic_Ambiance_River_Intricate-003		679598

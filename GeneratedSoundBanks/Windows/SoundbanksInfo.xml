@@ -42,7 +42,6 @@
 				<Event Id="2876783754" Name="Play_SFX_Kill_Rhtuk_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory"/>
 				<Event Id="326359121" Name="Play_SFX_Kill_Sheep_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory"/>
 				<Event Id="2180620318" Name="Play_SFX_Kill_Wood" ObjectPath="\Events\Default Work Unit\Play_SFX_Kill_Wood"/>
-				<Event Id="4207432381" Name="Play_SFX_Muing_Bite" ObjectPath="\Events\Default Work Unit\Play_SFX_Muing_Bite"/>
 				<Event Id="3712003399" Name="Play_SFX_Quest_New" ObjectPath="\Events\Default Work Unit\Play_SFX_Quest_New"/>
 				<Event Id="2336975836" Name="Play_SFX_Ship_Move" ObjectPath="\Events\Default Work Unit\Play_SFX_Ship_Move"/>
 				<Event Id="955079766" Name="Play_TakeOff" ObjectPath="\Events\Default Work Unit\Play_TakeOff"/>
@@ -427,10 +426,6 @@
 				<File Id="967022587" Language="SFX">
 					<ShortName>Ourland Musique 2 IG.wav</ShortName>
 					<Path>SFX\Ourland Musique 2 IG_E60452FC.wem</Path>
-				</File>
-				<File Id="984221016" Language="SFX">
-					<ShortName>MuingBite.wav</ShortName>
-					<Path>SFX\MuingBite_474E68A2.wem</Path>
 				</File>
 				<File Id="986752283" Language="SFX">
 					<ShortName>Dynamic_Ambiance_FROGS-001.wav</ShortName>

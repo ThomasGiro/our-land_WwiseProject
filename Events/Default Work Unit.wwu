@@ -471,20 +471,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_SFX_Muing_Bite" ID="{85122117-F7AE-47D1-B9F2-9847AC7CD167}">
-					<ChildrenList>
-						<Action Name="" ID="{27C9BC86-DC6C-4552-B181-0F1D35A9336C}" ShortID="697221694">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Muing_Bite" ID="{E94C56BE-7DF0-4EF3-B21B-272DB6545C22}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

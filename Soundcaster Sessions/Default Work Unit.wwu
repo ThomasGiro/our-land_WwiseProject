@@ -109,7 +109,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Zoom_Level" ID="{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}"/>
-							<Value>0</Value>
+							<Value>0.261233019853705</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Ambiance_Valume_Water" ID="{E899C47D-729B-4866-8BF0-F4245941413D}"/>
