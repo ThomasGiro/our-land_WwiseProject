@@ -2052,7 +2052,7 @@
 													<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="River" ID="{7A800788-B595-47F1-8B20-D510FF2A0998}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+													<ObjectRef Name="Water" ID="{49762C98-F507-4DF9-8375-FADA090100A9}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2067,7 +2067,7 @@
 																<RTPC Name="" ID="{4D42D47A-FF74-4C4E-8400-2524B15C0374}" ShortID="391971257">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
-																			<ObjectRef Name="Ambiance_Volume_Water" ID="{140F3BD8-47A6-46AC-A7B8-E1F653F5E8F8}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																			<ObjectRef Name="Zoom_Level" ID="{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<Curve Name="" ID="{05B75E0B-1269-4FDB-A838-6E2CFB741903}">
@@ -2254,7 +2254,7 @@
 																<RTPC Name="" ID="{BE084363-6389-4CE0-8FFE-0864F0D5C66A}" ShortID="881071526">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
-																			<ObjectRef Name="Ambiance_Volume_Water" ID="{140F3BD8-47A6-46AC-A7B8-E1F653F5E8F8}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
+																			<ObjectRef Name="Zoom_Level" ID="{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}" WorkUnitID="{11583EF3-143E-4131-9D5C-8CF0EEE7D08E}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<Curve Name="" ID="{699317A4-150D-4BE7-925D-EE275E3FD523}">
