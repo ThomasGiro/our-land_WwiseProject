@@ -90,7 +90,7 @@
 								<Property Name="EndPosition" Type="Real64" Value="69250"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>4</Value>
+										<Value>6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -189,7 +189,7 @@
 									<SequenceList>
 										<MusicTrackSequence Name="" ID="{2EA87115-39D0-4C27-B854-8B86E5BD9289}">
 											<ClipList>
-												<MusicClip Name="Musique ourland Flutée " ID="{8C5CF05B-233E-47E6-B1F9-8987BF535F6B}">
+												<MusicClip Name="Musique ourland Flutée" ID="{8C5CF05B-233E-47E6-B1F9-8987BF535F6B}">
 													<PropertyList>
 														<Property Name="EndTrimOffset" Type="Real64" Value="105952.375"/>
 														<Property Name="FadeInDuration" Type="Real64" Value="2053.76689004376"/>

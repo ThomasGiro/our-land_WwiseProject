@@ -71,30 +71,45 @@
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.5"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Spat_Desert" ID="{00523015-977D-4611-AAA4-06EA3E948BCD}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.5"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Spat_Prairie" ID="{BECA64C1-8D80-4A22-9662-95C42A6C15DA}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.5"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Spat_Wetlands" ID="{A51CD4B1-5CA1-4518-B215-AE97ECF732A3}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.5"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Spat_Water" ID="{2488A2B1-0EA4-4610-B66B-0D0D40B8D896}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.5"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Valume_Water" ID="{E899C47D-729B-4866-8BF0-F4245941413D}"/>
