@@ -70,16 +70,12 @@
 				<SoundcasterSession Name="Test Wind" ID="{322FD0ED-FD23-4032-8310-D34C2A45EA51}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_WIND" ID="{09BE89AD-26E2-40D2-9366-1EADB4669AD4}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
+							<ObjectRef Name="Play_GameOver" ID="{080789A4-82B7-45D3-94C5-EF3857A0687D}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Winter_Wind" ID="{A71C7DFA-E600-4673-AA60-531BD6D1ADD0}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
+							<ObjectRef Name="Play_MUSIC" ID="{A06DD915-FFBF-4A7C-A111-DF1E3DB77F63}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
 							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Dynamic_Ambiances" ID="{0F4B7B7E-B7BB-4FB7-BAEE-56DED2CE6D0F}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
-							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

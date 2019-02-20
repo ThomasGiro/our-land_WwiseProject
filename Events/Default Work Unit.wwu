@@ -445,6 +445,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_GameOver" ID="{080789A4-82B7-45D3-94C5-EF3857A0687D}">
+					<ChildrenList>
+						<Action Name="" ID="{A8ED21B6-7571-4F0E-A30D-D1018307A1C7}" ShortID="91670352">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameOver" ID="{85D417E4-5915-471F-88D9-E60D982BD605}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0973580A-9BE7-4BD2-A20A-637517E5709E}" ShortID="713694399">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC" ID="{C40F5B47-669A-4EE5-BE48-3C39B60C3CAA}" WorkUnitID="{BDEA3988-3BFE-4B00-B35C-F61BD79E993D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
