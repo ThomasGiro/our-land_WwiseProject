@@ -24,7 +24,10 @@
 				<GameParameter Name="Ambiance_Volume_Water" ID="{140F3BD8-47A6-46AC-A7B8-E1F653F5E8F8}">
 					<Comment>RTPC qui gère le %age de Lac à l'écran</Comment>
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="11"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="11"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Ambiance_Volume_Wetlands" ID="{D65EFD8F-2D4E-49A8-A188-B4DE05047046}">
@@ -88,6 +91,13 @@
 						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Ambiance_Spat_Water" ID="{2488A2B1-0EA4-4610-B66B-0D0D40B8D896}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Ambiance_Valume_Water" ID="{E899C47D-729B-4866-8BF0-F4245941413D}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

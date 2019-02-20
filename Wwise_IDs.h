@@ -46,7 +46,9 @@ namespace AK
         static const AkUniqueID AMBIANCE_SPAT_DESERT = 2694967590U;
         static const AkUniqueID AMBIANCE_SPAT_PRAIRIE = 552053955U;
         static const AkUniqueID AMBIANCE_SPAT_RIVER = 2229451525U;
+        static const AkUniqueID AMBIANCE_SPAT_WATER = 3508485574U;
         static const AkUniqueID AMBIANCE_SPAT_WETLANDS = 56595255U;
+        static const AkUniqueID AMBIANCE_VALUME_WATER = 3004856260U;
         static const AkUniqueID AMBIANCE_VOLUME_DESERT = 157466434U;
         static const AkUniqueID AMBIANCE_VOLUME_PRAIRIE = 1637951615U;
         static const AkUniqueID AMBIANCE_VOLUME_RIVER = 3778366489U;
