@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	263265384	Play_WETLAND_Pl			\Default Work Unit\Placeholders\Play_WETLAND_Pl	
 	326359121	Play_SFX_Kill_Sheep_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory	
 	459120378	Play_SFX_Button_Landing			\Default Work Unit\Play_SFX_Button_Landing	
+	529726532	END			\Default Work Unit\END	
 	566356829	Play_PRAIRIE_Pl			\Default Work Unit\Placeholders\Play_PRAIRIE_Pl	
 	573499734	Play_OurLand_MusicMenu			\Default Work Unit\Play_OurLand_MusicMenu	
 	954902742	Play_Winter_Wind			\Default Work Unit\Play_Winter_Wind	

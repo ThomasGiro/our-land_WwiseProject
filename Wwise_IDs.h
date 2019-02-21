@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID END = 529726532U;
         static const AkUniqueID PLAY_CHOICE_PL = 2320060182U;
         static const AkUniqueID PLAY_DESERT_PL = 4137235956U;
         static const AkUniqueID PLAY_END_TURN_PL = 1313846872U;

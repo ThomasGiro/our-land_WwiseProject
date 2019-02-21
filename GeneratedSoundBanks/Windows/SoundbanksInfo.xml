@@ -21,6 +21,7 @@
 			<ShortName>Placeholder</ShortName>
 			<Path>Placeholder.bnk</Path>
 			<IncludedEvents>
+				<Event Id="529726532" Name="END" ObjectPath="\Events\Default Work Unit\END" MaxAttenuation="0.000000"/>
 				<Event Id="2320060182" Name="Play_Choice_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_Choice_Pl"/>
 				<Event Id="4137235956" Name="Play_DESERT_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_DESERT_Pl"/>
 				<Event Id="1313846872" Name="Play_End_Turn_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_End_Turn_Pl"/>
