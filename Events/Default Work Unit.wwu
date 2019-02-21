@@ -88,6 +88,7 @@
 								<Action Name="" ID="{0843C497-7653-4619-8F0B-0C03F52CC181}" ShortID="545266751">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -116,6 +117,7 @@
 								<Action Name="" ID="{770AAC2F-8FF6-4279-9BEA-5ACB8948744D}" ShortID="1023162040">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -182,6 +184,7 @@
 						<Action Name="" ID="{80097AEC-D919-4D3E-9521-716237943AC4}" ShortID="617597158">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -466,6 +469,35 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MUSIC" ID="{C40F5B47-669A-4EE5-BE48-3C39B60C3CAA}" WorkUnitID="{BDEA3988-3BFE-4B00-B35C-F61BD79E993D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_OurLand_MusicMenu" ID="{714FC8DD-86FA-4020-B042-73B1DDFDCEF9}">
+					<ChildrenList>
+						<Action Name="" ID="{2A04EFB0-369D-4CD5-AA33-A92D017B48B2}" ShortID="422839261">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OurLand_MusicMenu" ID="{6C76B4CD-BA5C-410C-B4D9-01993C8B656B}" WorkUnitID="{BDEA3988-3BFE-4B00-B35C-F61BD79E993D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_OurLand_MusicMenu" ID="{7D75932A-C734-479C-851C-AF1A393C19A3}">
+					<ChildrenList>
+						<Action Name="" ID="{8C95FB18-CA9B-4EDA-9820-7D10614A49EA}" ShortID="382786111">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OurLand_MusicMenu" ID="{6C76B4CD-BA5C-410C-B4D9-01993C8B656B}" WorkUnitID="{BDEA3988-3BFE-4B00-B35C-F61BD79E993D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

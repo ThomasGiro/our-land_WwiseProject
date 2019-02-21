@@ -15,7 +15,9 @@
 				<Property Name="Event Action List\{5644D8AE-B6B5-4261-92F3-73A66F2135EC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{58812838-359F-4D5E-BBAB-D371E10021AA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{713D95F8-F298-4D89-BEF8-46904E83A035}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{714FC8DD-86FA-4020-B042-73B1DDFDCEF9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{74907B44-03E5-4DD1-BE1B-5C2E1E5B0AC2}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7D75932A-C734-479C-851C-AF1A393C19A3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{83689BA2-2C3C-4E17-8980-49DAF4E8F996}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{85122117-F7AE-47D1-B9F2-9847AC7CD167}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{88BAF762-723E-4211-B73A-3DAE982389EE}\x64_Expand States" Type="string" Value=""/>
@@ -25,6 +27,7 @@
 				<Property Name="Event Action List\{A77BEF2E-44AD-4B85-B3FC-D89D24BE4B28}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C2520042-6A98-4961-8890-9B1297034B4C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C4772A3A-9402-4B07-9F54-3B9F5A11164F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C7563233-CD37-4078-B844-2ACD108971EA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D6E764DB-EE52-4BEF-A566-FA1994BED1FF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D71D83DB-31A4-4F5D-A3F6-A9AF5F4E347C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DC68B7A3-E47E-46A0-A47D-0DADCE5FEBEA}\x64_Expand States" Type="string" Value=""/>
@@ -84,8 +87,8 @@
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27D6A1D7-9E66-4CC3-B2BA-E93839AE0806}"/>
-				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{D71D83DB-31A4-4F5D-A3F6-A9AF5F4E347C}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{18FD344A-4088-4F67-A36B-C2B4846BAB4E}"/>
+				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{086A90F5-6A8A-4DFD-9141-08A167FE659B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
@@ -118,7 +121,7 @@
 				<Property Name="RTPC\GameParameterSimValue\{85D71E34-5D8C-4F6A-AB2A-02E90FC78F60}" Type="Real64" Value="50"/>
 				<Property Name="RTPC\GameParameterSimValue\{A51CD4B1-5CA1-4518-B215-AE97ECF732A3}" Type="Real64" Value="0"/>
 				<Property Name="RTPC\GameParameterSimValue\{ABF0C7AD-2FF1-42DF-BC17-A4BEC0795BA6}" Type="Real64" Value="0"/>
-				<Property Name="RTPC\GameParameterSimValue\{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}" Type="Real64" Value="50"/>
+				<Property Name="RTPC\GameParameterSimValue\{B1F4E2FE-2B55-47B2-A5D1-EECBC43E1C22}" Type="Real64" Value="0.261233019853705"/>
 				<Property Name="RTPC\GameParameterSimValue\{BECA64C1-8D80-4A22-9662-95C42A6C15DA}" Type="Real64" Value="0"/>
 				<Property Name="RTPC\GameParameterSimValue\{D65EFD8F-2D4E-49A8-A188-B4DE05047046}" Type="Real64" Value="100"/>
 				<Property Name="RTPC\GameParameterSimValue\{E899C47D-729B-4866-8BF0-F4245941413D}" Type="Real64" Value="50"/>

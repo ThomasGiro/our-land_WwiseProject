@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID PLAY_GAMEOVER = 3174629258U;
         static const AkUniqueID PLAY_LANDING = 2323405115U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_OURLAND_MUSICMENU = 573499734U;
         static const AkUniqueID PLAY_PLACEHOLDER_INTEGRATION = 3823867762U;
         static const AkUniqueID PLAY_PRAIRIE_PL = 566356829U;
         static const AkUniqueID PLAY_RIVER = 1498169336U;
@@ -41,6 +42,7 @@ namespace AK
         static const AkUniqueID PLAY_WETLAND_PL = 263265384U;
         static const AkUniqueID PLAY_WIND = 1020223172U;
         static const AkUniqueID PLAY_WINTER_WIND = 954902742U;
+        static const AkUniqueID STOP_OURLAND_MUSICMENU = 2202656964U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

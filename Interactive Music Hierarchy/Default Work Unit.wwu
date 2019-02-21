@@ -254,7 +254,7 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
-				<MusicSegment Name="OurLand_MUSIC_Placeholder" ID="{6C76B4CD-BA5C-410C-B4D9-01993C8B656B}" ShortID="137149037">
+				<MusicSegment Name="OurLand_MusicMenu" ID="{6C76B4CD-BA5C-410C-B4D9-01993C8B656B}" ShortID="137149037">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="213814.004376368"/>
 						<Property Name="Tempo" Type="Real64" Value="80"/>

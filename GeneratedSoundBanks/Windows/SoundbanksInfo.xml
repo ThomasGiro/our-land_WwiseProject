@@ -27,6 +27,7 @@
 				<Event Id="3174629258" Name="Play_GameOver" ObjectPath="\Events\Default Work Unit\Play_GameOver"/>
 				<Event Id="2323405115" Name="Play_Landing" ObjectPath="\Events\Default Work Unit\Play_Landing"/>
 				<Event Id="2932040671" Name="Play_MUSIC" ObjectPath="\Events\Default Work Unit\Placeholders\Play_MUSIC"/>
+				<Event Id="573499734" Name="Play_OurLand_MusicMenu" ObjectPath="\Events\Default Work Unit\Play_OurLand_MusicMenu"/>
 				<Event Id="3823867762" Name="Play_placeholder_integration" ObjectPath="\Events\Default Work Unit\Placeholders\Play_placeholder_integration"/>
 				<Event Id="566356829" Name="Play_PRAIRIE_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_PRAIRIE_Pl"/>
 				<Event Id="1498169336" Name="Play_River" ObjectPath="\Events\Default Work Unit\Placeholders\Play_River"/>
@@ -49,6 +50,7 @@
 				<Event Id="263265384" Name="Play_WETLAND_Pl" ObjectPath="\Events\Default Work Unit\Placeholders\Play_WETLAND_Pl"/>
 				<Event Id="1020223172" Name="Play_WIND" ObjectPath="\Events\Default Work Unit\Play_WIND"/>
 				<Event Id="954902742" Name="Play_Winter_Wind" ObjectPath="\Events\Default Work Unit\Play_Winter_Wind"/>
+				<Event Id="2202656964" Name="Stop_OurLand_MusicMenu" ObjectPath="\Events\Default Work Unit\Stop_OurLand_MusicMenu" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="6237861" Language="SFX">

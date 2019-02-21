@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	326359121	Play_SFX_Kill_Sheep_Victory			\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory	
 	459120378	Play_SFX_Button_Landing			\Default Work Unit\Play_SFX_Button_Landing	
 	566356829	Play_PRAIRIE_Pl			\Default Work Unit\Placeholders\Play_PRAIRIE_Pl	
+	573499734	Play_OurLand_MusicMenu			\Default Work Unit\Play_OurLand_MusicMenu	
 	954902742	Play_Winter_Wind			\Default Work Unit\Play_Winter_Wind	
 	955079766	Play_TakeOff			\Default Work Unit\Play_TakeOff	
 	1020223172	Play_WIND			\Default Work Unit\Play_WIND	
@@ -14,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1657304684	Play_SFX_Button_PPOff			\Default Work Unit\Play_SFX_Button_PPOff	
 	1924972948	Play_SFX_Button_YourQuests_Close			\Default Work Unit\Play_SFX_Button_YourQuests_Close	
 	2180620318	Play_SFX_Kill_Wood			\Default Work Unit\Play_SFX_Kill_Wood	
+	2202656964	Stop_OurLand_MusicMenu			\Default Work Unit\Stop_OurLand_MusicMenu	
 	2320060182	Play_Choice_Pl			\Default Work Unit\Placeholders\Play_Choice_Pl	
 	2323405115	Play_Landing			\Default Work Unit\Play_Landing	
 	2336975836	Play_SFX_Ship_Move			\Default Work Unit\Play_SFX_Ship_Move	
@@ -82,7 +84,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	86759531	WinterWind-011	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\WinterWind-011_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Winter_Wind\WinterWind-011		87487
 	87767153	SFX_Wind_Zoomed_Lvl0-002	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-002_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-002		407025
 	89261594	Dynamic_Ambiance_FROGS-004	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Dynamic_Ambiance_FROGS-004_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\Wetlands\FROGS\Dynamic_Ambiance_FROGS-004		11833
-	93093852	OurLand_MUSIC_Placeholder	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\OurLand_MUSIC_Placeholder_E60452FC.wem		\Interactive Music Hierarchy\Default Work Unit\OurLand_MUSIC_Placeholder\OurLand_MUSIC_Placeholder		7456796
+	93093852	OurLand_MUSIC_Placeholder	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\OurLand_MUSIC_Placeholder_E60452FC.wem		\Interactive Music Hierarchy\Default Work Unit\OurLand_MusicMenu\OurLand_MUSIC_Placeholder		7456796
 	112410997	WinterWind-003	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\WinterWind-003_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Winter_Wind\WinterWind-003		88132
 	134076538	WinterWind-007	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\WinterWind-007_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Winter_Wind\WinterWind-007		66371
 	148051110	SFX_Kill_Fish-003	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Kill_Fish-003_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Harvest\Killing\SFX_Kill_Fish\SFX_Kill_Fish-003		31450

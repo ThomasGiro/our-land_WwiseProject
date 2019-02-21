@@ -77,6 +77,14 @@
 							<ObjectRef Name="Play_MUSIC" ID="{A06DD915-FFBF-4A7C-A111-DF1E3DB77F63}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_OurLand_MusicMenu" ID="{714FC8DD-86FA-4020-B042-73B1DDFDCEF9}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_OurLand_MusicMenu" ID="{7D75932A-C734-479C-851C-AF1A393C19A3}" WorkUnitID="{377CE897-B362-459A-906B-2D7D88AC5C01}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
