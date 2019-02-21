@@ -539,6 +539,18 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="END" ID="{34C7E8B0-AC43-41CE-A0B4-A9DFDC85E4E7}">
+					<ChildrenList>
+						<Action Name="" ID="{44F98E5E-21CE-49FA-B3A4-18FA6E1EDAAD}" ShortID="838392347">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
