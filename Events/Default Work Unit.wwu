@@ -525,6 +525,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Quest_End" ID="{076155CC-6D8E-405F-91D2-F99437E80DF3}">
+					<ChildrenList>
+						<Action Name="" ID="{8DC8E64A-324F-4598-88E4-46BDE0D2BC54}" ShortID="1031416910">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Quest_End" ID="{7CE59F3B-5437-4D11-B970-5745C86AC256}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

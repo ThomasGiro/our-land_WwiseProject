@@ -3613,6 +3613,43 @@
 								<ActiveSource Name="SFX_UI_Animation-002" ID="{8C7A34C5-B62C-4AC7-A1B1-A217370CA18D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="SFX_Quest_End" ID="{7CE59F3B-5437-4D11-B970-5745C86AC256}" ShortID="647461369">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BCCC51CB-EFEB-4BB7-93D0-4F6A96834A0F}">
+												<PropertyList>
+													<Property Name="Min" Type="Real64" Value="-253"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04FAC39A-F35B-48BD-8FF9-22706891D5D8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A85ECD52-3583-4DB7-A1CB-FFBF2D553B64}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="QuestEnd" ID="{F4326824-9D79-4AB5-9CA7-6383E52B5E2A}" ShortID="340701897">
+									<Language>SFX</Language>
+									<AudioFile>QuestEnd.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="QuestEnd" ID="{F4326824-9D79-4AB5-9CA7-6383E52B5E2A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<Sound Name="SHIP-MOVE TEST" ID="{6D0BA339-1939-4ACE-AE1D-41A11D3B1639}" ShortID="1014807375">

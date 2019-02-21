@@ -43,6 +43,7 @@
 				<Event Id="2876783754" Name="Play_SFX_Kill_Rhtuk_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Rhtuk_Victory"/>
 				<Event Id="326359121" Name="Play_SFX_Kill_Sheep_Victory" ObjectPath="\Events\Default Work Unit\Animals\Killing\Play_SFX_Kill_Sheep_Victory"/>
 				<Event Id="2180620318" Name="Play_SFX_Kill_Wood" ObjectPath="\Events\Default Work Unit\Play_SFX_Kill_Wood"/>
+				<Event Id="3863840554" Name="Play_SFX_Quest_End" ObjectPath="\Events\Default Work Unit\Play_SFX_Quest_End"/>
 				<Event Id="3712003399" Name="Play_SFX_Quest_New" ObjectPath="\Events\Default Work Unit\Play_SFX_Quest_New"/>
 				<Event Id="2336975836" Name="Play_SFX_Ship_Move" ObjectPath="\Events\Default Work Unit\Play_SFX_Ship_Move"/>
 				<Event Id="955079766" Name="Play_TakeOff" ObjectPath="\Events\Default Work Unit\Play_TakeOff"/>
@@ -196,6 +197,10 @@
 				<File Id="340178806" Language="SFX">
 					<ShortName>SFX_Button_TakeOff.wav</ShortName>
 					<Path>SFX\SFX_Button_TakeOff_474E68A2.wem</Path>
+				</File>
+				<File Id="340701897" Language="SFX">
+					<ShortName>QuestEnd.wav</ShortName>
+					<Path>SFX\QuestEnd_474E68A2.wem</Path>
 				</File>
 				<File Id="341377109" Language="SFX">
 					<ShortName>Dynamic_Ambiance_River-002.wav</ShortName>

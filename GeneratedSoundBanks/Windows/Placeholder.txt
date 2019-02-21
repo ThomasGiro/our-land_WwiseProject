@@ -26,6 +26,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3174629258	Play_GameOver			\Default Work Unit\Play_GameOver	
 	3712003399	Play_SFX_Quest_New			\Default Work Unit\Play_SFX_Quest_New	
 	3823867762	Play_placeholder_integration			\Default Work Unit\Placeholders\Play_placeholder_integration	
+	3863840554	Play_SFX_Quest_End			\Default Work Unit\Play_SFX_Quest_End	
 	4137235956	Play_DESERT_Pl			\Default Work Unit\Placeholders\Play_DESERT_Pl	
 	4194349577	Play_SFX_Button_IGMenu_Close			\Default Work Unit\Play_SFX_Button_IGMenu_Close	
 	4237694027	Play_SFX_Button_Takeoff			\Default Work Unit\Play_SFX_Button_Takeoff	
@@ -103,6 +104,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	330548806	SFX_Wind_Zoomed_Lvl2-010	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl2-010_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ambiance_Menu\SFX_Wind_Zoomed_Lvl2-010		671954
 	334272243	SFX_Quest_New	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Quest_New_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\SFX_Quest_New		40156
 	340178806	SFX_Button_Landing	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Button_TakeOff_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\SFX_Button_Landing		6350
+	340701897	SFX_Quest_End	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\QuestEnd_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\SFX_Quest_End		79425
 	341377109	Dynamic_Ambiance_River-002	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\Dynamic_Ambiance_River-002_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Biomes_Ambiances\River\River\Dynamic_Ambiance_River-002		212753
 	350292567	SFX_Button_PPOn	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Button_PPOn_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\SFX_Button_PPOn		8521
 	356673203	SFX_Wind_Zoomed_Lvl0-009	C:\Users\raphael.marchetti\Documents\OUR LAND\our-land\our-land_WwiseProject\.cache\Windows\SFX\SFX_Wind_Zoomed_Lvl0-009_474E68A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Dynamic_Ambiances\Wind_Zoomed_Lvl0\SFX_Wind_Zoomed_Lvl0-009		227512
