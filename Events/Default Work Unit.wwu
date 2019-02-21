@@ -482,7 +482,18 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="OurLand_MusicMenu" ID="{6C76B4CD-BA5C-410C-B4D9-01993C8B656B}" WorkUnitID="{BDEA3988-3BFE-4B00-B35C-F61BD79E993D}"/>
+									<ObjectRef Name="Ourland_Music_Menu" ID="{4E5D1C7B-E610-4F66-8A25-912C8D12FBD4}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3E4180E6-ACE7-42B8-8758-88BE1DD7C063}" ShortID="315684222">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Ambiance_Menu" ID="{0B889423-785B-482D-A565-FB7E803B501B}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -497,7 +508,18 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="OurLand_MusicMenu" ID="{6C76B4CD-BA5C-410C-B4D9-01993C8B656B}" WorkUnitID="{BDEA3988-3BFE-4B00-B35C-F61BD79E993D}"/>
+									<ObjectRef Name="Ourland_Music_Menu" ID="{4E5D1C7B-E610-4F66-8A25-912C8D12FBD4}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3E850C38-ACBD-498A-8CC7-8EFAA96371DA}" ShortID="562664432">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Ambiance_Menu" ID="{0B889423-785B-482D-A565-FB7E803B501B}" WorkUnitID="{F050F98D-5982-449F-BF34-8C8EB737A8DB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

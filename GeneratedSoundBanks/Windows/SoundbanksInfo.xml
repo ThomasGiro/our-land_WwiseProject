@@ -449,6 +449,10 @@
 					<ShortName>Bird_Oneshot-MarshWren-003.wav</ShortName>
 					<Path>SFX\Bird_Oneshot-MarshWren-003_474E68A2.wem</Path>
 				</File>
+				<File Id="1036442085" Language="SFX">
+					<ShortName>OurLand_MUSIC_Placeholder.wav</ShortName>
+					<Path>SFX\OurLand_MUSIC_Placeholder_B2F78D2B.wem</Path>
+				</File>
 				<File Id="1048435307" Language="SFX">
 					<ShortName>WinterWind-014.wav</ShortName>
 					<Path>SFX\WinterWind-014_474E68A2.wem</Path>
